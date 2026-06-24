@@ -8,6 +8,13 @@ Everyone grabs a sheet of paper. The question appears on screen, the timer ticks
 
 The plugin loads your question bank from a JSON file you place in KOReader's documents folder.
 
+## Rules
+
+- The question is displayed; everyone writes their answer on paper before time runs out.
+- The host taps **Reveal** to show the answer, then awards **+1** to each correct player.
+- Questions are shuffled from your JSON file and wrap around automatically.
+- First player to reach the agreed score wins (or play all questions and compare totals).
+
 ## Features
 
 - **Question + answer in two phases** — question visible during writing time, answer revealed on demand

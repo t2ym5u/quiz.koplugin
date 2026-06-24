@@ -297,7 +297,7 @@ end
 
 function QuizScreen:buildLayout()
     local sw    = DeviceScreen:getWidth()
-    local sh    = DeviceScreen:getHeight()
+    local sh = DeviceScreen:getHeight()
     local is_fr = self.lang == "fr"
 
     local btn_w = math.floor(sw * 0.92)
