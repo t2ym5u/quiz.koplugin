@@ -12,7 +12,7 @@ local TextWidget     = require("ui/widget/textwidget")
 local UIManager      = require("ui/uimanager")
 local VerticalGroup  = require("ui/widget/verticalgroup")
 local VerticalSpan   = require("ui/widget/verticalspan")
-local _              = require("gettext")
+local _              = require("i18n")
 
 local MenuHelper = require("menu_helper")
 local ScreenBase = require("screen_base")
@@ -22,7 +22,7 @@ local DeviceScreen = Device.screen
 local DEFAULT_DURATION = 30   -- seconds to answer (0 = no timer)
 local DEFAULT_NB_PLAYERS = 4
 
-local RULES_EN = _([[
+local GAME_RULES_EN = _([[
 Quiz Party — Rules
 
 Everyone writes their answer on paper while the question is displayed. When time runs out (or the host taps "Reveal"), the answer appears.
@@ -41,7 +41,7 @@ JSON format (quiz_questions.json in documents):
 ]
 ]])
 
-local RULES_FR = [[
+local GAME_RULES_FR = [[
 Quiz Party — Règles
 
 Tout le monde écrit sa réponse sur papier pendant que la question est affichée. Quand le chrono sonne (ou que l'hôte appuie sur « Révéler »), la réponse apparaît.
@@ -312,7 +312,7 @@ function QuizScreen:buildLayout()
             buttons = {{
                 { text = reveal_text, callback = function() self:onRevealAnswer() end },
                 { text = "Options",   callback = function() self:openOptionsMenu() end },
-                self:makeRulesButtonConfig(RULES_EN, RULES_FR),
+                self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
                 self:makeCloseButtonConfig(),
             }},
         }
@@ -324,7 +324,7 @@ function QuizScreen:buildLayout()
             buttons = {{
                 { text = next_text, callback = function() self:onNextQuestion() end },
                 { text = "Options", callback = function() self:openOptionsMenu() end },
-                self:makeRulesButtonConfig(RULES_EN, RULES_FR),
+                self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
                 self:makeCloseButtonConfig(),
             }},
         }
@@ -452,15 +452,12 @@ function QuizScreen:buildLayout()
 
     local vs = VerticalSpan:new{ width = Size.span.vertical_large }
 
-    self.layout = VerticalGroup:new{
+    local content = VerticalGroup:new{
         align = "center",
-        vs,
-        top_btns,
-        vs,
         timer_group,
         main_widget,
     }
-    self[1] = self.layout
+    self:buildPortraitLayout(top_btns, content, nil)
     self:updateStatus()
 end
 
