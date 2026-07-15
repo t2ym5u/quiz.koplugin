@@ -89,11 +89,16 @@ function QuizScreen:init()
         }
     end
 
-    self.questions    = {}
-    self.q_index      = 1
-    self.phase        = "question"  -- "question" | "answer"
-    self.time_remaining = self.duration
-    self.category_filter = self.plugin:getSetting("category_filter", "all")
+    self.questions       = {}
+    self.q_index         = 1
+    self.phase           = "question"  -- "question" | "answer"
+    self.time_remaining  = self.duration
+
+    -- selected_categories: nil = all; {category = true, ...} = subset
+    self.selected_categories = self:_loadCategorySelection()
+    self.all_categories      = {}   -- category → question count, filled by _loadQuestions
+    self._raw_data           = nil  -- cached raw data for re-filtering without I/O
+    self._data_is_lua        = false
 
     self:_loadQuestions()
     ScreenBase.init(self)
@@ -103,29 +108,154 @@ function QuizScreen:init()
 end
 
 -- ---------------------------------------------------------------------------
--- Question loading
+-- Category-selection persistence (stored as "cat1,cat2,..." or "" = all)
+-- ---------------------------------------------------------------------------
+
+function QuizScreen:_loadCategorySelection()
+    local saved = self.plugin:getSetting("selected_categories_" .. self.lang, "")
+    if not saved or saved == "" then return nil end
+    local sel = {}
+    for cat in saved:gmatch("[^\1]+") do
+        sel[cat] = true
+    end
+    return sel
+end
+
+function QuizScreen:_saveCategorySelection()
+    if self.selected_categories == nil then
+        self.plugin:saveSetting("selected_categories_" .. self.lang, "")
+        return
+    end
+    local parts = {}
+    for cat in pairs(self.selected_categories) do
+        parts[#parts + 1] = cat
+    end
+    table.sort(parts)
+    self.plugin:saveSetting("selected_categories_" .. self.lang, table.concat(parts, "\1"))
+end
+
+-- ---------------------------------------------------------------------------
+-- Lua-file loader (fast path: category-keyed dict)
+-- ---------------------------------------------------------------------------
+
+function QuizScreen:_tryLoadLua(path)
+    local f = io.open(path, "r")
+    if not f then return nil end
+    f:close()
+    local chunk = loadfile(path)
+    if not chunk then return nil end
+    local ok, data = pcall(chunk)
+    if not ok or type(data) ~= "table" then return nil end
+    -- Verify it is a category-keyed dict (not a flat array)
+    for k, v in pairs(data) do
+        if type(k) ~= "string" or type(v) ~= "table" then return nil end
+        break
+    end
+    return data
+end
+
+-- ---------------------------------------------------------------------------
+-- Category filtering
+-- ---------------------------------------------------------------------------
+
+-- data is {category = [{question,answer,category,difficulty}, ...], ...}
+function QuizScreen:_filterByCategory(data)
+    local sel   = self.selected_categories
+    local questions = {}
+    for cat, cat_questions in pairs(data) do
+        if sel == nil or sel[cat] then
+            for _, q in ipairs(cat_questions) do
+                questions[#questions + 1] = q
+            end
+        end
+    end
+    return questions
+end
+
+-- data is a flat array [{question,answer,category,difficulty}, ...]
+function QuizScreen:_filterByCategoryFlat(data)
+    local sel = self.selected_categories
+    if sel == nil then return data end
+    local questions = {}
+    for _, q in ipairs(data) do
+        local cat = q.category or q.cat or "Autres"
+        if sel[cat] then
+            questions[#questions + 1] = q
+        end
+    end
+    return questions
+end
+
+-- Re-filter from cached raw data (called after category selection changes)
+function QuizScreen:_reloadQuestions()
+    if self._raw_data == nil then return end
+    if self._data_is_lua then
+        self.questions = self:_filterByCategory(self._raw_data)
+    else
+        self.questions = self:_filterByCategoryFlat(self._raw_data)
+    end
+    self:_shuffleQuestions()
+end
+
+-- ---------------------------------------------------------------------------
+-- Question loading (Lua first, JSON fallback)
 -- ---------------------------------------------------------------------------
 
 function QuizScreen:_loadQuestions()
     local docs = DataStorage:getDataDir()
-    local paths = {
+
+    local lua_paths = {
+        docs .. "/quiz_questions_" .. self.lang .. ".lua",
+        _dir .. "quiz_questions_" .. self.lang .. ".lua",
+    }
+    local json_paths = {
         docs .. "/quiz_questions_" .. self.lang .. ".json",
         docs .. "/quiz_questions.json",
+        _dir .. "quiz_questions_" .. self.lang .. ".json",
+        _dir .. "quiz_questions.json",
     }
-    for _, path in ipairs(paths) do
+
+    -- Try Lua (category-keyed dict)
+    for _, path in ipairs(lua_paths) do
+        local data = self:_tryLoadLua(path)
+        if data then
+            self._raw_data     = data
+            self._data_is_lua  = true
+            self.all_categories = {}
+            for cat, cat_questions in pairs(data) do
+                self.all_categories[cat] = #cat_questions
+            end
+            self.questions = self:_filterByCategory(data)
+            self:_shuffleQuestions()
+            return
+        end
+    end
+
+    -- Fallback: flat JSON array
+    for _, path in ipairs(json_paths) do
         local f = io.open(path, "r")
         if f then
             local content = f:read("*all")
             f:close()
             local data = jsonDecode(content)
             if type(data) == "table" and #data > 0 then
-                self.questions = data
+                self._raw_data     = data
+                self._data_is_lua  = false
+                self.all_categories = {}
+                for _, q in ipairs(data) do
+                    local cat = q.category or q.cat or "Autres"
+                    self.all_categories[cat] = (self.all_categories[cat] or 0) + 1
+                end
+                self.questions = self:_filterByCategoryFlat(data)
                 self:_shuffleQuestions()
                 return
             end
         end
     end
-    self.questions = {}
+
+    self.questions       = {}
+    self._raw_data       = nil
+    self.all_categories  = {}
 end
 
 function QuizScreen:_shuffleQuestions()
@@ -218,20 +348,22 @@ end
 function QuizScreen:openOptionsMenu()
     local is_fr = self.lang == "fr"
     local items = {
-        { id = "lang",     text = is_fr and "Langue…"          or "Language…" },
-        { id = "players",  text = is_fr and "Joueurs…"          or "Players…" },
-        { id = "duration", text = is_fr and "Chrono…"           or "Timer…" },
-        { id = "reset",    text = is_fr and "Remettre les scores à zéro" or "Reset scores" },
-        { id = "reload",   text = is_fr and "Recharger le fichier" or "Reload file" },
+        { id = "lang",       text = is_fr and "Langue…"          or "Language…" },
+        { id = "categories", text = is_fr and "Catégories…"      or "Categories…" },
+        { id = "players",    text = is_fr and "Joueurs…"          or "Players…" },
+        { id = "duration",   text = is_fr and "Chrono…"           or "Timer…" },
+        { id = "reset",      text = is_fr and "Remettre les scores à zéro" or "Reset scores" },
+        { id = "reload",     text = is_fr and "Recharger le fichier" or "Reload file" },
     }
     MenuHelper.openPickerMenu{
         title = "Options", items = items, parent = self,
         on_select = function(id)
-            if     id == "lang"     then self:openLangMenu()
-            elseif id == "players"  then self:openPlayersMenu()
-            elseif id == "duration" then self:openDurationMenu()
-            elseif id == "reset"    then self:onResetScores()
-            elseif id == "reload"   then self:_loadQuestions(); self:buildLayout(); UIManager:setDirty(self, function() return "ui", self.dimen end)
+            if     id == "lang"       then self:openLangMenu()
+            elseif id == "categories" then self:openCategoryMenu()
+            elseif id == "players"    then self:openPlayersMenu()
+            elseif id == "duration"   then self:openDurationMenu()
+            elseif id == "reset"      then self:onResetScores()
+            elseif id == "reload"     then self:_loadQuestions(); self:buildLayout(); UIManager:setDirty(self, function() return "ui", self.dimen end)
             end
         end,
     }
@@ -245,9 +377,96 @@ function QuizScreen:openLangMenu()
         on_select = function(lang)
             self.lang = lang
             self.plugin:saveSetting("lang", lang)
+            self.selected_categories = self:_loadCategorySelection()
             self:_loadQuestions()
             self:buildLayout()
             UIManager:setDirty(self, function() return "ui", self.dimen end)
+        end,
+    }
+end
+
+-- ---------------------------------------------------------------------------
+-- Category-picker menu (multi-select, re-opens after each toggle)
+-- ---------------------------------------------------------------------------
+
+function QuizScreen:openCategoryMenu()
+    local is_fr = self.lang == "fr"
+
+    local available = {}
+    for cat in pairs(self.all_categories) do
+        available[#available + 1] = cat
+    end
+    table.sort(available)
+
+    if #available == 0 then
+        UIManager:show(InfoMessage:new{
+            text    = is_fr
+                and "Aucune catégorie disponible.\nChargez d'abord un fichier de questions."
+                or  "No categories available.\nLoad a question file first.",
+            timeout = 3,
+        })
+        return
+    end
+
+    local all_selected = (self.selected_categories == nil)
+
+    local items = {}
+    items[#items + 1] = {
+        id   = "__all__",
+        text = (all_selected and "★ " or "  ")
+               .. (is_fr and "Toutes les catégories" or "All categories")
+               .. string.format("  (%d)", #self.questions),
+    }
+    for _, cat in ipairs(available) do
+        local count = self.all_categories[cat] or 0
+        local sel   = all_selected or (self.selected_categories[cat] == true)
+        items[#items + 1] = {
+            id   = cat,
+            text = (sel and "✓ " or "○ ") .. cat
+                   .. string.format("  (%d)", count),
+        }
+    end
+
+    MenuHelper.openPickerMenu{
+        title     = is_fr and "Catégories" or "Categories",
+        items     = items,
+        parent    = self,
+        on_select = function(id)
+            if id == "__all__" then
+                self.selected_categories = nil
+            else
+                if self.selected_categories == nil then
+                    -- Was "all" → keep every category except the one just tapped
+                    self.selected_categories = {}
+                    for _, cat in ipairs(available) do
+                        if cat ~= id then
+                            self.selected_categories[cat] = true
+                        end
+                    end
+                else
+                    -- Toggle the tapped category
+                    if self.selected_categories[id] then
+                        self.selected_categories[id] = nil
+                    else
+                        self.selected_categories[id] = true
+                    end
+                    -- Collapse back to nil if every category is now checked
+                    local all_on = true
+                    for _, cat in ipairs(available) do
+                        if not self.selected_categories[cat] then
+                            all_on = false
+                            break
+                        end
+                    end
+                    if all_on then self.selected_categories = nil end
+                end
+            end
+            self:_reloadQuestions()
+            self:_saveCategorySelection()
+            self:buildLayout()
+            UIManager:setDirty(self, function() return "ui", self.dimen end)
+            -- Re-open to reflect the new state
+            self:openCategoryMenu()
         end,
     }
 end
@@ -338,8 +557,8 @@ function QuizScreen:buildLayout()
 
     if not q then
         local msg = is_fr
-            and "Aucune question chargée.\n\nCopiez quiz_questions_fr.json\n(ou quiz_questions.json)\ndans le dossier documents de KOReader."
-            or  "No questions loaded.\n\nCopy quiz_questions_en.json\n(or quiz_questions.json)\nto KOReader's documents folder."
+            and "Aucune question chargée.\n\nSoit toutes les catégories sont décochées (voir Réglages > Catégories),\nsoit aucune banque de questions n'a été trouvée.\n\nPour ajouter vos propres questions, copiez\nquiz_questions_fr.json (ou .lua) dans le\ndossier documents de KOReader."
+            or  "No questions loaded.\n\nEither every category is unchecked (see Settings > Categories),\nor no question bank was found.\n\nTo use your own questions, copy\nquiz_questions_en.json (or .lua) to\nKOReader's documents folder."
         main_widget = TextBoxWidget:new{
             text  = msg,
             face  = Font:getFace("smallinfofont"),
