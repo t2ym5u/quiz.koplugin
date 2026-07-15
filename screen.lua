@@ -302,30 +302,32 @@ function QuizScreen:buildLayout()
 
     local btn_w = math.floor(sw * 0.92)
 
-    -- Top button row
-    local top_btns
+    -- Title bar with Options menu
+    local title_bar = self:buildTitleBar(_("Quiz Party"), function()
+        return {
+            { text = is_fr and "Réglages" or "Settings", callback = function() self:openOptionsMenu() end },
+            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
+        }
+    end)
+
+    -- Footer action button
+    local action_btns
     if self.phase == "question" then
         local reveal_text = is_fr and "Révéler la réponse" or "Reveal answer"
-        top_btns = ButtonTable:new{
+        action_btns = ButtonTable:new{
             shrink_unneeded_width = true,
             width   = btn_w,
             buttons = {{
                 { text = reveal_text, callback = function() self:onRevealAnswer() end },
-                { text = "Options",   callback = function() self:openOptionsMenu() end },
-                self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
-                self:makeCloseButtonConfig(),
             }},
         }
     else
         local next_text = is_fr and "Question suivante" or "Next question"
-        top_btns = ButtonTable:new{
+        action_btns = ButtonTable:new{
             shrink_unneeded_width = true,
             width   = btn_w,
             buttons = {{
                 { text = next_text, callback = function() self:onNextQuestion() end },
-                { text = "Options", callback = function() self:openOptionsMenu() end },
-                self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
-                self:makeCloseButtonConfig(),
             }},
         }
     end
@@ -457,7 +459,7 @@ function QuizScreen:buildLayout()
         timer_group,
         main_widget,
     }
-    self:buildPortraitLayout(top_btns, content, nil)
+    self:buildPortraitLayout(title_bar, content, action_btns)
     self:updateStatus()
 end
 
