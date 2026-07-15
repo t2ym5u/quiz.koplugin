@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel est le métier d'une personne qui soigne les dents ?",
+    "answer": "Dentiste",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui éteignait les becs de gaz des réverbères le matin ?",
+    "answer": "Allumeur de réverbères (éteigneur)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel outil un menuisier utilise-t-il pour couper le bois en suivant une ligne courbe ?",
+    "answer": "Scie sauteuse",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du métier de la personne qui fabrique des chaussures ?",
+    "answer": "Cordonnier",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier ancien consistait à annoncer les nouvelles à voix haute dans les rues et sur les places publiques ?",
+    "answer": "Crieur public",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "De quel mot latin vient le mot « médecin » ?",
+    "answer": "Medicus",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du chapeau traditionnel porté par les cuisiniers ?",
+    "answer": "Toque",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier consiste à façonner des objets en argile et à les cuire dans un four ?",
+    "answer": "Potier",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui répare les toitures ?",
+    "answer": "Couvreur",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier du Moyen Âge consistait à copier des manuscrits à la main dans les monastères ?",
+    "answer": "Copiste (moine copiste)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument un médecin utilise-t-il pour écouter les battements du cœur ?",
+    "answer": "Stéthoscope",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom donné à l'apprenti qui, à la fin de sa formation, réalise une œuvre pour prouver son savoir-faire dans une corporation ?",
+    "answer": "Chef-d'œuvre",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel métier consiste à dresser et entraîner des chevaux ?",
+    "answer": "Dresseur (ou écuyer)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est l'origine du mot « boulanger », lié à la forme de son pain ?",
+    "answer": "Du mot picard « boulenc », de « boule »",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier de Sherlock Holmes dans les romans d'Arthur Conan Doyle ?",
+    "answer": "Détective",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on une personne qui fabrique des tonneaux ?",
+    "answer": "Tonnelier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel équipement de protection un apiculteur porte-t-il sur la tête ?",
+    "answer": "Un voile (ou masque) d'apiculteur",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier consistait, autrefois, à réveiller les gens le matin en frappant à leur fenêtre avec une longue perche ?",
+    "answer": "Frappeur de vitres (knocker-up)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du professionnel qui conçoit les plans des bâtiments ?",
+    "answer": "Architecte",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quel mot grec provient le mot « pharmacien » ?",
+    "answer": "Pharmakon (remède/poison)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel outil est associé au métier de forgeron, utilisé pour frapper le métal chaud ?",
+    "answer": "Marteau (et enclume)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui taille et polit les pierres précieuses ?",
+    "answer": "Lapidaire",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier consiste à examiner les comptes d'une entreprise pour vérifier leur exactitude ?",
+    "answer": "Comptable (ou auditeur)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier disparu consistait à porter et livrer de l'eau à domicile avant l'arrivée de l'eau courante ?",
+    "answer": "Porteur d'eau",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument un tailleur utilise-t-il pour prendre les mesures d'un vêtement ?",
+    "answer": "Un mètre ruban",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel était le métier de Léonard de Vinci, en plus d'être peintre ?",
+    "answer": "Ingénieur (et inventeur)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on l'artisan qui fabrique des instruments de musique à cordes comme les violons ?",
+    "answer": "Luthier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du couvre-chef traditionnel des gendarmes français, en forme de tricorne ou de képi ?",
+    "answer": "Képi",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quel mot vient « boucher », désignant à l'origine celui qui abat les boucs ?",
+    "answer": "De « bouc »",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel métier consiste à traire les vaches et à s'occuper du bétail laitier dans une ferme ?",
+    "answer": "Vacher (ou éleveur laitier)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier ancien consistait à ramoner les cheminées ?",
+    "answer": "Ramoneur",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du système d'organisation des artisans par métier au Moyen Âge ?",
+    "answer": "Corporation (guilde)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel outil un géomètre utilise-t-il pour mesurer les angles et les distances sur le terrain ?",
+    "answer": "Théodolite",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier de la personne qui joue de la musique dans un orchestre en dirigeant les musiciens ?",
+    "answer": "Chef d'orchestre",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on l'artisan spécialisé dans la fabrication de chapeaux ?",
+    "answer": "Chapelier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier du XIXe siècle consistait à vendre des journaux dans la rue en criant les titres ?",
+    "answer": "Crieur de journaux (camelot)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la couleur traditionnelle de la tenue portée par les bouchers ?",
+    "answer": "Rayures rouges et blanches (tablier)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du métier consistant à fabriquer et réparer des selles et harnais en cuir pour les chevaux ?",
+    "answer": "Sellier (bourrelier)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier de Vidocq, célèbre bagnard devenu chef de la police au XIXe siècle ?",
+    "answer": "Policier (chef de la Sûreté)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui s'occupe de la coiffure et du rasage, à l'origine aussi chirurgien au Moyen Âge ?",
+    "answer": "Barbier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le métier de la personne qui vole et répare les avions ?",
+    "answer": "Pilote (et mécanicien)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel mot désigne l'apprenti d'un artisan, encore utilisé aujourd'hui dans le compagnonnage ?",
+    "answer": "Apprenti",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel outil un bûcheron utilisait-il traditionnellement pour abattre les arbres avant la tronçonneuse ?",
+    "answer": "La hache (ou cognée)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du métier consistant à fabriquer des roues en bois pour les charrettes ?",
+    "answer": "Charron",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelait-on autrefois les femmes qui lavaient le linge dans les rivières ou les lavoirs ?",
+    "answer": "Lavandières (blanchisseuses)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le métier de la personne qui prépare et vend des médicaments en pharmacie ?",
+    "answer": "Pharmacien",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel outil emblématique un maçon utilise-t-il pour étaler le mortier ?",
+    "answer": "Truelle",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier ancien consistait à peser les marchandises sur les places de marché avec une balance publique ?",
+    "answer": "Peseur juré (peseur public)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné au maître d'un métier dans le compagnonnage, formé après le tour de France ?",
+    "answer": "Compagnon",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le métier de la personne qui répare les montres et horloges ?",
+    "answer": "Horloger",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quel mot latin vient « avocat », signifiant « appelé auprès de » ?",
+    "answer": "Advocatus",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel était le nom du métier consistant à conduire une diligence tirée par des chevaux ?",
+    "answer": "Cocher",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui fabrique et vend des fromages ?",
+    "answer": "Fromager (crémier)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier consiste à couper les cheveux et à coiffer les clients dans un salon ?",
+    "answer": "Coiffeur",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'ouvrier qui pose des vitres aux fenêtres ?",
+    "answer": "Vitrier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier disparu consistait à guider les bateaux et péniches le long des rivières et canaux en les tirant à pied ou avec des animaux ?",
+    "answer": "Haleur",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier de la personne qui étudie et prédit le temps qu'il fera ?",
+    "answer": "Météorologue",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel outil un jardinier utilise-t-il pour tailler les haies ?",
+    "answer": "Cisaille (taille-haie)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quel mot vient « chirurgien », combinant « main » et « travail » en grec ?",
+    "answer": "Kheirourgia (cheir = main, ergon = travail)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du métier de la personne qui fabrique des bijoux ?",
+    "answer": "Bijoutier (joaillier)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier consistait, avant l'électricité, à monter dans les phares pour entretenir la lumière guidant les navires ?",
+    "answer": "Gardien de phare",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'ouvrier qui pose des tuyaux et répare les fuites d'eau ?",
+    "answer": "Plombier",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui conçoit les vêtements dans la mode ?",
+    "answer": "Styliste (couturier)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier du XIXe siècle consistait à vendre du lait en le distribuant de porte en porte ?",
+    "answer": "Laitier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom donné à l'artisan qui travaille le cuir pour fabriquer des sacs et des ceintures ?",
+    "answer": "Maroquinier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier consiste à sculpter la pierre pour orner les bâtiments et cathédrales ?",
+    "answer": "Tailleur de pierre",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le métier de la personne qui garde et surveille un troupeau de moutons ?",
+    "answer": "Berger",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel outil un serrurier utilise-t-il traditionnellement pour ouvrir les serrures sans clé ?",
+    "answer": "Crochet (pince)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelait-on le domestique chargé d'annoncer les visiteurs et de servir à table dans une grande maison ?",
+    "answer": "Majordome (valet)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier consiste à examiner les yeux et à prescrire des lunettes ?",
+    "answer": "Ophtalmologue (opticien)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du métier ancien de celui qui affûtait les couteaux et ciseaux en les faisant tourner dans les rues ?",
+    "answer": "Rémouleur",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier de la personne qui construit des meubles en bois ?",
+    "answer": "Menuisier (ébéniste)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier ancien, aujourd'hui disparu, consistait à vider les fosses d'aisances des maisons avant les égouts modernes ?",
+    "answer": "Vidangeur",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'artisan qui fabrique des bougies ?",
+    "answer": "Cirier (chandelier)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le vêtement blanc traditionnellement porté par les médecins et scientifiques ?",
+    "answer": "La blouse blanche",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier consiste à défendre un accusé devant un tribunal ?",
+    "answer": "Avocat",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quel mot vient « facteur », désignant celui qui distribue le courrier ?",
+    "answer": "Du latin « factor » (celui qui fait)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du professionnel chargé de préparer et présenter les plats dans un restaurant ?",
+    "answer": "Cuisinier (chef)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel outil un peintre en bâtiment utilise-t-il pour appliquer la peinture sur de grandes surfaces ?",
+    "answer": "Rouleau",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier célèbre exerçait Nostradamus, en plus d'être astrologue ?",
+    "answer": "Médecin (apothicaire)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui fabrique des parapluies ?",
+    "answer": "Parapluetier",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier de la personne qui pilote un navire et dirige son équipage ?",
+    "answer": "Capitaine",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier consiste à concevoir des logiciels et programmes informatiques ?",
+    "answer": "Développeur (programmeur)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du métier consistant à tailler et polir le verre pour en faire des vitraux ?",
+    "answer": "Maître verrier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel équipement de sécurité est associé au métier de pompier, porté sur la tête ?",
+    "answer": "Casque de pompier",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier de la Grèce antique consistait à conseiller les rois en interprétant les signes des dieux ?",
+    "answer": "Oracle (devin)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui dresse et présente des animaux dans un cirque ?",
+    "answer": "Dompteur",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du métier consistant à fabriquer des filets et à réparer les cordages sur un port de pêche ?",
+    "answer": "Cordier (filetier)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel métier exerçait traditionnellement l'astronome à la cour des rois, combinant observation des astres et conseils ?",
+    "answer": "Astrologue royal",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le métier de la personne qui enseigne aux élèves dans une école primaire ?",
+    "answer": "Instituteur (professeur des écoles)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel outil un archéologue utilise-t-il délicatement pour dégager les objets enfouis ?",
+    "answer": "Truelle (pinceau)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "De quel mot italien vient « banquier », lié au comptoir sur lequel on comptait l'argent ?",
+    "answer": "Banca (banc/comptoir)",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel métier consiste à voler dans l'espace à bord d'une fusée ou d'une station spatiale ?",
+    "answer": "Astronaute (spationaute)",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du métier de celui qui fabrique et vend du pain ?",
+    "answer": "Boulanger",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel métier ancien consistait à porter des messages ou des lettres à pied ou à cheval avant la poste moderne ?",
+    "answer": "Messager (courrier)",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on l'artisan qui fabrique des paniers en tressant de l'osier ?",
+    "answer": "Vannier",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le métier de la personne qui étudie les étoiles et les planètes de manière scientifique ?",
+    "answer": "Astronome",
+    "category": "Métiers",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel accessoire distinctif un juge porte-t-il parfois lors des audiences dans certains pays comme le Royaume-Uni ?",
+    "answer": "Une perruque",
+    "category": "Métiers",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel métier de la marine consiste à réparer et calfeutrer la coque des bateaux en bois ?",
+    "answer": "Calfat",
+    "category": "Métiers",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le métier d'une personne qui s'occupe de l'accouchement des femmes enceintes ?",
+    "answer": "Sage-femme",
+    "category": "Métiers",
+    "difficulty": "facile"
+  }
+]

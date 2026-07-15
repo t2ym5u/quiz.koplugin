@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quelle est l'unité de mesure de la puissance électrique ?",
+    "answer": "Le watt",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel astronome polonais a proposé le modèle héliocentrique du système solaire ?",
+    "answer": "Nicolas Copernic",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roboticien japonais est considéré comme un pionnier de la robotique humanoïde moderne, créateur d'ASIMO chez Honda ?",
+    "answer": "Honda",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Qui a découvert la radioactivité naturelle de l'uranium ?",
+    "answer": "Henri Becquerel",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de planètes compte le système solaire aujourd'hui ?",
+    "answer": "8",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien a énoncé le principe d'incertitude en mécanique quantique ?",
+    "answer": "Werner Heisenberg",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle planète est surnommée la « planète rouge » ?",
+    "answer": "Mars",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la principale source d'énergie de la Terre ?",
+    "answer": "Le Soleil",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Qui a développé le premier vaccin contre la rage ?",
+    "answer": "Louis Pasteur",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du processus qui permet à un cœur de battre grâce à des impulsions électriques ?",
+    "answer": "L'automatisme cardiaque",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la force qui attire les objets vers le centre de la Terre ?",
+    "answer": "La gravité",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de chromosomes possède une cellule humaine normale ?",
+    "answer": "46",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel savant a formulé la classification périodique des éléments chimiques ?",
+    "answer": "Dmitri Mendeleïev",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom scientifique de l'étude des étoiles et des astres ?",
+    "answer": "L'astronomie",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur américain a cofondé Microsoft avec Bill Gates ?",
+    "answer": "Paul Allen",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la plus proche étoile de la Terre après le Soleil ?",
+    "answer": "Proxima du Centaure",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du réseau informatique ancêtre d'Internet créé par l'armée américaine ?",
+    "answer": "ARPANET",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du processus de fusion nucléaire qui alimente le Soleil en énergie ?",
+    "answer": "La fusion de l'hydrogène en hélium",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la plus grande cellule du corps humain ?",
+    "answer": "L'ovule",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'os long situé dans la cuisse ?",
+    "answer": "Le fémur",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du code informatique binaire utilisant uniquement 0 et 1 ?",
+    "answer": "Le binaire",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est l'unité de mesure de la fréquence ?",
+    "answer": "Le hertz",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le symbole chimique du sodium ?",
+    "answer": "Na",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du phénomène par lequel un noyau atomique lourd se scinde en deux noyaux plus légers en libérant de l'énergie ?",
+    "answer": "La fission nucléaire",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la couche de gaz protégeant la Terre des rayons ultraviolets ?",
+    "answer": "La couche d'ozone",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe responsable de la filtration du sang et de la production d'urine ?",
+    "answer": "Le rein",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel médecin britannique a mis au point la première vaccination contre la variole ?",
+    "answer": "Edward Jenner",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+    "answer": "1969",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur a conçu le premier moteur à combustion interne pratique utilisant l'essence, breveté en 1886 ?",
+    "answer": "Karl Benz",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle femme scientifique a remporté deux prix Nobel dans deux disciplines différentes ?",
+    "answer": "Marie Curie",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la vitesse de la lumière dans le vide, en kilomètres par seconde (arrondie) ?",
+    "answer": "300 000 km/s",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel scientifique britannique a découvert la loi de la gravitation universelle en observant une pomme tomber ?",
+    "answer": "Isaac Newton",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du biologiste autrichien fondateur de la génétique moderne grâce à ses travaux sur les pois ?",
+    "answer": "Gregor Mendel",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel physicien danois a proposé un modèle de l'atome avec des niveaux d'énergie quantifiés ?",
+    "answer": "Niels Bohr",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le symbole chimique du potassium ?",
+    "answer": "K",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel chimiste suédois a inventé la dynamite ?",
+    "answer": "Alfred Nobel",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'enzyme salivaire qui commence la digestion de l'amidon dans la bouche ?",
+    "answer": "L'amylase",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel inventeur américain est crédité de l'invention du téléphone en 1876 ?",
+    "answer": "Alexander Graham Bell",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du premier animal envoyé en orbite autour de la Terre, une chienne soviétique ?",
+    "answer": "Laïka",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du premier ordinateur personnel commercialisé par Apple ?",
+    "answer": "Apple I",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel savant italien a amélioré la lunette astronomique et confirmé le modèle héliocentrique ?",
+    "answer": "Galilée",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe principal du système circulatoire humain ?",
+    "answer": "Le cœur",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel naturaliste britannique a développé la théorie de l'évolution par sélection naturelle ?",
+    "answer": "Charles Darwin",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du gaz le plus abondant dans l'atmosphère terrestre ?",
+    "answer": "L'azote",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien a proposé le modèle planétaire de l'atome avec un noyau central ?",
+    "answer": "Ernest Rutherford",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est l'unité de mesure de base de la masse dans le système international ?",
+    "answer": "Le kilogramme",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du satellite artificiel soviétique, premier objet envoyé en orbite en 1957 ?",
+    "answer": "Spoutnik 1",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la température d'ébullition de l'eau au niveau de la mer, en degrés Celsius ?",
+    "answer": "100 °C",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du processus par lequel une chenille devient papillon ?",
+    "answer": "La métamorphose",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre, en minutes (environ) ?",
+    "answer": "8 minutes",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel ingénieur écossais a perfectionné la machine à vapeur au XVIIIe siècle, donnant plus tard son nom à l'unité de puissance ?",
+    "answer": "James Watt",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du processus chimique de combinaison de l'oxygène avec un métal produisant de la rouille ?",
+    "answer": "L'oxydation",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Qui a formulé la théorie de la relativité générale ?",
+    "answer": "Albert Einstein",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la plus petite unité de matière conservant les propriétés d'un élément chimique ?",
+    "answer": "L'atome",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+    "answer": "L'hydrogène",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'élément chimique de symbole Fe ?",
+    "answer": "Le fer",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle entreprise a lancé le premier iPhone en 2007 ?",
+    "answer": "Apple",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel mathématicien perse est à l'origine du mot « algorithme » ?",
+    "answer": "Al-Khwarizmi",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Qui a mis au point la première pile électrique en 1800 ?",
+    "answer": "Alessandro Volta",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est l'organe humain responsable de la production d'insuline ?",
+    "answer": "Le pancréas",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel mathématicien grec est célèbre pour son théorème sur les triangles rectangles ?",
+    "answer": "Pythagore",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique à incandescence commercialisable ?",
+    "answer": "Thomas Edison",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse ?",
+    "answer": "Le dioxyde de carbone",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du phénomène de séparation de la lumière blanche en plusieurs couleurs par un prisme ?",
+    "answer": "La dispersion",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la plus petite planète du système solaire ?",
+    "answer": "Mercure",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle planète du système solaire est la plus proche du Soleil ?",
+    "answer": "Mercure",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur serbo-américain a développé le courant alternatif et donné son nom à une unité de champ magnétique ?",
+    "answer": "Nikola Tesla",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la sonde spatiale qui a quitté le système solaire en 2012, lancée en 1977 ?",
+    "answer": "Voyager 1",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est l'espérance de vie moyenne d'un globule rouge dans le corps humain, en jours (environ) ?",
+    "answer": "120 jours",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la première brebis clonée ?",
+    "answer": "Dolly",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le symbole chimique de l'or ?",
+    "answer": "Au",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel chimiste français a établi la loi des proportions définies, fondement de la chimie moderne ?",
+    "answer": "Joseph Proust",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du processus par lequel l'eau liquide se transforme en vapeur ?",
+    "answer": "L'évaporation",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la plus longue artère du corps humain ?",
+    "answer": "L'aorte",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la première femme envoyée dans l'espace ?",
+    "answer": "Valentina Terechkova",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel mathématicien anglais a développé le calcul infinitésimal en même temps que Leibniz ?",
+    "answer": "Isaac Newton",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du processus de division cellulaire produisant deux cellules filles identiques ?",
+    "answer": "La mitose",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du processus par lequel les plantes produisent leur propre nourriture grâce à la lumière ?",
+    "answer": "La photosynthèse",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien écossais a formulé les équations unifiant l'électricité et le magnétisme ?",
+    "answer": "James Clerk Maxwell",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle agence spatiale américaine a organisé les missions Apollo ?",
+    "answer": "La NASA",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du langage de programmation créé par Guido van Rossum ?",
+    "answer": "Python",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien britannique est connu pour ses travaux sur les trous noirs et « Une brève histoire du temps » ?",
+    "answer": "Stephen Hawking",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du satellite naturel de la Terre ?",
+    "answer": "La Lune",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le principal composant du noyau interne de la Terre ?",
+    "answer": "Le fer",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel mathématicien français du XVIIe siècle est célèbre pour son « dernier théorème », démontré seulement en 1994 ?",
+    "answer": "Pierre de Fermat",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus petit os du corps humain ?",
+    "answer": "L'étrier",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le pH d'une solution neutre comme l'eau pure ?",
+    "answer": "7",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien français a découvert le principe de la conservation de la masse en chimie ?",
+    "answer": "Antoine Lavoisier",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel scientifique a énoncé les trois lois du mouvement en physique classique ?",
+    "answer": "Isaac Newton",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la maladie causée par un déficit en vitamine C ?",
+    "answer": "Le scorbut",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'unité de mesure de la quantité de matière en chimie ?",
+    "answer": "La mole",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la formule chimique de l'eau ?",
+    "answer": "H2O",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de dents une personne adulte possède-t-elle normalement ?",
+    "answer": "32",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la plus grande planète du système solaire ?",
+    "answer": "Jupiter",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Qui a inventé le World Wide Web en 1989 ?",
+    "answer": "Tim Berners-Lee",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la théorie expliquant l'origine et l'expansion de l'univers ?",
+    "answer": "Le Big Bang",
+    "category": "Sciences & Technologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel astrophysicien a proposé en 1927 la théorie du « Big Bang » sous le nom d'atome primitif ?",
+    "answer": "Georges Lemaître",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien d'os compte le corps humain adulte ?",
+    "answer": "206",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du télescope spatial lancé en 2021 en remplacement partiel de Hubble ?",
+    "answer": "James Webb",
+    "category": "Sciences & Technologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du processus industriel de fabrication de l'acier à partir de la fonte, inventé par Henry Bessemer ?",
+    "answer": "Le procédé Bessemer",
+    "category": "Sciences & Technologie",
+    "difficulty": "difficile"
+  }
+]

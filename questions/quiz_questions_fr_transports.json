@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel est le nom du canal artificiel reliant la mer Méditerranée à la mer Rouge ?",
+    "answer": "Le canal de Suez",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le principal aéroport de la ville de Londres, le plus fréquenté d'Europe ?",
+    "answer": "Heathrow",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus haut pont routier du monde, situé dans le Massif central en France ?",
+    "answer": "Le viaduc de Millau",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du bateau utilisé traditionnellement pour la pêche à voile en Bretagne, aujourd'hui patrimoine maritime ?",
+    "answer": "Le thonier",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel constructeur automobile suédois est réputé pour ses innovations en matière de sécurité, dont la ceinture à trois points ?",
+    "answer": "Volvo",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle compagnie aérienne low-cost irlandaise est connue pour ses tarifs très bas en Europe ?",
+    "answer": "Ryanair",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du canal reliant l'océan Atlantique à l'océan Pacifique en Amérique centrale ?",
+    "answer": "Le canal de Panama",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du système autoroutier à péage le plus étendu de France, géré par plusieurs sociétés concessionnaires ?",
+    "answer": "Le réseau autoroutier français",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la fusée qui a envoyé les astronautes d'Apollo 11 vers la Lune ?",
+    "answer": "Saturn V",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on la capacité d'un avion à décoller et atterrir à la verticale, comme le Harrier ?",
+    "answer": "VTOL",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la navette spatiale américaine détruite lors de sa rentrée atmosphérique en 2003 ?",
+    "answer": "Columbia",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la première voiture hybride produite en série à grande échelle, lancée en 1997 ?",
+    "answer": "Toyota Prius",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle marque italienne fabrique historiquement la Fiat 500 ?",
+    "answer": "Fiat",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur a fondé Citroën et introduit la traction avant en série avec la Traction Avant en 1934 ?",
+    "answer": "André Citroën",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays a inventé le premier vélo à chaîne et pédalier moderne à la fin du XIXe siècle ?",
+    "answer": "L'Angleterre",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel ingénieur allemand a donné son nom au moteur diesel ?",
+    "answer": "Rudolf Diesel",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle marque française de voitures a pour logo un losange ?",
+    "answer": "Renault",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la compagnie qui exploite les vols spatiaux habités privés Falcon 9 et Crew Dragon ?",
+    "answer": "SpaceX",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel navire explorateur français commandé par Jacques Cartier découvrit le Canada au XVIe siècle ?",
+    "answer": "La Grande Hermine",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du célèbre sous-marin nucléaire français, premier de sa catégorie, en service depuis 1971 ?",
+    "answer": "Le Redoutable",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du porte-conteneurs qui a bloqué le canal de Suez pendant six jours en 2021 ?",
+    "answer": "Ever Given",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du phare emblématique situé à la pointe Saint-Mathieu, près de Brest ?",
+    "answer": "Le phare de la pointe Saint-Mathieu",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle entreprise construit le train à grande vitesse français, le TGV ?",
+    "answer": "Alstom",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays a construit le Shinkansen, célèbre train à grande vitesse lancé en 1964 ?",
+    "answer": "Le Japon",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du célèbre bus à impériale rouge emblématique de Londres ?",
+    "answer": "Le Routemaster",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le premier moyen de transport aérien plus lourd que l'air à avoir volé, avant l'avion à moteur ?",
+    "answer": "Le planeur",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle ville française a inauguré en 1983 le premier métro entièrement automatique sans conducteur au monde ?",
+    "answer": "Lille",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du premier avion à hélice ayant traversé l'Atlantique sans escale, piloté par Alcock et Brown en 1919 ?",
+    "answer": "Vickers Vimy",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année le canal de Panama a-t-il été inauguré ?",
+    "answer": "1914",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la station spatiale actuellement en orbite, exploitée en coopération internationale ?",
+    "answer": "La Station spatiale internationale (ISS)",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du célèbre tramway historique circulant à San Francisco ?",
+    "answer": "Le cable car",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du bateau-mouche typique utilisé pour les croisières touristiques sur la Seine à Paris ?",
+    "answer": "Bateau-mouche",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du bateau à vapeur qui a effectué la première traversée commerciale de l'Atlantique entièrement à vapeur, en 1838 ?",
+    "answer": "Le Sirius",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel physicien et inventeur français est le créateur du premier vol habité en montgolfière, en 1783 ?",
+    "answer": "Les frères Montgolfier",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel ingénieur écossais a inventé la locomotive à vapeur commerciale « Rocket » en 1829 ?",
+    "answer": "George Stephenson",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel entrepreneur a fondé SpaceX en 2002 ?",
+    "answer": "Elon Musk",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur français a construit la Tour Eiffel, aussi actif dans les structures métalliques de ponts ferroviaires ?",
+    "answer": "Gustave Eiffel",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la compagnie maritime britannique qui exploitait le Titanic ?",
+    "answer": "White Star Line",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays a construit le plus grand réseau de trains à grande vitesse au monde en kilomètres ?",
+    "answer": "La Chine",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du pont suspendu français franchissant l'estuaire de la Seine, ouvert en 1995 ?",
+    "answer": "Le pont de Normandie",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du bateau ayant réalisé le premier tour du monde en solitaire sans escale, par Robin Knox-Johnston en 1969 ?",
+    "answer": "Suhaili",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la vitesse maximale record atteinte par un TGV français lors d'un essai en 2007 ?",
+    "answer": "574,8 km/h",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du dispositif inventé pour freiner un train en cas d'urgence, développé par George Westinghouse ?",
+    "answer": "Le frein à air comprimé",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle entreprise américaine fabrique le Boeing 747, surnommé « Jumbo Jet » ?",
+    "answer": "Boeing",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel avion supersonique franco-britannique a cessé de voler en 2003 ?",
+    "answer": "Concorde",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pilote allemand a été le premier à remporter sept titres de champion du monde de Formule 1 ?",
+    "answer": "Michael Schumacher",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus ancien pont encore debout sur la Garonne à Bordeaux, inauguré en 1822 ?",
+    "answer": "Le Pont de pierre",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le principal aéroport parisien situé à Roissy ?",
+    "answer": "Charles-de-Gaulle",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle ville dispose du plus ancien métro du monde, ouvert en 1863 ?",
+    "answer": "Londres",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du célèbre paquebot britannique qui a été reconverti en hôtel-musée à Long Beach, en Californie ?",
+    "answer": "Le Queen Mary",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné au plus grand porte-conteneurs actuellement en service, appartenant à MSC ?",
+    "answer": "MSC Irina",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel ingénieur français est le concepteur du dirigeable qui a survolé Paris et contourné la Tour Eiffel en 1901 ?",
+    "answer": "Alberto Santos-Dumont",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le carburant principal utilisé par la majorité des avions de ligne ?",
+    "answer": "Le kérosène",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle compagnie aérienne française est la compagnie nationale du pays ?",
+    "answer": "Air France",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle entreprise italienne fabrique le scooter emblématique Vespa ?",
+    "answer": "Piaggio",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle compagnie ferroviaire nationale française exploite le réseau TGV et TER ?",
+    "answer": "SNCF",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays a été détruit l'Antonov An-225 en 2022, lors du conflit armé ?",
+    "answer": "L'Ukraine",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du réseau de tramway le plus ancien encore en service en France, à Saint-Étienne ?",
+    "answer": "Le tramway de Saint-Étienne",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du célèbre rallye automobile reliant traditionnellement l'Europe à l'Afrique, disputé désormais en Amérique du Sud ?",
+    "answer": "Le Dakar",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du paquebot britannique jumeau du Titanic qui a survécu ?",
+    "answer": "Olympic",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du dispositif de sécurité obligatoire à bord des voitures depuis les années 1970, retenant les occupants en cas de choc ?",
+    "answer": "La ceinture de sécurité",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle marque de voiture est associée à la Coccinelle, modèle produit pendant plus de 65 ans ?",
+    "answer": "Volkswagen",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pilote et aviatrice américaine a disparu en 1937 en tentant un tour du monde en avion ?",
+    "answer": "Amelia Earhart",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain français est l'auteur du roman « Vingt mille lieues sous les mers » mettant en scène le Nautilus ?",
+    "answer": "Jules Verne",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du dirigeable allemand qui a explosé à Lakehurst en 1937 ?",
+    "answer": "Hindenburg",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus long pont sur l'eau du monde, situé en Chine et reliant Hong Kong, Zhuhai et Macao ?",
+    "answer": "Le pont Hong Kong-Zhuhai-Macao",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le carburant alternatif de plus en plus utilisé pour réduire les émissions des bus urbains, à base de gaz naturel comprimé ?",
+    "answer": "Le GNV (gaz naturel pour véhicules)",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du grand aéroport parisien historiquement destiné aux vols intérieurs, situé au sud de Paris ?",
+    "answer": "Orly",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du système de transport automatisé reliant les terminaux d'un aéroport, souvent appelé « people mover » ?",
+    "answer": "Navette automatique",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel type de navire est spécifiquement conçu pour briser la glace afin d'ouvrir des routes maritimes ?",
+    "answer": "Un brise-glace",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'engin qui a permis à Bertrand Piccard de faire le tour du monde à l'énergie solaire en 2016 ?",
+    "answer": "Solar Impulse",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du système de train urbain surélevé utilisé notamment à Chicago ?",
+    "answer": "Le « L » (Loop)",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle entreprise fabrique historiquement les célèbres motos italiennes Ducati ?",
+    "answer": "Ducati",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la ville de départ historique de l'Orient-Express, célèbre train de luxe européen ?",
+    "answer": "Paris",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'aéroport le plus fréquenté du monde en nombre de passagers, situé à Atlanta ?",
+    "answer": "Hartsfield-Jackson",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du service de transport ferroviaire à grande vitesse reliant Paris à Londres via l'Eurotunnel ?",
+    "answer": "Eurostar",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du système de transport ferroviaire suspendu unique au monde, exploité à Wuppertal en Allemagne ?",
+    "answer": "Le Wuppertaler Schwebebahn",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on les trottinettes électriques que l'on loue en libre-service via une application ?",
+    "answer": "Trottinette électrique en libre-service",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la voiture présidentielle française historique fabriquée par Citroën, utilisée pour les cortèges officiels ?",
+    "answer": "La DS",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle marque de motos américaine est connue pour ses gros cylindres et son style « custom » ?",
+    "answer": "Harley-Davidson",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur écossais a mis au point le premier pneumatique gonflable pratique en 1888 ?",
+    "answer": "John Boyd Dunlop",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du service de train de nuit européen relancé en France ces dernières années, reliant Paris à plusieurs villes ?",
+    "answer": "Intercités de nuit",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la voiture électrique la plus vendue au monde en 2023 ?",
+    "answer": "La Tesla Model Y",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du navire porte-hélicoptères et d'assaut amphibie de la marine française, du type Mistral ?",
+    "answer": "Le Mistral",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la célèbre course automobile d'endurance disputée chaque année en France sur circuit routier ?",
+    "answer": "Les 24 Heures du Mans",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de roues compte un tricycle ?",
+    "answer": "Trois",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur français a conçu le viaduc de Millau ?",
+    "answer": "Michel Virlogeux",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du célèbre sous-marin du capitaine Nemo dans le roman de Jules Verne ?",
+    "answer": "Le Nautilus",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le premier pays à avoir mis en circulation des voitures particulières produites en très grande série, au début du XXe siècle ?",
+    "answer": "Les États-Unis",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du réseau de métro de New York, connu pour fonctionner 24h/24 ?",
+    "answer": "Le Subway",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'engin spatial ayant ramené pour la première fois des échantillons lunaires sur Terre lors d'une mission habitée en 1969 ?",
+    "answer": "Apollo 11",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de kilomètres représente approximativement un mille marin ?",
+    "answer": "1,852 km",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle ville relie le Transsibérien à son point de départ occidental ?",
+    "answer": "Moscou",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus célèbre grand prix de Formule 1 disputé sur circuit urbain à Monaco ?",
+    "answer": "Le Grand Prix de Monaco",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur allemand est considéré comme le pionnier du vol plané avec des ailes fixes à la fin du XIXe siècle ?",
+    "answer": "Otto Lilienthal",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle marque de voitures italienne a pour emblème un cheval cabré noir ?",
+    "answer": "Ferrari",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du célèbre avion long-courrier américain à quatre moteurs surnommé « Reine des airs », utilisé de 1970 à aujourd'hui pour le fret ?",
+    "answer": "Le Boeing 747",
+    "category": "Transports",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel constructeur aéronautique européen fabrique l'A380, le plus grand avion de ligne commercial ?",
+    "answer": "Airbus",
+    "category": "Transports",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du premier avion de ligne entièrement construit en matériaux composites, lancé par Boeing en 2011 ?",
+    "answer": "Le Boeing 787 Dreamliner",
+    "category": "Transports",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel port américain le Titanic devait-il rejoindre lors de son voyage inaugural ?",
+    "answer": "New York",
+    "category": "Transports",
+    "difficulty": "facile"
+  }
+]

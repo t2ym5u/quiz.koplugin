@@ -1,0 +1,602 @@
+[
+{
+"question": "Quel est le nom du fondateur de Microsoft ?",
+"answer": "Bill Gates",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie le sigle HTML ?",
+"answer": "HyperText Markup Language",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel réseau social a été fondé par Mark Zuckerberg en 2004 ?",
+"answer": "Facebook",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel langage de programmation porte le nom d'un serpent ?",
+"answer": "Python",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quelle entreprise a créé le moteur de recherche Google ?",
+"answer": "Google Inc.",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme USB ?",
+"answer": "Universal Serial Bus",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le système d'exploitation open source créé par Linus Torvalds ?",
+"answer": "Linux",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "En quelle année le World Wide Web a-t-il été inventé par Tim Berners-Lee ?",
+"answer": "1989",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du navigateur web développé par Google ?",
+"answer": "Chrome",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie le sigle CPU ?",
+"answer": "Central Processing Unit",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle entreprise fabrique les processeurs Core i7 ?",
+"answer": "Intel",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom de l'assistant vocal d'Apple ?",
+"answer": "Siri",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel langage de programmation a été créé par James Gosling chez Sun Microsystems ?",
+"answer": "Java",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Que signifie l'acronyme RAM ?",
+"answer": "Random Access Memory",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel réseau social est symbolisé par un petit oiseau bleu à l'origine ?",
+"answer": "Twitter",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du fondateur d'Amazon ?",
+"answer": "Jeff Bezos",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie le sigle URL ?",
+"answer": "Uniform Resource Locator",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel format d'image est souvent utilisé pour les photographies compressées ?",
+"answer": "JPEG",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle entreprise a créé la console de jeux PlayStation ?",
+"answer": "Sony",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du système d'exploitation mobile développé par Google ?",
+"answer": "Android",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie le sigle WIFI ?",
+"answer": "Wireless Fidelity",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du premier virus informatique diffusé sur Internet en 1988 ?",
+"answer": "Morris Worm",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle entreprise a créé le service de streaming Netflix ?",
+"answer": "Netflix Inc.",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le langage de balisage utilisé pour structurer les pages web ?",
+"answer": "HTML",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du cofondateur d'Apple avec Steve Jobs ?",
+"answer": "Steve Wozniak",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme PDF ?",
+"answer": "Portable Document Format",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du service de messagerie électronique de Google ?",
+"answer": "Gmail",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "En quelle année a été fondée l'entreprise Apple ?",
+"answer": "1976",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du fondateur de Tesla et SpaceX, aussi lié à Twitter/X ?",
+"answer": "Elon Musk",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie l'acronyme GPU ?",
+"answer": "Graphics Processing Unit",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du logiciel malveillant qui demande une rançon pour débloquer des fichiers ?",
+"answer": "Rançongiciel",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle entreprise a développé le logiciel de visioconférence Zoom ?",
+"answer": "Zoom Video Communications",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du navigateur web open source développé par Mozilla ?",
+"answer": "Firefox",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie le sigle IA ?",
+"answer": "Intelligence Artificielle",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de la plateforme de partage de vidéos rachetée par Google en 2006 ?",
+"answer": "YouTube",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel langage de programmation est principalement utilisé pour le développement web côté client ?",
+"answer": "JavaScript",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom de l'entreprise qui a créé la carte graphique GeForce ?",
+"answer": "Nvidia",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme SSD ?",
+"answer": "Solid State Drive",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du chatbot conversationnel développé par OpenAI ?",
+"answer": "ChatGPT",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quelle entreprise a inventé la souris d'ordinateur dans les années 1960 ?",
+"answer": "Stanford Research Institute",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du système d'exploitation utilisé sur les ordinateurs Apple ?",
+"answer": "macOS",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme VPN ?",
+"answer": "Virtual Private Network",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du réseau social spécialisé dans le partage de photos, appartenant à Meta ?",
+"answer": "Instagram",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel inventeur est crédité de la création du premier microprocesseur commercial, l'Intel 4004 ?",
+"answer": "Federico Faggin",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du protocole sécurisé utilisé pour naviguer sur des sites web chiffrés ?",
+"answer": "HTTPS",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle entreprise a lancé l'iPhone en 2007 ?",
+"answer": "Apple",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie l'acronyme LAN ?",
+"answer": "Local Area Network",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du service de stockage en ligne développé par Google ?",
+"answer": "Google Drive",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel mathématicien anglais est considéré comme le père de l'informatique théorique ?",
+"answer": "Alan Turing",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du système de gestion de versions créé par Linus Torvalds ?",
+"answer": "Git",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle entreprise a créé le réseau social LinkedIn ?",
+"answer": "LinkedIn Corporation",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme ADSL ?",
+"answer": "Asymmetric Digital Subscriber Line",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom de la première femme considérée comme programmeuse informatique, au XIXe siècle ?",
+"answer": "Ada Lovelace",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom de l'application de messagerie rachetée par Facebook en 2014 ?",
+"answer": "WhatsApp",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie le sigle FAQ ?",
+"answer": "Foire Aux Questions",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du fondateur de Wikipedia ?",
+"answer": "Jimmy Wales",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du langage de requête utilisé pour interroger des bases de données ?",
+"answer": "SQL",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle entreprise a créé le service de cloud computing AWS ?",
+"answer": "Amazon",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme IoT ?",
+"answer": "Internet of Things (Internet des objets)",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du célèbre jeu vidéo de simulation de blocs créé par Markus Persson ?",
+"answer": "Minecraft",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de code du premier ordinateur personnel d'Apple sorti en 1976 ?",
+"answer": "Apple I",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom de l'entreprise qui édite le logiciel Photoshop ?",
+"answer": "Adobe",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme DNS ?",
+"answer": "Domain Name System",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du réseau social chinois de vidéos courtes très populaire mondialement ?",
+"answer": "TikTok",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel scientifique est à l'origine du concept de la machine de Turing ?",
+"answer": "Alan Turing",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du format de fichier audio compressé le plus répandu ?",
+"answer": "MP3",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie l'acronyme GNU dans le projet GNU/Linux ?",
+"answer": "GNU's Not Unix",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle entreprise a racheté le réseau social Instagram en 2012 ?",
+"answer": "Facebook (Meta)",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du clavier le plus utilisé, dont les six premières lettres donnent son nom, en anglais ?",
+"answer": "QWERTY",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme LED ?",
+"answer": "Light Emitting Diode",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du fondateur de Facebook ?",
+"answer": "Mark Zuckerberg",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de l'entreprise japonaise qui a créé la console Nintendo Switch ?",
+"answer": "Nintendo",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie l'acronyme API ?",
+"answer": "Application Programming Interface",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du logiciel de tableur développé par Microsoft ?",
+"answer": "Excel",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel physicien britannique du CERN a proposé le concept du World Wide Web en 1989 ?",
+"answer": "Tim Berners-Lee",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du protocole de transfert de fichiers utilisant le sigle FTP ?",
+"answer": "File Transfer Protocol",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle entreprise a développé le langage de programmation C# ?",
+"answer": "Microsoft",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du moteur de jeu vidéo développé par Epic Games ?",
+"answer": "Unreal Engine",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme CAPTCHA ?",
+"answer": "Completely Automated Public Turing test to tell Computers and Humans Apart",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom de l'application de stockage cloud créée par Drew Houston ?",
+"answer": "Dropbox",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du fondateur de l'entreprise Alibaba ?",
+"answer": "Jack Ma",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme ROM ?",
+"answer": "Read Only Memory",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du navire amiral des jeux vidéo de course développé par Nintendo avec Mario ?",
+"answer": "Mario Kart",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du fondateur de SpaceX qui a aussi dirigé Twitter, renommé X ?",
+"answer": "Elon Musk",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie l'acronyme B2B en commerce électronique ?",
+"answer": "Business to Business",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du service de streaming musical fondé en Suède en 2006 ?",
+"answer": "Spotify",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du framework JavaScript développé par Facebook pour créer des interfaces utilisateur ?",
+"answer": "React",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Que signifie l'acronyme HTTP ?",
+"answer": "HyperText Transfer Protocol",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom de l'ordinateur portable emblématique fabriqué par Apple ?",
+"answer": "MacBook",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quelle entreprise a créé le système d'exploitation Windows ?",
+"answer": "Microsoft",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Que signifie l'acronyme AJAX en développement web ?",
+"answer": "Asynchronous JavaScript and XML",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du service de cartographie en ligne de Google ?",
+"answer": "Google Maps",
+"category": "Informatique & Internet",
+"difficulty": "facile"
+},
+{
+"question": "Quel ingénieur a cofondé Microsoft avec Bill Gates ?",
+"answer": "Paul Allen",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Que signifie l'acronyme XML ?",
+"answer": "eXtensible Markup Language",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom de l'appareil portable d'Apple lancé en 2001 pour écouter de la musique ?",
+"answer": "iPod",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle entreprise développe le logiciel de conception 3D Blender comme projet open source ?",
+"answer": "Blender Foundation",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Que signifie l'acronyme ISP en anglais pour fournisseur d'accès à Internet ?",
+"answer": "Internet Service Provider",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du jeu vidéo multijoueur en ligne créé par Riot Games, abrégé LoL ?",
+"answer": "League of Legends",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+},
+{
+"question": "Quel physicien est souvent cité pour avoir inventé le premier compilateur, aussi amirale de la marine américaine ?",
+"answer": "Grace Hopper",
+"category": "Informatique & Internet",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle entreprise a créé la plateforme de jeux vidéo Steam ?",
+"answer": "Valve",
+"category": "Informatique & Internet",
+"difficulty": "moyen"
+}
+]

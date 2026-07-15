@@ -1,0 +1,602 @@
+[
+{
+"question": "Quel mot désigne l'absence totale de bruit ?",
+"answer": "Le silence",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel mot désigne la qualité d'une personne qui dit toujours la vérité ?",
+"answer": "L'honnêteté",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on l'étude philosophique de la connaissance et de sa validité ?",
+"answer": "L'épistémologie",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment de bonheur intense et durable ?",
+"answer": "La félicité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme philosophique désigne la capacité d'agir selon sa propre volonté ?",
+"answer": "Le libre arbitre",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on la branche de la philosophie qui étudie la morale ?",
+"answer": "L'éthique",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne l'absence de mouvement ?",
+"answer": "L'immobilité",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne un raisonnement logique en trois propositions, dont deux prémisses et une conclusion ?",
+"answer": "Le syllogisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment d'être responsable de ses actes ?",
+"answer": "La responsabilité",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on la doctrine philosophique qui affirme que tout événement a une cause ?",
+"answer": "Le déterminisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'absence de vie ?",
+"answer": "La mort",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne la capacité de se mettre à la place d'autrui pour comprendre ses émotions ?",
+"answer": "L'empathie",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on la doctrine selon laquelle le plaisir est le bien suprême ?",
+"answer": "L'hédonisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne un raisonnement qui semble logique mais qui est faux ?",
+"answer": "Le sophisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'égalité de traitement entre tous les individus ?",
+"answer": "L'équité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment nomme-t-on la peur irrationnelle et persistante d'un objet ou d'une situation ?",
+"answer": "La phobie",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne l'état de ce qui n'a pas de limite ?",
+"answer": "L'infini",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme philosophique désigne la doctrine selon laquelle seule la matière existe ?",
+"answer": "Le matérialisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment de tristesse profonde après une perte ?",
+"answer": "Le chagrin",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la doctrine philosophique qui doute de toute connaissance certaine ?",
+"answer": "Le scepticisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne la qualité d'une personne courageuse face au danger ?",
+"answer": "Le courage",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne l'étude philosophique de l'être en tant qu'être ?",
+"answer": "L'ontologie",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment de gratitude envers quelqu'un ?",
+"answer": "La reconnaissance",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment nomme-t-on la contradiction apparente entre deux affirmations qui semblent toutes deux vraies ?",
+"answer": "Le paradoxe",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne l'absence de guerre entre deux nations ?",
+"answer": "La paix",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme philosophique désigne l'idée que l'esprit humain naît vierge, sans idées innées ?",
+"answer": "La table rase",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment d'admiration mêlé de respect ?",
+"answer": "La vénération",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on la capacité de choisir librement entre plusieurs possibilités ?",
+"answer": "La liberté",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne la doctrine selon laquelle l'univers entier est régi par la raison divine ou universelle ?",
+"answer": "Le stoïcisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'état d'esprit calme et détendu, sans inquiétude ?",
+"answer": "La sérénité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le contraire de la vérité ?",
+"answer": "Le mensonge",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on l'étude philosophique de la beauté et de l'art ?",
+"answer": "L'esthétique",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme désigne le fait de croire en l'existence d'un ou plusieurs dieux ?",
+"answer": "Le théisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment de peur face à l'inconnu ?",
+"answer": "L'angoisse",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne la capacité de pardonner une offense ?",
+"answer": "Le pardon",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la doctrine philosophique niant l'existence de Dieu ?",
+"answer": "L'athéisme",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme désigne un raisonnement qui va du général au particulier ?",
+"answer": "La déduction",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'inverse de l'ordre, le désordre total ?",
+"answer": "Le chaos",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne un raisonnement qui va du particulier au général ?",
+"answer": "L'induction",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment d'appartenance à un groupe ou une communauté ?",
+"answer": "La solidarité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment nomme-t-on la doctrine philosophique selon laquelle l'esprit prime sur la matière ?",
+"answer": "L'idéalisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'absence de peur ?",
+"answer": "Le courage",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne la doctrine qui affirme que la connaissance vient uniquement de l'expérience sensorielle ?",
+"answer": "L'empirisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le fait d'être juste et impartial ?",
+"answer": "La justice",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la croyance en l'existence de plusieurs dieux ?",
+"answer": "Le polythéisme",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le sentiment d'être libre de toute contrainte extérieure ?",
+"answer": "L'autonomie",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme philosophique désigne la doctrine selon laquelle la raison est la source principale de la connaissance ?",
+"answer": "Le rationalisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'opposé de la haine ?",
+"answer": "L'amour",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on la capacité de rester calme face à l'adversité ?",
+"answer": "La résilience",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le fait de partager équitablement quelque chose ?",
+"answer": "Le partage",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne la doctrine philosophique qui place l'existence individuelle avant l'essence ?",
+"answer": "L'existentialisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne la faculté de juger avec discernement ?",
+"answer": "Le bon sens",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne l'excès de confiance en soi, souvent négatif ?",
+"answer": "L'orgueil",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on l'étude philosophique du raisonnement et de sa validité ?",
+"answer": "La logique",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le fait d'accepter une situation sans se plaindre ?",
+"answer": "La résignation",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme désigne la doctrine selon laquelle le bien de la majorité doit primer ?",
+"answer": "L'utilitarisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'absence totale de couleur ?",
+"answer": "Le blanc (ou l'incolore)",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on le sentiment d'inquiétude vague et diffuse sans cause précise ?",
+"answer": "L'anxiété",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne la vertu de partager ses biens avec les autres ?",
+"answer": "La générosité",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme philosophique désigne l'affirmation que rien ne peut être connu avec certitude ?",
+"answer": "L'agnosticisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le fait de rester fidèle à ses engagements ?",
+"answer": "La loyauté",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la réflexion philosophique sur le sens de la vie et de l'existence ?",
+"answer": "La métaphysique",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'état d'être seul, sans compagnie ?",
+"answer": "La solitude",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne une vérité évidente qui ne nécessite pas de démonstration ?",
+"answer": "L'axiome",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment d'envie mêlé de ressentiment ?",
+"answer": "La jalousie",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on la doctrine philosophique qui recherche le bonheur par la modération des désirs ?",
+"answer": "L'épicurisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne la capacité d'anticiper l'avenir avec justesse ?",
+"answer": "La prévoyance",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme désigne un concept qui ne peut être ni prouvé ni réfuté logiquement ?",
+"answer": "L'indémontrable",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le respect scrupuleux des règles morales ?",
+"answer": "L'intégrité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on la croyance selon laquelle tout est prédéterminé par le destin ?",
+"answer": "Le fatalisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le fait d'être patient face à l'adversité ?",
+"answer": "La patience",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne la théorie selon laquelle la vérité dépend du contexte ou de la personne ?",
+"answer": "Le relativisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'attitude de celui qui respecte les opinions différentes des siennes ?",
+"answer": "La tolérance",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on l'état de plénitude spirituelle recherché dans le bouddhisme ?",
+"answer": "Le nirvana",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le fait d'être humble, sans excès de fierté ?",
+"answer": "L'humilité",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme philosophique désigne le principe selon lequel une chose ne peut être et ne pas être en même temps ?",
+"answer": "Le principe de non-contradiction",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne le sentiment de peur excessive et injustifiée ?",
+"answer": "L'angoisse",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on la vertu qui consiste à savoir se contrôler face aux excès ?",
+"answer": "La tempérance",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne l'opposé de l'ordre établi, le rejet de toute autorité ?",
+"answer": "L'anarchie",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme désigne la doctrine philosophique selon laquelle seul l'individu compte, au détriment du collectif ?",
+"answer": "L'individualisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne la faculté de créer des idées ou des œuvres originales ?",
+"answer": "La créativité",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment nomme-t-on la doctrine philosophique de Confucius centrée sur l'harmonie sociale ?",
+"answer": "Le confucianisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'état de ce qui est en accord avec la raison ?",
+"answer": "La rationalité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le sentiment profond de satisfaction et d'accomplissement ?",
+"answer": "L'épanouissement",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on la doctrine philosophique qui nie toute valeur ou vérité absolue ?",
+"answer": "Le nihilisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'aptitude à s'adapter facilement aux changements ?",
+"answer": "La flexibilité",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne l'étude philosophique du langage et de sa signification ?",
+"answer": "La philosophie du langage",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'attachement excessif aux biens matériels ?",
+"answer": "Le matérialisme",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment nomme-t-on le raisonnement fondé sur une analogie entre deux situations similaires ?",
+"answer": "L'analogie",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mot désigne le fait de reconnaître ses erreurs avec sincérité ?",
+"answer": "Le remords",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme philosophique kantien désigne un devoir moral absolu, valable en toute circonstance ?",
+"answer": "L'impératif catégorique",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'absence d'espoir ?",
+"answer": "Le désespoir",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la vertu de rester ferme dans ses convictions malgré les obstacles ?",
+"answer": "La persévérance",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel mot désigne le fait de croire sans preuve, souvent en matière religieuse ?",
+"answer": "La foi",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Quel terme désigne la théorie philosophique de Platon selon laquelle les idées existent indépendamment du monde sensible ?",
+"answer": "La théorie des idées (ou des Formes)",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne la capacité de comprendre rapidement une situation complexe ?",
+"answer": "La perspicacité",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Comment nomme-t-on le sentiment de bien-être total, sans souci ni douleur ?",
+"answer": "La quiétude",
+"category": "Concepts abstraits",
+"difficulty": "moyen"
+},
+{
+"question": "Quel terme philosophique désigne l'idée que la réalité extérieure n'existe pas indépendamment de la perception ?",
+"answer": "Le solipsisme",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+},
+{
+"question": "Quel mot désigne l'opposé de la certitude ?",
+"answer": "Le doute",
+"category": "Concepts abstraits",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la doctrine qui affirme que l'homme est naturellement bon avant d'être corrompu par la société ?",
+"answer": "Le mythe du bon sauvage",
+"category": "Concepts abstraits",
+"difficulty": "difficile"
+}
+]

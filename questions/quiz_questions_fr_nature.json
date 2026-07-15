@@ -1,0 +1,602 @@
+[
+{
+"question": "Quelle est la couleur du sang du homard ?",
+"answer": "Bleu",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel insecte est essentiel à la pollinisation de nombreuses cultures ?",
+"answer": "L'abeille",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle est la principale cause de l'extinction des espèces aujourd'hui ?",
+"answer": "La destruction des habitats",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du plus grand cratère d'impact météoritique confirmé sur Terre, en Afrique du Sud ?",
+"answer": "Le cratère de Vredefort",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle est la principale source d'énergie renouvelable issue du soleil ?",
+"answer": "L'énergie solaire",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du courant marin chaud qui réchauffe l'Europe de l'Ouest ?",
+"answer": "Le Gulf Stream",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle plante aquatique est réputée pour sa croissance très rapide et envahissante ?",
+"answer": "La jacinthe d'eau",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Comment appelle-t-on la culture de plantes sans pesticides ni engrais chimiques ?",
+"answer": "L'agriculture biologique",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de l'accord international de 2015 sur le climat signé à Paris ?",
+"answer": "L'accord de Paris",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du processus de purification de l'eau par les zones humides ?",
+"answer": "La filtration naturelle",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle espèce d'arbre perd ses feuilles chaque automne ?",
+"answer": "Un arbre feuillu (caduc)",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du trou dans la couche d'ozone découvert au-dessus de l'Antarctique ?",
+"answer": "Le trou de la couche d'ozone",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel mammifère marin est capable de rester en apnée plus de 90 minutes ?",
+"answer": "Le cachalot",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du plus grand océan du monde ?",
+"answer": "L'océan Pacifique",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel fruit tropical pousse sur un plant et non sur un arbre ?",
+"answer": "L'ananas",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle est la vitesse moyenne du vent nécessaire pour qu'une tempête devienne un ouragan ?",
+"answer": "119 km/h",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Comment appelle-t-on un animal qui se nourrit exclusivement de plantes ?",
+"answer": "Un herbivore",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le principal prédateur naturel du phoque en Antarctique ?",
+"answer": "L'orque",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du puits naturel formé par l'effondrement du sol au-dessus d'une cavité ?",
+"answer": "Un gouffre (doline)",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel animal est le symbole du WWF ?",
+"answer": "Le panda géant",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel poisson est capable de générer des décharges électriques ?",
+"answer": "L'anguille électrique",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom scientifique du processus de formation des sols ?",
+"answer": "La pédogenèse",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le plus grand désert chaud du monde ?",
+"answer": "Le Sahara",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de la théorie expliquant le déplacement des continents ?",
+"answer": "La tectonique des plaques",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Combien de temps met une bouteille en plastique à se décomposer dans la nature, environ ?",
+"answer": "450 ans",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel gaz est essentiel à la respiration des êtres vivants ?",
+"answer": "L'oxygène",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du plus haut volcan actif d'Europe ?",
+"answer": "L'Etna",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du plus grand mammifère marin après la baleine bleue ?",
+"answer": "La baleine à bosse",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le plus grand mammifère terrestre ?",
+"answer": "L'éléphant d'Afrique",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Comment s'appelle le phénomène de réchauffement anormal des eaux du Pacifique équatorial ?",
+"answer": "El Niño",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Combien d'espèces d'insectes seraient connues sur Terre, environ ?",
+"answer": "Un million",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel animal africain a le cou le plus long ?",
+"answer": "La girafe",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du phénomène de montée du niveau des mers lié au réchauffement climatique ?",
+"answer": "L'élévation du niveau de la mer",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel gaz volcanique est responsable de l'odeur d'œuf pourri près des sources chaudes ?",
+"answer": "Le soufre (hydrogène sulfuré)",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle forêt tropicale est surnommée le \"poumon de la Terre\" ?",
+"answer": "La forêt amazonienne",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle est la principale cause naturelle des incendies de forêt ?",
+"answer": "La foudre",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel type de roche se forme par refroidissement rapide de la lave ?",
+"answer": "La roche basaltique",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle planète est surnommée la \"planète rouge\" ?",
+"answer": "Mars",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle plante carnivore referme ses feuilles pour piéger ses proies ?",
+"answer": "La dionée",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du plus grand marais salant du monde, situé en Bolivie ?",
+"answer": "Le Salar d'Uyuni",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel animal est réputé pour son excellent odorat, souvent utilisé pour la recherche ?",
+"answer": "Le chien",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle est l'unité de mesure de la magnitude d'un séisme ?",
+"answer": "L'échelle de Richter",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom scientifique du réseau de champignons souterrains reliant les arbres d'une forêt ?",
+"answer": "Le réseau mycorhizien",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel animal change de couleur pour se camoufler ?",
+"answer": "Le caméléon",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle plante est utilisée pour fabriquer le caoutchouc naturel ?",
+"answer": "L'hévéa",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Combien de cœurs possède une pieuvre ?",
+"answer": "Trois",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel insecte social produit du miel ?",
+"answer": "L'abeille",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on les roches issues du refroidissement du magma ?",
+"answer": "Les roches volcaniques",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du protocole international de 1997 visant à réduire les gaz à effet de serre ?",
+"answer": "Le protocole de Kyoto",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Comment appelle-t-on la déforestation massive causée par l'activité humaine ?",
+"answer": "La déforestation",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Comment s'appelle le phénomène lumineux visible près des pôles ?",
+"answer": "L'aurore boréale",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on l'ensemble des micro-organismes vivant dans le sol ?",
+"answer": "La microfaune du sol",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel animal est connu pour hiberner pendant l'hiver ?",
+"answer": "L'ours",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on la fonte accélérée des glaciers due au réchauffement ?",
+"answer": "Le recul glaciaire",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle est la plus grande fleur du monde, originaire d'Indonésie ?",
+"answer": "La Rafflesia",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Comment appelle-t-on la science qui étudie les relations entre les êtres vivants et leur milieu ?",
+"answer": "L'écologie",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel pourcentage approximatif de la surface terrestre est recouvert d'eau ?",
+"answer": "71%",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du désert le plus grand et le plus froid du monde ?",
+"answer": "L'Antarctique",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le plus haut sommet du monde ?",
+"answer": "L'Everest",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de la plus grande forêt boréale du monde, en Russie ?",
+"answer": "La taïga",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle est la durée de vie moyenne d'une tortue géante des Galápagos ?",
+"answer": "Environ 100 ans",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel arbre produit les glands ?",
+"answer": "Le chêne",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle espèce de requin est la plus grande du monde ?",
+"answer": "Le requin-baleine",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du plus grand mammifère terrestre après l'éléphant ?",
+"answer": "Le rhinocéros blanc",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel pays possède la plus grande superficie de forêt tropicale amazonienne ?",
+"answer": "Le Brésil",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle est la plus grande île du monde ?",
+"answer": "Le Groenland",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du recyclage naturel des éléments nutritifs dans un écosystème ?",
+"answer": "Le cycle des nutriments",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Comment appelle-t-on une vague géante provoquée par un séisme sous-marin ?",
+"answer": "Un tsunami",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle est la couche la plus interne de la Terre ?",
+"answer": "Le noyau",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du système de classification des espèces menacées établi par l'UICN ?",
+"answer": "La liste rouge",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du processus par lequel l'eau passe de l'état liquide à l'état gazeux ?",
+"answer": "L'évaporation",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom de l'arbre le plus haut du monde ?",
+"answer": "Le séquoia",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on un écosystème de transition entre deux milieux, comme la forêt et la prairie ?",
+"answer": "Un écotone",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quelle couche de l'atmosphère nous protège des rayons ultraviolets ?",
+"answer": "La couche d'ozone",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel gaz est libéré en grande quantité par les vaches et contribue au réchauffement climatique ?",
+"answer": "Le méthane",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du plus grand lac d'eau douce du monde par volume ?",
+"answer": "Le lac Baïkal",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel félin est le plus rapide sur terre ?",
+"answer": "Le guépard",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le plus petit oiseau du monde ?",
+"answer": "Le colibri",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le plus grand animal terrestre ayant jamais existé ?",
+"answer": "Le dinosaure (Argentinosaurus)",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom de l'effet qui retient la chaleur dans l'atmosphère terrestre ?",
+"answer": "L'effet de serre",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel gaz est le principal composant de l'atmosphère terrestre ?",
+"answer": "L'azote",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle est la plante terrestre la plus ancienne encore vivante aujourd'hui, un arbre du Nevada ?",
+"answer": "Le pin Bristlecone",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le plus long fleuve du monde ?",
+"answer": "Le Nil",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quelle est la plus grande barrière de corail du monde ?",
+"answer": "La Grande Barrière de corail",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le plus venimeux des serpents terrestres ?",
+"answer": "Le taïpan du désert",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel gaz les plantes absorbent-elles lors de la photosynthèse ?",
+"answer": "Le dioxyde de carbone",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le nom du phénomène naturel qui provoque les marées ?",
+"answer": "L'attraction lunaire",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on le phénomène d'accumulation de substances toxiques dans la chaîne alimentaire ?",
+"answer": "La bioaccumulation",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel est le nom du plus grand fleuve d'Amérique du Sud par débit ?",
+"answer": "L'Amazone",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le processus par lequel les plantes perdent de l'eau sous forme de vapeur ?",
+"answer": "La transpiration",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel est le nom du courant marin froid qui longe les côtes du Pérou ?",
+"answer": "Le courant de Humboldt",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau est incapable de voler mais excellent nageur, vivant en Antarctique ?",
+"answer": "Le manchot",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Comment appelle-t-on l'étude scientifique des tremblements de terre ?",
+"answer": "La sismologie",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau migrateur parcourt la plus grande distance chaque année ?",
+"answer": "La sterne arctique",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Quel animal marin est le plus grand du monde ?",
+"answer": "La baleine bleue",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel continent abrite le plus de réserves de biodiversité tropicale ?",
+"answer": "L'Amérique du Sud",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Quelle est la profondeur approximative de la fosse des Mariannes ?",
+"answer": "Environ 11 000 mètres",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+},
+{
+"question": "Combien de pattes possède une araignée ?",
+"answer": "Huit",
+"category": "Nature & Environnement",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le principal gaz à effet de serre émis par l'activité humaine ?",
+"answer": "Le CO2",
+"category": "Nature & Environnement",
+"difficulty": "moyen"
+},
+{
+"question": "Comment appelle-t-on l'ensemble des êtres vivants d'un milieu donné ?",
+"answer": "La biocénose",
+"category": "Nature & Environnement",
+"difficulty": "difficile"
+}
+]
