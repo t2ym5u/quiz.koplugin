@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Combien l'être humain a-t-il d'os à l'âge adulte ?",
+    "answer": "206",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe le plus volumineux du corps humain ?",
+    "answer": "La peau",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel scientifique français a mis au point le premier vaccin contre la rage ?",
+    "answer": "Louis Pasteur",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel médecin britannique a découvert la pénicilline en 1928 ?",
+    "answer": "Alexander Fleming",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de chambres compte le cœur humain ?",
+    "answer": "4",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le groupe sanguin dit 'donneur universel' ?",
+    "answer": "O négatif",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle maladie est causée par une carence en vitamine C ?",
+    "answer": "Le scorbut",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel organe produit l'insuline ?",
+    "answer": "Le pancréas",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus grand os du corps humain ?",
+    "answer": "Le fémur",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle bactérie est responsable de la tuberculose ?",
+    "answer": "Le bacille de Koch",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de litres de sang contient en moyenne le corps d'un adulte ?",
+    "answer": "5 litres",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe responsable de la filtration du sang et de la production d'urine ?",
+    "answer": "Le rein",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année l'Organisation mondiale de la santé a-t-elle déclaré la variole officiellement éradiquée ?",
+    "answer": "1980",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel virus est responsable du SIDA ?",
+    "answer": "VIH",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel médecin autrichien est le fondateur de la psychanalyse ?",
+    "answer": "Sigmund Freud",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la glande qui régule le métabolisme et se situe dans le cou ?",
+    "answer": "La thyroïde",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle maladie est transmise par la piqûre d'un moustique du genre Anophèle ?",
+    "answer": "Le paludisme",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de paires de côtes possède l'être humain ?",
+    "answer": "12",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom scientifique de l'os de la mâchoire inférieure ?",
+    "answer": "La mandibule",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle pandémie de grippe a fait des dizaines de millions de morts entre 1918 et 1919 ?",
+    "answer": "La grippe espagnole",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe principal du système nerveux central avec la moelle épinière ?",
+    "answer": "Le cerveau",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien allemand a découvert les rayons X en 1895 ?",
+    "answer": "Wilhelm Röntgen",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la maladie provoquée par une accumulation excessive de sucre dans le sang ?",
+    "answer": "Le diabète",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de dents possède un adulte humain en denture complète ?",
+    "answer": "32",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle chimiste polonaise a découvert le radium et le polonium ?",
+    "answer": "Marie Curie",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'artère principale qui part du cœur ?",
+    "answer": "L'aorte",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle maladie infantile provoque des taches rouges caractéristiques et est évitée par le vaccin ROR ?",
+    "answer": "La rougeole",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du médecin grec considéré comme le père de la médecine ?",
+    "answer": "Hippocrate",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle hormone est produite en excès dans le cas d'une hyperthyroïdie ?",
+    "answer": "La thyroxine",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est l'organe qui stocke et concentre la bile produite par le foie ?",
+    "answer": "La vésicule biliaire",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom courant de la maladie appelée 'coqueluche' en anglais 'whooping cough' ?",
+    "answer": "La coqueluche",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel os protège le cerveau ?",
+    "answer": "Le crâne",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle unité mesure la pression artérielle ?",
+    "answer": "Millimètre de mercure (mmHg)",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel virus provoque la varicelle et le zona ?",
+    "answer": "Le virus varicelle-zona",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du muscle principal de la respiration situé sous les poumons ?",
+    "answer": "Le diaphragme",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle épidémie meurtrière a ravagé l'Europe au XIVe siècle, surnommée 'la mort noire' ?",
+    "answer": "La peste noire",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la cellule sanguine responsable du transport de l'oxygène ?",
+    "answer": "Le globule rouge",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel chirurgien français a développé les premières techniques modernes de chirurgie au XVIe siècle ?",
+    "answer": "Ambroise Paré",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de vertèbres compte la colonne vertébrale humaine ?",
+    "answer": "33",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la maladie causée par une piqûre de tique et transmise par la bactérie Borrelia ?",
+    "answer": "La maladie de Lyme",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel gaz les poumons rejettent-ils principalement lors de l'expiration ?",
+    "answer": "Le dioxyde de carbone",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel médecin hongrois a préconisé le lavage des mains pour réduire la mortalité en maternité au XIXe siècle ?",
+    "answer": "Ignace Semmelweis",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom scientifique de l'appendice ?",
+    "answer": "Appendice vermiforme",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle vitamine est principalement synthétisée par la peau sous l'effet du soleil ?",
+    "answer": "La vitamine D",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du processus par lequel le sang coagule pour arrêter un saignement ?",
+    "answer": "La coagulation",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle maladie neurodégénérative provoque des tremblements et une lenteur des mouvements, décrite par un médecin anglais en 1817 ?",
+    "answer": "La maladie de Parkinson",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la partie de l'œil qui donne sa couleur ?",
+    "answer": "L'iris",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel biologiste britannique a développé la première méthode de vaccination contre la variole en 1796 ?",
+    "answer": "Edward Jenner",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de temps dure en moyenne une grossesse humaine, en semaines ?",
+    "answer": "40 semaines",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe principal du système digestif où débute la digestion chimique des aliments ?",
+    "answer": "L'estomac",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle maladie respiratoire chronique provoque une inflammation et un rétrécissement des bronches ?",
+    "answer": "L'asthme",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du plus petit os du corps humain, situé dans l'oreille ?",
+    "answer": "L'étrier",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel savant a développé la théorie des germes responsables des maladies infectieuses au XIXe siècle, avec Pasteur ?",
+    "answer": "Robert Koch",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle maladie est provoquée par une carence en vitamine B1 (thiamine) ?",
+    "answer": "Le béribéri",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'os situé entre le genou et la cheville, à l'avant ?",
+    "answer": "Le tibia",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel savant a inventé le stéthoscope en 1816 ?",
+    "answer": "René Laennec",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la maladie auto-immune qui attaque la gaine de myéline des nerfs ?",
+    "answer": "La sclérose en plaques",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de temps dure en moyenne un cycle cardiaque au repos, en battements par minute ?",
+    "answer": "Environ 70 battements/minute",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'inflammation du foie souvent causée par un virus ?",
+    "answer": "L'hépatite",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle molécule contenue dans les globules rouges transporte l'oxygène ?",
+    "answer": "L'hémoglobine",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle glande est surnommée 'chef d'orchestre' du système hormonal, située sous le cerveau ?",
+    "answer": "L'hypophyse",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la maladie causée par le manque d'iode et provoquant un gonflement du cou ?",
+    "answer": "Le goitre",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de poumons possède l'être humain ?",
+    "answer": "2",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du chercheur américain qui a mis au point le vaccin injectable contre la polio en 1955 ?",
+    "answer": "Jonas Salk",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la maladie provoquée par une inflammation des articulations ?",
+    "answer": "L'arthrite",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du processus de division cellulaire qui produit les cellules reproductrices ?",
+    "answer": "La méiose",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle maladie virale transmise par les chauves-souris ou chiens infectés est mortelle sans traitement rapide ?",
+    "answer": "La rage",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la substance blanche isolante qui entoure certains nerfs ?",
+    "answer": "La myéline",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de côtes flottantes possède l'être humain (non attachées au sternum) ?",
+    "answer": "2",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'organe qui filtre les toxines et fabrique la bile ?",
+    "answer": "Le foie",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle maladie provoque une décoloration jaune de la peau et des yeux, souvent liée au foie ?",
+    "answer": "La jaunisse",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel scientifique néerlandais a observé pour la première fois des micro-organismes au microscope au XVIIe siècle ?",
+    "answer": "Antoni van Leeuwenhoek",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom courant de la tension artérielle élevée ?",
+    "answer": "L'hypertension",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la maladie génétique qui affecte l'hémoglobine et déforme les globules rouges en croissant ?",
+    "answer": "La drépanocytose",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de temps dure environ le cycle du sommeil complet (une nuit) recommandé pour un adulte, en heures ?",
+    "answer": "7 à 9 heures",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la substance produite par le corps pour combattre les infections, présente dans le système immunitaire ?",
+    "answer": "Les anticorps",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la maladie causée par une infestation de poux ?",
+    "answer": "La pédiculose",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle partie de l'oreille est responsable de l'équilibre ?",
+    "answer": "L'oreille interne",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du gaz utilisé en anesthésie générale, découvert au XIXe siècle et appelé 'gaz hilarant' ?",
+    "answer": "Le protoxyde d'azote",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle maladie chronique se caractérise par des crises douloureuses articulaires liées à un excès d'acide urique ?",
+    "answer": "La goutte",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'os en forme de bouclier situé à l'avant du genou ?",
+    "answer": "La rotule",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel chirurgien sud-africain a réalisé la première greffe cardiaque humaine en 1967 ?",
+    "answer": "Christiaan Barnard",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la maladie pulmonaire causée par l'inhalation de poussière de charbon chez les mineurs ?",
+    "answer": "La silicose",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel organe des sens permet de détecter les odeurs ?",
+    "answer": "Le nez",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du processus par lequel les cellules se divisent pour la croissance et la réparation des tissus ?",
+    "answer": "La mitose",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle maladie infectieuse, transmise sexuellement, était surnommée 'la vérole' en Europe autrefois ?",
+    "answer": "La syphilis",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'hormone du stress sécrétée par les glandes surrénales ?",
+    "answer": "L'adrénaline",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de muscles compte approximativement le corps humain ?",
+    "answer": "Environ 600",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du médecin allemand qui a identifié la bactérie responsable du choléra en 1883 ?",
+    "answer": "Robert Koch",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle partie du corps est atteinte par la conjonctivite ?",
+    "answer": "L'œil",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la technique d'imagerie médicale utilisant des champs magnétiques, abrégée IRM ?",
+    "answer": "Imagerie par résonance magnétique",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle maladie provoque une perte progressive de la mémoire et fut décrite par un médecin allemand en 1906 ?",
+    "answer": "La maladie d'Alzheimer",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom scientifique du muscle du mollet situé à l'arrière de la jambe ?",
+    "answer": "Le mollet (gastrocnémien)",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays a été le foyer initial de l'épidémie de virus Ebola identifiée en 1976 ?",
+    "answer": "La République démocratique du Congo",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom courant de la maladie causée par une intolérance au gluten ?",
+    "answer": "La maladie cœliaque",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'organe qui produit les spermatozoïdes chez l'homme ?",
+    "answer": "Les testicules",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle vitamine est essentielle à la coagulation sanguine ?",
+    "answer": "La vitamine K",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du vaisseau sanguin qui ramène le sang vers le cœur ?",
+    "answer": "La veine",
+    "category": "Santé & Médecine",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle maladie provoque une inflammation du pancréas ?",
+    "answer": "La pancréatite",
+    "category": "Santé & Médecine",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la protéine responsable des groupes sanguins ABO présente à la surface des globules rouges ?",
+    "answer": "Antigène (agglutinogène)",
+    "category": "Santé & Médecine",
+    "difficulty": "difficile"
+  }
+]

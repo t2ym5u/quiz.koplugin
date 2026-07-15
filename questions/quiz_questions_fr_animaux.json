@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel animal est capable de dormir avec un seul hémisphère cérébral à la fois ?",
+    "answer": "Le dauphin",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle espèce de singe est la plus proche génétiquement de l'être humain ?",
+    "answer": "Le chimpanzé",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal terrestre possède la peau la plus épaisse, jusqu'à plusieurs centimètres ?",
+    "answer": "Le rhinocéros",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la principale nourriture du koala ?",
+    "answer": "Les feuilles d'eucalyptus",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal est surnommé le roi de la savane ?",
+    "answer": "Le lion",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel oiseau niche sur le dos d'un autre pour couver ses œufs sans nid propre, en parasite ?",
+    "answer": "Le coucou",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus grand félin sauvage du monde ?",
+    "answer": "Le tigre",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal est considéré comme le plus intelligent parmi les oiseaux ?",
+    "answer": "Le corbeau",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal est capable de régénérer une patte ou une queue perdue ?",
+    "answer": "Le lézard",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est l'animal terrestre le plus lent au monde, vivant dans les arbres ?",
+    "answer": "Le paresseux",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal marin dispose de cinq rangées de dents en moyenne dans sa mâchoire, comme le requin ?",
+    "answer": "Le requin",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du petit du cochon ?",
+    "answer": "Le porcelet",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel insecte est réputé pour sa métamorphose spectaculaire de chenille en papillon ?",
+    "answer": "Le papillon",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de temps un escargot peut-il hiberner ?",
+    "answer": "Plusieurs mois",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom donné au petit du lapin ?",
+    "answer": "Le lapereau",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal africain vit en groupe appelé clan et est réputé pour son rire caractéristique ?",
+    "answer": "La hyène",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom donné au petit du cheval ?",
+    "answer": "Le poulain",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom donné au groupe de lions ?",
+    "answer": "La troupe",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus grand mammifère marin ?",
+    "answer": "La baleine bleue",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal a la plus longue durée de gestation parmi les mammifères ?",
+    "answer": "L'éléphant",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal possède la queue préhensile, très utile pour se déplacer dans les arbres ?",
+    "answer": "Le singe (atèle)",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal marin possède un cœur qui s'arrête presque quand il nage, pour économiser de l'énergie ?",
+    "answer": "La pieuvre",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal marin est capable de projeter de l'encre pour échapper à ses prédateurs ?",
+    "answer": "La pieuvre",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel oiseau rapace nocturne est réputé pour sa capacité à tourner la tête à 270 degrés ?",
+    "answer": "La chouette",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus grand serpent du monde en longueur ?",
+    "answer": "Le python réticulé",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal possède une carapace qu'il ne peut pas quitter, contrairement à une idée reçue ?",
+    "answer": "La tortue",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom donné à la peur des araignées ?",
+    "answer": "L'arachnophobie",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal marin venimeux est surnommé la « guêpe de mer » ?",
+    "answer": "La méduse-boîte",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus petit oiseau du monde ?",
+    "answer": "Le colibri-abeille",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la vitesse de pointe approximative du guépard ?",
+    "answer": "110 km/h",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal est connu pour dormir debout et peut le faire jusqu'à 22 heures par jour à l'état sauvage ?",
+    "answer": "Le koala",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal marin possède huit bras et non des tentacules, contrairement au calmar ?",
+    "answer": "La pieuvre",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné à un groupe de dauphins ?",
+    "answer": "Un banc (ou une école)",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal change de couleur pour se camoufler grâce à des cellules spéciales ?",
+    "answer": "Le caméléon",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre actuel ?",
+    "answer": "L'éléphant d'Afrique",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal aquatique possède un sonar naturel appelé écholocation ?",
+    "answer": "Le dauphin",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de cœurs possède une pieuvre ?",
+    "answer": "3",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la femelle du cerf ?",
+    "answer": "La biche",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal marin possède le plus grand nombre de bras, généralement cinq ou plus, et peut les régénérer ?",
+    "answer": "L'étoile de mer",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'unique mammifère pondant des œufs, originaire d'Australie ?",
+    "answer": "L'ornithorynque",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du félin domestique originaire d'Égypte antique, très vénéré ?",
+    "answer": "Le chat",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand oiseau volant du monde en envergure ?",
+    "answer": "L'albatros hurleur",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal possède la morsure la plus puissante parmi les mammifères terrestres ?",
+    "answer": "L'hippopotame",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit du kangourou ?",
+    "answer": "Le joey",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'animal terrestre ayant la vue la plus perçante, un rapace ?",
+    "answer": "L'aigle",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom donné au mâle de la chèvre ?",
+    "answer": "Le bouc",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est l'animal le plus venimeux du monde marin, une petite pieuvre aux anneaux bleus ?",
+    "answer": "La pieuvre à anneaux bleus",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal est capable de sauter jusqu'à 200 fois sa propre taille, un insecte ?",
+    "answer": "La puce",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la particularité du caribou concernant ses bois ?",
+    "answer": "Les deux sexes portent des bois",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de vertèbres cervicales possède une girafe ?",
+    "answer": "7",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel mammifère marin est réputé pour son intelligence et communique par sifflements ?",
+    "answer": "Le dauphin",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel oiseau est célèbre pour imiter la voix humaine et d'autres sons ?",
+    "answer": "Le perroquet",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la particularité du caméléon concernant ses yeux ?",
+    "answer": "Ils bougent indépendamment l'un de l'autre",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la durée de gestation approximative d'un éléphant ?",
+    "answer": "22 mois",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de temps peut vivre une tortue géante des Galápagos environ ?",
+    "answer": "Plus de 100 ans",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus petit mammifère du monde en taille ?",
+    "answer": "La musaraigne étrusque",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal possède le plus grand cerveau du règne animal en poids absolu ?",
+    "answer": "Le cachalot",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de temps un ours peut-il hiberner environ, en hiver ?",
+    "answer": "5 à 7 mois",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la particularité respiratoire des grenouilles adultes en plus de leurs poumons ?",
+    "answer": "Elles respirent par la peau",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du petit de la vache ?",
+    "answer": "Le veau",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal marin est capable de changer de sexe au cours de sa vie, comme le poisson-clown ?",
+    "answer": "Le poisson-clown",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné au mâle de la poule ?",
+    "answer": "Le coq",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom scientifique donné au plus grand animal ayant jamais existé sur Terre ?",
+    "answer": "La baleine bleue",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel oiseau migrateur parcourt la plus longue distance chaque année, entre l'Arctique et l'Antarctique ?",
+    "answer": "La sterne arctique",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal marin est le plus grand mollusque connu ?",
+    "answer": "Le calmar géant",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal africain possède le cou le plus long parmi les mammifères ?",
+    "answer": "La girafe",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel oiseau est capable de voler à reculons ?",
+    "answer": "Le colibri",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est l'animal le plus rapide du monde en piqué, un rapace ?",
+    "answer": "Le faucon pèlerin",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus rapide des félins terrestres ?",
+    "answer": "Le guépard",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal marin géant possède le plus grand œil du règne animal ?",
+    "answer": "Le calmar géant",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus grand oiseau vivant ?",
+    "answer": "L'autruche",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal africain est réputé pour ses défenses en ivoire, aujourd'hui menacé par le braconnage ?",
+    "answer": "L'éléphant",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la durée de vie moyenne d'un perroquet gris du Gabon ?",
+    "answer": "50 à 60 ans",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du petit du mouton ?",
+    "answer": "L'agneau",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal domestique est le meilleur ami de l'homme depuis des millénaires ?",
+    "answer": "Le chien",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel oiseau construit le plus grand nid parmi les oiseaux, pouvant peser plusieurs tonnes au fil des ans ?",
+    "answer": "L'aigle royal",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal marin est le plus grand crustacé terrestre au monde, vivant sur les îles tropicales ?",
+    "answer": "Le crabe de cocotier",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de pattes possède une araignée ?",
+    "answer": "8",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal possède la trompe la plus caractéristique du règne animal ?",
+    "answer": "L'éléphant",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel oiseau australien est incapable de voler mais court très vite, cousin de l'autruche ?",
+    "answer": "L'émeu",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien d'yeux possède une abeille ?",
+    "answer": "5",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel mammifère aquatique est surnommé la « vache de mer » en raison de son alimentation herbivore ?",
+    "answer": "Le lamantin",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel oiseau est incapable de voler et vit en Antarctique ?",
+    "answer": "Le manchot empereur",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le seul mammifère capable de voler activement ?",
+    "answer": "La chauve-souris",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal domestique est élevé principalement pour sa laine ?",
+    "answer": "Le mouton",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment s'appelle le processus par lequel un serpent perd sa peau ?",
+    "answer": "La mue",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel animal possède des rayures uniques à chaque individu, comme une empreinte digitale ?",
+    "answer": "Le zèbre",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus grand reptile vivant actuellement ?",
+    "answer": "Le crocodile marin",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel animal marin possède un venin mortel dans ses épines dorsales et se camoufle sur les fonds marins ?",
+    "answer": "Le poisson-pierre",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du plus grand poisson du monde ?",
+    "answer": "Le requin-baleine",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom scientifique du panda roux, souvent confondu avec le raton laveur ?",
+    "answer": "Ailurus fulgens",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus venimeux des serpents terrestres au monde selon la toxicité de son venin ?",
+    "answer": "Le taïpan du désert",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel insecte est capable de soulever plusieurs fois son propre poids ?",
+    "answer": "La fourmi",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le seul reptile capable de cligner des yeux avec deux paupières et une membrane clignotante ?",
+    "answer": "Le crocodile",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de cœurs possède un ver de terre ?",
+    "answer": "5",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du groupe de loups ?",
+    "answer": "La meute",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal marin dispose de trois cœurs et d'un sang bleu ?",
+    "answer": "La pieuvre",
+    "category": "Animaux",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus grand des singes actuels ?",
+    "answer": "Le gorille",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel animal est le symbole de la Chine et se nourrit presque exclusivement de bambou ?",
+    "answer": "Le panda géant",
+    "category": "Animaux",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la durée de vie moyenne d'un hamster domestique ?",
+    "answer": "2 à 3 ans",
+    "category": "Animaux",
+    "difficulty": "moyen"
+  }
+]

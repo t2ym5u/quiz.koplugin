@@ -1,0 +1,602 @@
+[
+{
+"question": "Quel est le plus grand oiseau vivant au monde, incapable de voler ?",
+"answer": "L'autruche",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau est connu pour son incapacité à voler et pour vivre en Antarctique ?",
+"answer": "Le manchot (empereur)",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel rapace nocturne est symbole de sagesse ?",
+"answer": "Le hibou (ou la chouette)",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le seul mammifère capable de voler activement ?",
+"answer": "La chauve-souris",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau migrateur est célèbre pour parcourir des milliers de kilomètres entre l'Arctique et l'Antarctique ?",
+"answer": "La sterne arctique",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau national des États-Unis figure sur leur emblème ?",
+"answer": "Le pygargue à tête blanche",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Combien de pattes possède une abeille ?",
+"answer": "Six",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau est réputé pour imiter la voix humaine et d'autres sons ?",
+"answer": "Le perroquet",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel est le plus rapide des oiseaux en piqué, pouvant dépasser 300 km/h ?",
+"answer": "Le faucon pèlerin",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel reptile change de couleur pour se camoufler ou communiquer ?",
+"answer": "Le caméléon",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau construit un nid flottant et vit près des plans d'eau, connu pour sa fidélité ?",
+"answer": "Le cygne",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel insecte produit du miel ?",
+"answer": "L'abeille",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel amphibien passe du stade de tétard à sa forme adulte par métamorphose ?",
+"answer": "La grenouille",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau est capable de voler en arrière grâce à sa morphologie unique ?",
+"answer": "Le colibri",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel poisson est capable de générer une décharge électrique pour se défendre ?",
+"answer": "L'anguille électrique",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau noir et blanc, symbole de paix, porte souvent un rameau d'olivier ?",
+"answer": "La colombe",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel reptile marin peut vivre plus de cent ans, avec une carapace protectrice ?",
+"answer": "La tortue de mer",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau migrateur symbolise l'arrivée du printemps en Europe ?",
+"answer": "L'hirondelle",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel insecte est célèbre pour sa métamorphose de chenille en créature ailée colorée ?",
+"answer": "Le papillon",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau échassier rose vit en grands groupes près des lacs salés ?",
+"answer": "Le flamant rose",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel serpent venimeux d'Afrique et d'Asie porte un capuchon qu'il déploie en cas de menace ?",
+"answer": "Le cobra",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau réalise chaque année une migration entre l'Europe et l'Afrique, symbole des cheminées ?",
+"answer": "La cigogne",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel poisson des mers froides est connu pour nager à contre-courant pour se reproduire en rivière ?",
+"answer": "Le saumon",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau de proie chasse principalement la nuit grâce à une excellente ouïe ?",
+"answer": "La chouette",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel insecte social vit en colonies organisées avec une reine, comme les abeilles ?",
+"answer": "La fourmi",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau marin est réputé pour plonger en piqué pour attraper des poissons ?",
+"answer": "Le fou de Bassan",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel reptile sans pattes se déplace en ondulant son corps ?",
+"answer": "Le serpent",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau chanteur est réputé pour son chant nocturne mélodieux, symbole des poètes ?",
+"answer": "Le rossignol",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel amphibien vénéneux d'Amérique du Sud est très coloré et sert à fabriquer des poisons de flèche ?",
+"answer": "La grenouille dendrobate (grenouille poison)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau australien incapable de voler est le deuxième plus grand oiseau du monde ?",
+"answer": "L'émeu",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel poisson plat vit sur le fond marin avec les deux yeux du même côté du corps ?",
+"answer": "La sole",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau est le symbole de la France sur certains emblèmes sportifs ?",
+"answer": "Le coq",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel insecte se transforme en chrysalide avant de devenir papillon ?",
+"answer": "La chenille",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau des zones polaires pond son œuf unique porté sur les pattes de son partenaire ?",
+"answer": "Le manchot empereur",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel reptile est capable de régénérer sa queue après une attaque ?",
+"answer": "Le lézard",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel grand rapace des Andes possède la plus grande envergure parmi les oiseaux terrestres ?",
+"answer": "Le condor des Andes",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau aquatique est connu pour marcher en dandinant et vivre en Antarctique ?",
+"answer": "Le manchot",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel poisson est capable de se gonfler pour se défendre contre les prédateurs ?",
+"answer": "Le poisson-globe (fugu)",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau nocturne possède des yeux fixes et doit tourner la tête pour regarder autour de lui ?",
+"answer": "Le hibou",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel insecte est capable de sauter jusqu'à cent fois sa propre longueur ?",
+"answer": "La puce",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau est le plus grand des rapaces diurnes présents en Europe, avec une envergure impressionnante ?",
+"answer": "Le gypaète barbu (ou l'aigle royal)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel amphibien peut respirer à la fois par la peau et par les poumons ?",
+"answer": "La salamandre",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau des jardins européens a une poitrine rouge caractéristique ?",
+"answer": "Le rouge-gorge",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel reptile venimeux d'Amérique possède un hochet sonore à l'extrémité de la queue ?",
+"answer": "Le serpent à sonnette (crotale)",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau marin possède une poche extensible sous le bec pour capturer les poissons ?",
+"answer": "Le pélican",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel insecte est réputé pour sa capacité à porter plusieurs fois son propre poids ?",
+"answer": "La fourmi",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel poisson d'eau douce est doté de moustaches sensorielles appelées barbillons ?",
+"answer": "Le poisson-chat (silure)",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau au bec massif et coloré vit dans les forêts tropicales d'Amérique du Sud ?",
+"answer": "Le toucan",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau est célèbre pour sa parade nuptiale déployant une roue de plumes colorées ?",
+"answer": "Le paon",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel reptile aquatique géant vit dans les rivières d'Afrique et d'Asie et chasse en embuscade ?",
+"answer": "Le crocodile",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel insecte communique par une danse pour indiquer la localisation du nectar à ses congénères ?",
+"answer": "L'abeille",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau chanteur imite les cris d'autres oiseaux, d'où son nom ?",
+"answer": "L'oiseau moqueur",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel poisson est connu pour sa capacité à changer de sexe au cours de sa vie ?",
+"answer": "Le poisson-clown",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau est le plus grand des pingouins de l'hémisphère nord, aujourd'hui disparu ?",
+"answer": "Le grand pingouin",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel reptile est réputé pour sa capacité à marcher sur l'eau lorsqu'il est menacé ?",
+"answer": "Le basilic (lézard basilic)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau des forêts européennes tambourine sur les troncs d'arbres pour chercher des insectes ?",
+"answer": "Le pic (pivert)",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel insecte volant est connu pour transmettre le paludisme par ses piqûres ?",
+"answer": "Le moustique",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau aquatique aux longues pattes fines se nourrit en filtrant l'eau boueuse ?",
+"answer": "Le flamant rose",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel amphibien venimeux orange et noir est très commun en Europe, souvent appelé salamandre tachetée ?",
+"answer": "La salamandre tachetée",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau rapace niche en haute montagne et se nourrit d'os qu'il fait tomber sur les rochers ?",
+"answer": "Le gypaète barbu",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel poisson des grands fonds marins possède un appendice lumineux pour attirer ses proies ?",
+"answer": "La baudroie abyssale (poisson-pêcheur)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau vit en couple fidèle toute sa vie et est symbole d'amour dans plusieurs cultures ?",
+"answer": "Le cygne",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel insecte à carapace dure est souvent appelé le roi des insectes pour sa force ?",
+"answer": "Le scarabée",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel reptile est le plus grand lézard vivant, originaire d'une île indonésienne ?",
+"answer": "Le dragon de Komodo",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau détient le record de vitesse en vol horizontal parmi les oiseaux ?",
+"answer": "Le martinet à ventre blanc (ou l'eider)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel poisson migrateur naît en rivière, vit en mer, puis retourne pondre dans sa rivière natale ?",
+"answer": "Le saumon",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau des zones arides d'Amérique du Nord est connu pour courir très vite au lieu de voler ?",
+"answer": "Le grand géocoucou (roadrunner)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel insecte est le principal pollinisateur des cultures agricoles dans le monde ?",
+"answer": "L'abeille",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau nocturne possède un vol silencieux grâce à ses plumes spéciales ?",
+"answer": "Le hibou",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel reptile marin possède une carapace en cuir plutôt qu'en écailles dures ?",
+"answer": "La tortue luth",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau des régions arctiques change de couleur de plumage selon la saison ?",
+"answer": "Le harfang des neiges (ou le lagopède)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel amphibien peut absorber l'eau directement par la peau sans boire ?",
+"answer": "La grenouille",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau grimpeur africain se nourrit de miel et guide les humains vers les ruches ?",
+"answer": "L'indicateur (oiseau indicateur)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel insecte nuisible se nourrit du bois des habitations et vit en colonies souterraines ?",
+"answer": "La termite",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau chasseur niche au sommet des falaises et se nourrit principalement d'autres oiseaux ?",
+"answer": "Le faucon pèlerin",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel poisson venimeux des récifs coralliens possède des rayures et de longues épines ?",
+"answer": "Le poisson-lion (rascasse volante)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau d'Amazonie possède un plumage bleu vif très recherché pour sa beauté ?",
+"answer": "L'ara bleu",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel reptile change de peau régulièrement en la faisant muer ?",
+"answer": "Le serpent",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau plongeur d'Amérique du Sud niche en colonies sur les côtes péruviennes riches en poissons ?",
+"answer": "Le cormoran (guanay)",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel insecte est connu pour sa carapace luisante rouge à points noirs, ami des jardiniers ?",
+"answer": "La coccinelle",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau aux longues pattes chasse dans les zones humides en restant immobile avant de frapper ?",
+"answer": "Le héron",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel poisson cartilagineux est considéré comme un super-prédateur des océans ?",
+"answer": "Le requin",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel oiseau au chant caractéristique répète son propre nom, souvent entendu au printemps ?",
+"answer": "Le coucou",
+"category": "Oiseaux & Faune",
+"difficulty": "facile"
+},
+{
+"question": "Quel reptile venimeux d'Australie est réputé pour être l'un des plus dangereux au monde ?",
+"answer": "Le taïpan du désert",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau des mers froides plonge profondément pour attraper des poissons grâce à ses ailes courtes ?",
+"answer": "Le manchot",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel insecte produit de la soie utilisée pour fabriquer des tissus précieux ?",
+"answer": "Le ver à soie",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau rapace niche dans les villes et se nourrit principalement de pigeons ?",
+"answer": "Le faucon pèlerin",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel amphibien géant du Japon peut mesurer jusqu'à un mètre cinquante de long ?",
+"answer": "La salamandre géante du Japon",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau chanteur est célèbre dans les fables pour son plumage noir et son chant, opposé au corbeau ?",
+"answer": "Le corbeau (ou le merle)",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel poisson est capable de sauter hors de l'eau pour échapper à ses prédateurs, avec de grandes nageoires pectorales ?",
+"answer": "Le poisson volant",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau des plaines africaines est le plus grand oiseau volant en termes de poids ?",
+"answer": "L'outarde kori",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel insecte social construit des nids en papier mâché suspendus, souvent gris et ronds ?",
+"answer": "La guêpe",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau côtier niche dans les falaises et pêche en plongeant tête la première dans l'eau ?",
+"answer": "Le fou de Bassan",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel reptile aquatique peut retenir sa respiration pendant plusieurs heures sous l'eau ?",
+"answer": "La tortue de mer",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel oiseau symbolise la longévité dans la culture japonaise, souvent représenté en origami ?",
+"answer": "La grue",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel poisson est capable de vivre à la fois en eau douce et en eau salée selon son cycle de vie ?",
+"answer": "L'anguille",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau de nuit possède des aigrettes de plumes ressemblant à des oreilles sur la tête ?",
+"answer": "Le hibou grand-duc",
+"category": "Oiseaux & Faune",
+"difficulty": "moyen"
+},
+{
+"question": "Quel amphibien possède la particularité de pouvoir régénérer entièrement ses membres perdus ?",
+"answer": "L'axolotl",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel oiseau des zones tempérées creuse des galeries dans le sol pour nicher, souvent près des rivières ?",
+"answer": "Le martin-pêcheur",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+},
+{
+"question": "Quel reptile est dépourvu de paupières mobiles et nettoie ses yeux avec sa langue ?",
+"answer": "Le gecko",
+"category": "Oiseaux & Faune",
+"difficulty": "difficile"
+}
+]

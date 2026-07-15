@@ -1,0 +1,602 @@
+[
+{
+"question": "De quel pays est originaire le sushi ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire la pizza margherita ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le couscous ?",
+"answer": "Maghreb (Afrique du Nord)",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire la paella ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le curry tikka masala, souvent associé à sa cuisine ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire la fondue au fromage ?",
+"answer": "Suisse",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le goulasch ?",
+"answer": "Hongrie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le pad thaï ?",
+"answer": "Thaïlande",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le hamburger dans sa forme moderne populaire ?",
+"answer": "États-Unis",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le kebab döner ?",
+"answer": "Turquie",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le ceviche ?",
+"answer": "Pérou",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le bœuf bourguignon ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le tajine ?",
+"answer": "Maroc",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le baklava ?",
+"answer": "Turquie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le fish and chips ?",
+"answer": "Royaume-Uni",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le bibimbap ?",
+"answer": "Corée du Sud",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le strudel aux pommes ?",
+"answer": "Autriche",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le guacamole ?",
+"answer": "Mexique",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le sashimi ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire la moussaka ?",
+"answer": "Grèce",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le borscht, une soupe rouge à base de betterave ?",
+"answer": "Ukraine",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le риз biryani ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire la choucroute garnie ?",
+"answer": "Allemagne",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le feijoada, plat national à base de haricots noirs et de porc ?",
+"answer": "Brésil",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le pho, une soupe de nouilles au bœuf ou au poulet ?",
+"answer": "Vietnam",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le risotto ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le hoummous ?",
+"answer": "Liban (Moyen-Orient)",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le gaspacho, une soupe froide de légumes ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le okonomiyaki, une galette salée garnie ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le chili con carne ?",
+"answer": "Mexique (ou États-Unis, région texane)",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le smorrebrod, tartine ouverte typique ?",
+"answer": "Danemark",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le tiramisu ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le rendang, plat de bœuf mijoté épicé ?",
+"answer": "Indonésie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le fondue bourguignonne, viande cuite dans l'huile chaude ?",
+"answer": "Suisse",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire la ratatouille ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le kimchi ?",
+"answer": "Corée du Sud",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le tandoori, mode de cuisson traditionnel au four en argile ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le stroganoff, plat de bœuf à la crème ?",
+"answer": "Russie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le falafel ?",
+"answer": "Moyen-Orient (Égypte/Levant)",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le poutine, plat à base de frites, fromage et sauce ?",
+"answer": "Canada",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le carpaccio ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le tempura, beignets de légumes ou fruits de mer ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le fish taco, dans sa version la plus emblématique ?",
+"answer": "Mexique",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le foie gras dans sa tradition culinaire la plus célèbre ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le satay, brochettes de viande grillée avec sauce aux cacahuètes ?",
+"answer": "Indonésie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le dim sum ?",
+"answer": "Chine",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire la tarte Tatin ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le jerk chicken, poulet mariné épicé ?",
+"answer": "Jamaïque",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le shawarma ?",
+"answer": "Liban (Moyen-Orient)",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire la polenta, purée de maïs traditionnelle ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le nasi goreng, riz frit épicé ?",
+"answer": "Indonésie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le kouign-amann, pâtisserie au beurre et au sucre ?",
+"answer": "France (Bretagne)",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le pierogi, raviolis farcis traditionnels ?",
+"answer": "Pologne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le sachertorte, célèbre gâteau au chocolat ?",
+"answer": "Autriche",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le poke bowl dans sa forme traditionnelle ?",
+"answer": "États-Unis (Hawaï)",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le yakitori, brochettes de poulet grillées ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le xiao long bao, raviolis vapeur soupe ?",
+"answer": "Chine",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le cassoulet ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le mole poblano, sauce épicée au chocolat ?",
+"answer": "Mexique",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le empanada dans sa version la plus populaire d'Amérique du Sud ?",
+"answer": "Argentine",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le sauerbraten, rôti de bœuf mariné ?",
+"answer": "Allemagne",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le laksa, soupe de nouilles épicée à la noix de coco ?",
+"answer": "Malaisie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le baguette, symbole du pain traditionnel ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le tapas, petites portions culinaires variées ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le injera, galette fermentée servant de base au repas ?",
+"answer": "Éthiopie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le sushi maki version rouleau inversé californien, le California roll ?",
+"answer": "États-Unis",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le tortilla de patatas, omelette aux pommes de terre ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le naan, pain plat traditionnel ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le poulet General Tso, célèbre dans les restaurants asiatiques ?",
+"answer": "Chine (adapté aux États-Unis)",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le brigadeiro, friandise au chocolat ?",
+"answer": "Brésil",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le fettuccine Alfredo ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le poulet yassa, plat mariné au citron et à l'oignon ?",
+"answer": "Sénégal",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le döner kebab dans sa version moderne servie en sandwich ?",
+"answer": "Turquie",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le miso, pâte fermentée de soja ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le maki-zushi ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le vindaloo, plat de curry très épicé ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le crêpe bretonne ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le gulab jamun, dessert sucré au sirop ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le beignet de type churros ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le kefta, boulettes de viande épicées ?",
+"answer": "Maroc",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le chow mein, nouilles sautées ?",
+"answer": "Chine",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le tartare de bœuf dans sa préparation moderne classique ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le gazpacho andalou ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le rösti, galette de pommes de terre râpées ?",
+"answer": "Suisse",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le ramen dans sa forme culinaire actuelle popularisée ?",
+"answer": "Japon",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le empanada de style chilien fourrée à la viande ?",
+"answer": "Chili",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le baba au rhum ?",
+"answer": "France (origine polonaise adaptée)",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le som tam, salade de papaye verte épicée ?",
+"answer": "Thaïlande",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le pretzel ?",
+"answer": "Allemagne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le jambalaya, plat de riz épicé aux fruits de mer et à la viande ?",
+"answer": "États-Unis (Louisiane)",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le chorizo dans sa forme la plus emblématique ?",
+"answer": "Espagne",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le lasagne ?",
+"answer": "Italie",
+"category": "Cuisine du monde",
+"difficulty": "facile"
+},
+{
+"question": "De quel pays est originaire le pastel de nata, petite tarte à la crème pâtissière ?",
+"answer": "Portugal",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le samossa dans sa version la plus répandue ?",
+"answer": "Inde",
+"category": "Cuisine du monde",
+"difficulty": "moyen"
+},
+{
+"question": "De quel pays est originaire le okroshka, soupe froide à base de kéfir ?",
+"answer": "Russie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le arepa, galette de maïs farcie ?",
+"answer": "Venezuela (ou Colombie)",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le vol-au-vent, pâtisserie feuilletée garnie ?",
+"answer": "France",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le gado-gado, salade de légumes à la sauce cacahuète ?",
+"answer": "Indonésie",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le kofta, boulettes de viande épicées servies au Moyen-Orient ?",
+"answer": "Moyen-Orient (Perse/Inde)",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+},
+{
+"question": "De quel pays est originaire le bunny chow, pain fourré au curry ?",
+"answer": "Afrique du Sud",
+"category": "Cuisine du monde",
+"difficulty": "difficile"
+}
+]

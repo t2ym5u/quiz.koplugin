@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel style architectural du XVIIe siècle en France se distingue par sa symétrie et sa grandeur, illustré à Versailles ?",
+    "answer": "Le classicisme français",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet électroménager presse les agrumes pour en extraire le jus ?",
+    "answer": "Le presse-agrumes",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel type d'habitation troglodyte, creusée dans la roche, est typique de la vallée de la Loire ?",
+    "answer": "La maison troglodytique",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel designer italien a fondé la marque de mobilier Kartell en 1949, pionnière du plastique design ?",
+    "answer": "Giulio Castelli",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet en tissu sert à essuyer la vaisselle après le lavage ?",
+    "answer": "Le torchon",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit meuble de rangement à roulettes glissé sous un bureau ou une table ?",
+    "answer": "Le caisson",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur américain a mis au point le premier grille-pain électrique automatique en 1919 ?",
+    "answer": "Charles Strite",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel élément architectural soutient un plafond ou un toit, de forme verticale ?",
+    "answer": "La colonne",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on l'espace extérieur couvert attenant à une maison, souvent avec des colonnes ?",
+    "answer": "Le porche",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur écossais a breveté le premier lave-linge mécanique à tambour rotatif en 1858 ?",
+    "answer": "Hamilton Smith",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel appareil transforme les grains de café en boisson chaude directement à la maison ?",
+    "answer": "La cafetière",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel style architectural du Moyen Âge, antérieur au gothique, se caractérise par des arcs en plein cintre et des murs épais ?",
+    "answer": "Le roman",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle entreprise française, fondée en 1857, est un des grands noms historiques du chauffage domestique et des cuisinières ?",
+    "answer": "Godin",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le plan incliné qui remplace ou complète un escalier pour faciliter l'accès ?",
+    "answer": "La rampe",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel matériau traditionnel japonais recouvre le sol des pièces dans une maison traditionnelle nippone ?",
+    "answer": "Le tatami",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on le plafond voûté en forme de demi-cercle, typique de certaines caves ou églises ?",
+    "answer": "La voûte en berceau",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet sert à balayer le sol pour enlever la poussière ?",
+    "answer": "Le balai",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel style architectural se caractérise par des arcs brisés et de hautes voûtes, typique des cathédrales médiévales ?",
+    "answer": "Le gothique",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel designer allemand a fondé l'école du Bauhaus en 1919 ?",
+    "answer": "Walter Gropius",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la surface qui sépare deux étages d'une maison ?",
+    "answer": "Le plancher",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel château de la Loire est connu pour son escalier à double révolution attribué à Léonard de Vinci ?",
+    "answer": "Le château de Chambord",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur suédois a fondé la marque de meubles en kit IKEA en 1943 ?",
+    "answer": "Ingvar Kamprad",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet sert à mesurer l'heure, posé sur une table ou accroché au mur ?",
+    "answer": "L'horloge",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle entreprise française fondée en 1948 est spécialisée dans les moules et ustensiles de cuisine antiadhésifs ?",
+    "answer": "Tefal",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle marque italienne fondée en 1912 est réputée pour ses appareils électroménagers et petit électroménager, dont le mixeur emblématique ?",
+    "answer": "Kenwood",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le meuble sur lequel on dort ?",
+    "answer": "Le lit",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle marque italienne est célèbre pour ses cafetières moka en aluminium depuis 1933 ?",
+    "answer": "Bialetti",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel ingénieur américain a inventé l'aspirateur électrique portatif moderne en 1908 ?",
+    "answer": "James Murray Spangler",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel ustensile de cuisine sert à couper les aliments ?",
+    "answer": "Le couteau",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel architecte espagnol a conçu la Casa Batlló et la Sagrada Família à Barcelone ?",
+    "answer": "Antoni Gaudí",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel style de maison américaine, populaire au début du XXe siècle, met en avant de larges vérandas et des toits en pente douce ?",
+    "answer": "Le style Craftsman",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel ustensile permet de fouetter ou battre des œufs et de la crème à la main ?",
+    "answer": "Le fouet",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le dispositif de sécurité placé sur les fenêtres pour empêcher les intrusions, fait de barres métalliques ?",
+    "answer": "Les barreaux",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel élément décoratif en plâtre ou en bois orne la jonction entre le mur et le plafond ?",
+    "answer": "La corniche",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet transparent en verre ou plastique sert à boire ?",
+    "answer": "Le verre",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la pièce technique d'une maison où se trouvent souvent le lave-linge et le matériel de nettoyage ?",
+    "answer": "La buanderie",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien écossais a mis au point le réfrigérateur à compression pratique en 1834 ?",
+    "answer": "Jacob Perkins",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la petite table de chevet placée près du lit ?",
+    "answer": "La table de nuit",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle capitale française abrite le siège du Mobilier national, qui gère l'ameublement des palais officiels ?",
+    "answer": "Paris",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle manufacture française de porcelaine, fondée en 1740, est associée au château royal du même nom ?",
+    "answer": "La manufacture de Sèvres",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel meuble à hauteur de table sert de support pour manger, souvent entouré de chaises ?",
+    "answer": "La table à manger",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le meuble bas et allongé sur lequel on range et sur lequel on peut aussi s'asseoir, au pied d'un lit ou dans une entrée ?",
+    "answer": "Le coffre",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel architecte allemand a conçu la Villa Tugendhat à Brno, chef-d'œuvre du mouvement moderne ?",
+    "answer": "Ludwig Mies van der Rohe",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le dispositif qui produit de la chaleur pour tempérer une maison en hiver ?",
+    "answer": "Le radiateur",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le mécanisme qui régule la température d'une maison, chauffage ou climatisation compris ?",
+    "answer": "Le thermostat",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur français a mis au point la cocotte-minute commercialisée par SEB en 1953 ?",
+    "answer": "Frédérique Lescure",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet en verre sert à éclairer une pièce, suspendu au plafond ?",
+    "answer": "Le lustre",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel matériau isolant naturel, fait de fibres végétales ou minérales, se glisse dans les murs et combles ?",
+    "answer": "La laine de verre",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur américain est à l'origine du four à micro-ondes, découvert accidentellement en 1945 ?",
+    "answer": "Percy Spencer",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'ouverture verticale par laquelle on entre et sort d'une maison ?",
+    "answer": "La porte",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la cloison amovible qui divise temporairement une pièce ?",
+    "answer": "Le paravent",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel designer autrichien a fondé les Wiener Werkstätte en 1903, ateliers réunissant artisans et artistes ?",
+    "answer": "Josef Hoffmann",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel meuble sert traditionnellement à ranger les vêtements suspendus ?",
+    "answer": "L'armoire",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la partie inclinée d'un toit ?",
+    "answer": "Le versant",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel architecte britannique a conçu le Crystal Palace pour l'Exposition universelle de Londres en 1851 ?",
+    "answer": "Joseph Paxton",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la baignoire encastrée avec des jets d'eau et de bulles pour la détente ?",
+    "answer": "Le jacuzzi",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel objet sert à conserver le vin à température idéale, souvent installé dans une cave ou une cuisine ?",
+    "answer": "La cave à vin",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel nom donne-t-on à la fenêtre en saillie qui forme un renfoncement dans une pièce ?",
+    "answer": "Le bow-window",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle marque suédoise de meubles en kit propose le canapé 'Klippan', très populaire ?",
+    "answer": "IKEA",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la porte d'entrée principale d'un grand bâtiment ou d'un hôtel particulier ?",
+    "answer": "Le portail",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle grande exposition universelle de 1925 à Paris a donné son nom au mouvement Art déco ?",
+    "answer": "L'Exposition internationale des Arts décoratifs",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet en tissu rembourré sert d'appui pour le dos ou la tête sur un canapé ou un lit ?",
+    "answer": "Le coussin",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi de France a fait construire le château de Fontainebleau en résidence de chasse agrandie à la Renaissance ?",
+    "answer": "François Ier",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur américain a créé le premier système de climatisation moderne en 1902 ?",
+    "answer": "Willis Carrier",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel appareil électroménager sert à laver la vaisselle automatiquement ?",
+    "answer": "Le lave-vaisselle",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi de France a fait construire le château de Chambord dans le Val de Loire ?",
+    "answer": "François Ier",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel architecte français a conçu la restauration de Notre-Dame de Paris et du château de Pierrefonds au XIXe siècle ?",
+    "answer": "Eugène Viollet-le-Duc",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet sert à éclairer une table de chevet, généralement muni d'un abat-jour ?",
+    "answer": "La lampe de chevet",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel mouvement artistique du milieu du XXe siècle en Scandinavie prône des meubles fonctionnels en bois clair ?",
+    "answer": "Le design scandinave",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel élément architectural en pierre ou en bois enjambe une ouverture pour soutenir le mur au-dessus ?",
+    "answer": "Le linteau",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet sert à mélanger ou fouetter les aliments à grande vitesse grâce à l'électricité ?",
+    "answer": "Le mixeur",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la pièce d'entrée d'une maison, juste après la porte principale ?",
+    "answer": "Le vestibule",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel siècle a vu l'apparition du papier peint imprimé industriellement en France, grâce à Jean-Baptiste Réveillon ?",
+    "answer": "Le XVIIIe siècle",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel appareil sert à aspirer la poussière sur les sols et tapis ?",
+    "answer": "L'aspirateur",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel type de fenêtre s'ouvre en pivotant autour d'un axe horizontal, souvent en hauteur ?",
+    "answer": "Le vasistas",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel designer danois a créé la célèbre 'Egg Chair' en 1958 ?",
+    "answer": "Arne Jacobsen",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le meuble compact et empilable utilisé pour s'asseoir temporairement, sans dossier ni accoudoirs ?",
+    "answer": "Le pouf",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle entreprise française est réputée pour ses cocottes en fonte colorées depuis 1925 ?",
+    "answer": "Le Creuset",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel designer allemand du Bauhaus a conçu la chaise 'Wassily' en tube d'acier en 1925 ?",
+    "answer": "Marcel Breuer",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel meuble utilise-t-on pour s'asseoir à plusieurs, généralement rembourré, dans un salon ?",
+    "answer": "Le canapé",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le grand meuble encastré du sol au plafond servant de rangement mural ?",
+    "answer": "Le placard mural",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle célèbre manufacture de tapisserie française, fondée au XVe siècle à Paris, produit des tapisseries royales depuis Louis XIV ?",
+    "answer": "Les Gobelins",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la petite cour intérieure entourée de murs ou de bâtiments dans une maison méditerranéenne ?",
+    "answer": "Le patio",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi de France a fait aménager le petit Trianon à Versailles pour Madame de Pompadour puis Marie-Antoinette ?",
+    "answer": "Louis XV",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel style de mobilier français du XVIIIe siècle, sous le règne de Louis XV, se caractérise par des courbes et de la marqueterie ?",
+    "answer": "Le style rocaille",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit meuble sur pieds destiné à recevoir un poste de télévision ?",
+    "answer": "Le meuble TV",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel meuble à portes vitrées sert à exposer la vaisselle précieuse dans une salle à manger ?",
+    "answer": "Le vaisselier",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel style de villa méditerranéenne, avec toits plats et murs blancs, s'inspire de l'architecture nord-africaine et fut popularisé sur la Côte d'Azur ?",
+    "answer": "Le style néo-mauresque",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment nomme-t-on le tissu qui recouvre une fenêtre pour filtrer la lumière ?",
+    "answer": "Le rideau",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel style de mobilier des années 1920-1930 se caractérise par des formes géométriques et des matériaux luxueux ?",
+    "answer": "L'Art déco",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle entreprise allemande a inventé le premier lave-linge automatique grand public en 1951 ?",
+    "answer": "Miele",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on la petite construction indépendante, souvent en bois, utilisée pour ranger des outils de jardin ?",
+    "answer": "L'abri de jardin",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel type de maison traditionnelle normande possède une structure en bois apparente remplie de torchis ?",
+    "answer": "La maison à colombages",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur écossais a breveté le premier four à gaz domestique fonctionnel en 1826 ?",
+    "answer": "James Sharp",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet utilise-t-on pour repasser les vêtements ?",
+    "answer": "Le fer à repasser",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel élément de charpente horizontal soutient le plafond ou le toit d'une maison ancienne ?",
+    "answer": "La poutre",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel designer italien a conçu la lampe Arco en 1962 pour la marque Flos ?",
+    "answer": "Achille Castiglioni",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi français a fait construire le château de Versailles comme résidence royale principale ?",
+    "answer": "Louis XIV",
+    "category": "Maison & Ameublement",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le mur qui sépare deux pièces d'une même maison, généralement non porteur ?",
+    "answer": "La cloison",
+    "category": "Maison & Ameublement",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel type de fenêtre coulisse verticalement dans un cadre, typique de l'architecture anglaise ?",
+    "answer": "La fenêtre à guillotine",
+    "category": "Maison & Ameublement",
+    "difficulty": "difficile"
+  }
+]

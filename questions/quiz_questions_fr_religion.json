@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel dieu grec règne sur l'Olympe et la foudre ?",
+    "answer": "Zeus",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le livre sacré de l'islam ?",
+    "answer": "Le Coran",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien y a-t-il de piliers de l'islam ?",
+    "answer": "Cinq",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel dieu nordique est associé au tonnerre et manie un marteau ?",
+    "answer": "Thor",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment s'appelle le paradis des guerriers dans la mythologie nordique ?",
+    "answer": "Le Valhalla",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel dieu égyptien a une tête de chacal et guide les morts ?",
+    "answer": "Anubis",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Qui a trahi Jésus pour trente pièces d'argent ?",
+    "answer": "Judas",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du fondateur du bouddhisme ?",
+    "answer": "Bouddha (Siddhartha Gautama)",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel texte sacré fondamental du judaïsme regroupe les cinq premiers livres de la Bible hébraïque ?",
+    "answer": "La Torah",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel héros grec a un talon vulnérable ?",
+    "answer": "Achille",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel événement met fin au monde dans la mythologie nordique ?",
+    "answer": "Le Ragnarök",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle déesse égyptienne est l'épouse d'Osiris et mère d'Horus ?",
+    "answer": "Isis",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de jours a duré le Déluge selon la Genèse ?",
+    "answer": "Quarante jours",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la ville sainte commune aux trois religions monothéistes ?",
+    "answer": "Jérusalem",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dieu grec des mers porte un trident ?",
+    "answer": "Poséidon",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle fête juive célèbre la sortie d'Égypte ?",
+    "answer": "Pessah",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi biblique est réputé pour sa sagesse et son jugement ?",
+    "answer": "Salomon",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans la mythologie hindoue, quel dieu a une tête d'éléphant ?",
+    "answer": "Ganesh",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du cheval à huit pattes d'Odin ?",
+    "answer": "Sleipnir",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel apôtre est considéré comme le premier pape ?",
+    "answer": "Pierre",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la ville natale de Jésus selon les Évangiles ?",
+    "answer": "Bethléem",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dieu égyptien du soleil est représenté avec une tête de faucon ?",
+    "answer": "Rê (ou Horus)",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de commandements Moïse reçoit-il sur le mont Sinaï ?",
+    "answer": "Dix",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel géant nordique donne son nom au vendredi (Frigg) ?",
+    "answer": "Frigg",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du jardin où vivaient Adam et Ève ?",
+    "answer": "Le jardin d'Éden",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle déesse grecque de la sagesse est née de la tête de Zeus ?",
+    "answer": "Athéna",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du cycle de renaissances dans l'hindouisme et le bouddhisme ?",
+    "answer": "Le samsara",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel prophète a construit une arche pour survivre au Déluge ?",
+    "answer": "Noé",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quelle ville se trouve la Kaaba, lieu saint de l'islam ?",
+    "answer": "La Mecque",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel titan grec porte le monde sur ses épaules ?",
+    "answer": "Atlas",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du loup géant qui dévore Odin lors du Ragnarök ?",
+    "answer": "Fenrir",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle fête chrétienne célèbre la résurrection de Jésus ?",
+    "answer": "Pâques",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pharaon est associé au monothéisme et au culte d'Aton ?",
+    "answer": "Akhenaton",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel dieu grec de la guerre est le fils de Zeus et Héra ?",
+    "answer": "Arès",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du mois de jeûne dans l'islam ?",
+    "answer": "Ramadan",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle reine biblique a séduit Salomon lors de sa visite ?",
+    "answer": "La reine de Saba",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le symbole sacré représentant l'équilibre en taoïsme ?",
+    "answer": "Le yin et le yang",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel héros grec tue le Minotaure dans le labyrinthe ?",
+    "answer": "Thésée",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel dieu égyptien du chaos et de la tempête tue Osiris ?",
+    "answer": "Seth",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le lieu de culte musulman ?",
+    "answer": "La mosquée",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du serpent qui entoure Midgard dans la mythologie nordique ?",
+    "answer": "Jörmungand",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi hébreu a vaincu le géant Goliath ?",
+    "answer": "David",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la troisième religion monothéiste apparue après le judaïsme et le christianisme ?",
+    "answer": "L'islam",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dieu grec du vin et de la fête est aussi appelé Bacchus par les Romains ?",
+    "answer": "Dionysos",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le symbole principal du christianisme ?",
+    "answer": "La croix",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la déesse hindoue de la destruction et du temps, souvent représentée noire ?",
+    "answer": "Kali",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel personnage biblique a été avalé par une baleine (ou grand poisson) ?",
+    "answer": "Jonas",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'ange déchu devenu Satan dans la tradition chrétienne ?",
+    "answer": "Lucifer",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle guerre légendaire est provoquée par l'enlèvement d'Hélène ?",
+    "answer": "La guerre de Troie",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel dieu hindou forme la Trimurti avec Brahma et Shiva en tant que préservateur ?",
+    "answer": "Vishnou",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel prophète reçoit la révélation du Coran par l'ange Gabriel ?",
+    "answer": "Mahomet",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la déesse égyptienne de la vérité et de la justice, représentée avec une plume ?",
+    "answer": "Maât",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel sacrement chrétien marque l'entrée dans l'Église ?",
+    "answer": "Le baptême",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel héros grec accomplit douze travaux ?",
+    "answer": "Héraclès (Hercule)",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'arbre cosmique qui relie les neuf mondes dans la mythologie nordique ?",
+    "answer": "Yggdrasil",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle fête juive commémore le don de la Torah au mont Sinaï ?",
+    "answer": "Chavouot",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel dieu égyptien de la momification et des morts a le corps assemblé après son démembrement ?",
+    "answer": "Osiris",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de jours a duré la création du monde selon la Genèse ?",
+    "answer": "Sept jours",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du chef borgne des dieux nordiques ?",
+    "answer": "Odin",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle déesse grecque de l'amour naît de l'écume de la mer ?",
+    "answer": "Aphrodite",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du concept bouddhiste désignant l'état d'éveil ultime ?",
+    "answer": "Le nirvana",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le lieu de culte des juifs ?",
+    "answer": "La synagogue",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dieu grec des enfers règne sur le royaume des morts ?",
+    "answer": "Hadès",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du festin sacrificiel musulman célébré à la fin du pèlerinage ?",
+    "answer": "L'Aïd al-Adha",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la mère de Persée, séduite par Zeus sous forme de pluie d'or ?",
+    "answer": "Danaé",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel apôtre a douté de la résurrection de Jésus avant de toucher ses plaies ?",
+    "answer": "Thomas",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du dieu égyptien créateur souvent représenté avec un disque solaire et un bélier ?",
+    "answer": "Khnoum",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pèlerinage tout musulman doit accomplir une fois dans sa vie s'il le peut ?",
+    "answer": "Le hajj",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la déesse grecque de la chasse et de la lune ?",
+    "answer": "Artémis",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la fête des lumières juive commémorant la victoire des Maccabées ?",
+    "answer": "Hanoucca",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel dieu nordique de la ruse est le père de Fenrir et Jörmungand ?",
+    "answer": "Loki",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel évangéliste est traditionnellement représenté par un lion ?",
+    "answer": "Marc",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la boisson d'immortalité des dieux grecs ?",
+    "answer": "L'ambroisie",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du livre sacré central du sikhisme ?",
+    "answer": "Le Guru Granth Sahib",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi grec sacrifie sa fille Iphigénie pour obtenir des vents favorables vers Troie ?",
+    "answer": "Agamemnon",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du concept hindou et bouddhiste désignant les actes et leurs conséquences ?",
+    "answer": "Le karma",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dieu grec messager porte des sandales ailées ?",
+    "answer": "Hermès",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du bateau construit par Noé selon la Bible ?",
+    "answer": "L'arche de Noé",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la déesse égyptienne du ciel souvent représentée comme une vache ou couverte d'étoiles ?",
+    "answer": "Nout",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel concile chrétien du IVe siècle a établi le Credo de Nicée ?",
+    "answer": "Le concile de Nicée",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la première épouse d'Adam selon certaines traditions rabbiniques, avant Ève ?",
+    "answer": "Lilith",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel dieu grec forgeron fabrique les armes des autres dieux ?",
+    "answer": "Héphaïstos",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du serment de foi musulman, l'un des cinq piliers de l'islam ?",
+    "answer": "La chahada",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle reine égyptienne était l'épouse du pharaon Akhenaton ?",
+    "answer": "Néfertiti",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du mont où Moïse reçoit les Dix Commandements ?",
+    "answer": "Le mont Sinaï",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel personnage grec ouvre une boîte libérant tous les maux de l'humanité ?",
+    "answer": "Pandore",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le texte sacré fondamental de l'hindouisme, le plus ancien connu ?",
+    "answer": "Les Veda",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel saint est le patron des voyageurs, souvent représenté portant l'enfant Jésus à travers une rivière ?",
+    "answer": "Saint Christophe",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel jour de la semaine est le jour sacré du sabbat juif ?",
+    "answer": "Le samedi",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du démon égyptien dévoreur d'âmes lors du jugement des morts ?",
+    "answer": "Ammit",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi troyen est le père de Pâris et Hector ?",
+    "answer": "Priam",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du repas rituel juif célébré le soir de Pessah ?",
+    "answer": "Le Seder",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle divinité romaine correspond à Zeus dans la mythologie grecque ?",
+    "answer": "Jupiter",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le sacrement chrétien qui unit un couple devant Dieu ?",
+    "answer": "Le mariage",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la fête chrétienne célébrant la naissance de Jésus ?",
+    "answer": "Noël",
+    "category": "Religion & Mythologie",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale spirituelle du bouddhisme tibétain, résidence traditionnelle du dalaï-lama ?",
+    "answer": "Lhassa",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel géant nordique de glace est le père de Loki ?",
+    "answer": "Farbauti",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel prophète biblique est enlevé au ciel dans un char de feu ?",
+    "answer": "Élie",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné aux cinq livres de Moïse dans la tradition chrétienne ?",
+    "answer": "Le Pentateuque",
+    "category": "Religion & Mythologie",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle déesse grecque préside aux moissons et aux saisons, mère de Perséphone ?",
+    "answer": "Déméter",
+    "category": "Religion & Mythologie",
+    "difficulty": "moyen"
+  }
+]

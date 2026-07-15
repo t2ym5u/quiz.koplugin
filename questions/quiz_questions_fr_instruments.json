@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Combien de cordes possède une guitare classique ?",
+    "answer": "6",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument à vent Louis Armstrong jouait-il principalement ?",
+    "answer": "La trompette",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la partie du violon que l'on frotte sur les cordes pour produire le son ?",
+    "answer": "L'archet",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument à percussion à hauteur définie utilise des lames de métal frappées avec des baguettes ?",
+    "answer": "Le vibraphone",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "De quel pays le sitar est-il originaire ?",
+    "answer": "Inde",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de touches possède un piano standard ?",
+    "answer": "88",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument est surnommé le 'roi des instruments' ?",
+    "answer": "L'orgue",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument à vent aborigène australien produit un son grave et continu ?",
+    "answer": "Le didgeridoo",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument Jimi Hendrix jouait-il, révolutionnant son usage électrique ?",
+    "answer": "La guitare électrique",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on la famille d'instruments qui comprend le violon, l'alto, le violoncelle et la contrebasse ?",
+    "answer": "Les cordes frottées",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel compositeur allemand, devenu sourd, continuait de composer pour piano ?",
+    "answer": "Beethoven",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus petit instrument de la famille des cuivres dans un orchestre ?",
+    "answer": "La trompette",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument à cordes pincées d'Afrique de l'Ouest possède une caisse de résonance en calebasse ?",
+    "answer": "La kora",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument utilise une anche double, comme le hautbois ?",
+    "answer": "Le basson",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de cordes possède une harpe de concert classique environ ?",
+    "answer": "47",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument à percussion se compose de deux petites peaux tendues jouées avec les mains, originaire de Cuba ?",
+    "answer": "Les bongos",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel célèbre violoniste et compositeur italien du 19e siècle était surnommé 'le violoniste du diable' ?",
+    "answer": "Niccolò Paganini",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument électronique, inventé en 1920, se joue sans contact physique ?",
+    "answer": "Le thérémine",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à clavier ancêtre du piano, dont les cordes sont pincées ?",
+    "answer": "Le clavecin",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument à vent est fabriqué en bambou et très utilisé dans la musique japonaise traditionnelle ?",
+    "answer": "Le shakuhachi",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument à cordes frottées est le plus grave et le plus grand de l'orchestre ?",
+    "answer": "La contrebasse",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel accessoire utilise-t-on pour jouer de la guitare en grattant les cordes, souvent en plastique ?",
+    "answer": "Le médiator",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument à percussion traditionnel africain se joue avec les mains et a la forme d'un gobelet ?",
+    "answer": "Le djembé",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel saxophoniste américain de jazz est célèbre pour le morceau 'Take Five' ?",
+    "answer": "Paul Desmond",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument est composé de tuyaux de longueurs différentes actionnés par un clavier et de l'air ?",
+    "answer": "L'orgue",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à cordes traditionnel russe de forme triangulaire ?",
+    "answer": "La balalaïka",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel compositeur autrichien du 18e siècle était un virtuose du piano dès l'enfance ?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la peau tendue sur un tambour que l'on frappe ?",
+    "answer": "La membrane",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument à vent en bois possède un bec et des trous, souvent appris à l'école ?",
+    "answer": "La flûte à bec",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel guitariste britannique a fondé le groupe Queen mais est aussi astrophysicien ?",
+    "answer": "Brian May",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument à cordes pincées japonais possède 13 cordes et se pose horizontalement au sol ?",
+    "answer": "Le koto",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle famille d'instruments regroupe la trompette, le trombone, le cor et le tuba ?",
+    "answer": "Les cuivres",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à percussion composé de plusieurs cloches accordées ?",
+    "answer": "Le carillon",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel accordéoniste français est célèbre pour avoir popularisé la valse musette ?",
+    "answer": "Yvette Horner",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument permet de produire des sons en frottant une manivelle contre des cordes, utilisé dans la musique folk ?",
+    "answer": "La vielle à roue",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de la petite pièce en bois ou en plastique que l'on place dans le bec d'une clarinette ou d'un saxophone ?",
+    "answer": "L'anche",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument est associé au flamenco espagnol par excellence ?",
+    "answer": "La guitare flamenco",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pianiste et compositeur polonais est célèbre pour ses nocturnes et ses mazurkas ?",
+    "answer": "Frédéric Chopin",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à percussion utilisé en Jamaïque, fait à partir de fûts métalliques ?",
+    "answer": "Le steel drum (steel pan)",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument, ancêtre du violon, se joue verticalement entre les jambes du musicien ?",
+    "answer": "La viole de gambe",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument à clavier utilise des tuyaux à anche libre et un soufflet, populaire dans la musique populaire française ?",
+    "answer": "L'accordéon",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on l'ensemble des instruments de percussion utilisés dans un orchestre gamelan indonésien ?",
+    "answer": "Le gamelan",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel violoncelliste espagnol est célèbre pour son interprétation des Suites pour violoncelle de Bach ?",
+    "answer": "Pablo Casals",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du grand tambour utilisé dans les fanfares, frappé avec deux baguettes ou maillets ?",
+    "answer": "La grosse caisse",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument à vent possède un long tube coulissant permettant de changer la hauteur du son ?",
+    "answer": "Le trombone",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument traditionnel écossais composé d'une poche d'air et de tuyaux sonores ?",
+    "answer": "La cornemuse",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel batteur des Beatles est connu pour son jeu de batterie discret mais très influent ?",
+    "answer": "Ringo Starr",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à cordes hawaïen, petit et à quatre cordes ?",
+    "answer": "Le ukulélé",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel matériau recouvre traditionnellement la table d'harmonie d'un violon ?",
+    "answer": "L'épicéa",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel célèbre facteur de violons italien du 17e-18e siècle est réputé pour la qualité exceptionnelle de ses instruments ?",
+    "answer": "Antonio Stradivari",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la partie du piano que l'on actionne avec les pieds pour prolonger le son ?",
+    "answer": "La pédale",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grave des instruments de la famille des bois dans un orchestre symphonique ?",
+    "answer": "Le contrebasson",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel groupe de rock britannique avait pour bassiste et chanteur Sting ?",
+    "answer": "The Police",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument à cordes pincées, populaire dans le bluegrass américain, possède 5 cordes et une caisse ronde ?",
+    "answer": "Le banjo",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du chef qui dirige un orchestre avec une baguette ?",
+    "answer": "Le chef d'orchestre",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la famille d'instruments qui regroupe la flûte traversière, le hautbois, la clarinette et le basson ?",
+    "answer": "Les bois",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel virtuose hongrois du piano au 19e siècle est célèbre pour ses Rhapsodies hongroises ?",
+    "answer": "Franz Liszt",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus grand instrument à cordes de la famille des violons, qui se joue assis avec une pique au sol ?",
+    "answer": "Le violoncelle",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument arabe à cordes pincées en forme de poire est l'ancêtre du luth européen ?",
+    "answer": "Le oud",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le synthétiseur emblématique utilisé massivement dans la musique des années 1980 ?",
+    "answer": "Le Yamaha DX7",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit marteau qui frappe la corde à l'intérieur d'un piano ?",
+    "answer": "Le marteau",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument mexicain à cordes, de grande taille, est joué dans les groupes de mariachis ?",
+    "answer": "Le guitarrón",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à percussion composé de deux cymbales que l'on entrechoque ?",
+    "answer": "Les cymbales",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument indien à percussion se compose d'une paire de petits tambours joués avec les doigts ?",
+    "answer": "Le tabla",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel compositeur allemand du 18e siècle était un organiste virtuose et a écrit de nombreuses œuvres pour clavecin ?",
+    "answer": "Jean-Sébastien Bach",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom donné à l'ensemble des cordes vocales considérées comme un instrument de musique ?",
+    "answer": "La voix",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument électronique à clavier imite les sons d'un orchestre entier grâce à des échantillons ?",
+    "answer": "Le synthétiseur",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du petit instrument à vent utilisé par les arbitres sportifs et fait de métal ?",
+    "answer": "Le sifflet",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel guitariste américain est connu pour avoir mis le feu à sa guitare lors du festival de Monterey en 1967 ?",
+    "answer": "Jimi Hendrix",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à cordes chinois à archet, avec seulement deux cordes ?",
+    "answer": "L'erhu",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel instrument à clavier utilise de l'air propulsé par un soufflet pour faire vibrer des anches métalliques, populaire au 19e siècle avant le piano moderne ?",
+    "answer": "L'harmonium",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel batteur de jazz américain est célèbre pour ses solos de batterie complexes avec le Modern Jazz Quartet ?",
+    "answer": "Kenny Clarke",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à percussion en forme de plaque métallique suspendue, frappé avec un maillet ?",
+    "answer": "Le gong",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel instrument à vent en bois est le plus aigu de sa famille et souvent utilisé en solo dans les orchestres ?",
+    "answer": "La flûte piccolo",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi de France était un passionné de danse et de musique de cour, ayant fondé l'Académie royale de musique ?",
+    "answer": "Louis XIV",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à cordes andin, fait traditionnellement avec une carapace de tatou ?",
+    "answer": "Le charango",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est l'instrument à vent le plus grave de la famille des cuivres, souvent utilisé en fanfare et en orchestre ?",
+    "answer": "Le tuba",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel groupe de rock avait pour guitariste emblématique Jimmy Page ?",
+    "answer": "Led Zeppelin",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à percussion sud-américain fait d'une planche à laver striée que l'on frotte ?",
+    "answer": "Le güiro",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de cordes possède un violon standard ?",
+    "answer": "4",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du plus grand orgue à tuyaux du monde, situé aux États-Unis, dans un grand magasin ?",
+    "answer": "L'orgue Wanamaker",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel chanteur et guitariste américain a écrit 'Johnny B. Goode', considéré comme fondateur du rock ?",
+    "answer": "Chuck Berry",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à vent traditionnel andin, une flûte de pan faite de plusieurs tubes de longueurs différentes ?",
+    "answer": "La flûte de pan (zampoña)",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel compositeur russe a écrit 'Pierre et le loup', où chaque personnage est représenté par un instrument ?",
+    "answer": "Sergueï Prokofiev",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la petite baguette avec laquelle un chef d'orchestre dirige les musiciens ?",
+    "answer": "La baguette",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel instrument à cordes frappées, ancêtre du piano, utilise de petites lames de métal appelées tangentes ?",
+    "answer": "Le clavicorde",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel percussionniste et compositeur français a fondé les percussions de Strasbourg ?",
+    "answer": "Jacques Delécluse",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à vent traditionnel arménien, en forme de hautbois, au son mélancolique ?",
+    "answer": "Le duduk",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nombre de cordes d'une guitare basse standard ?",
+    "answer": "4",
+    "category": "Instruments de musique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel groupe suédois des années 1970 comptait deux couples et un clavier très présent dans leurs chansons ?",
+    "answer": "ABBA",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du tuyau que l'on souffle pour produire un son grave dans les cérémonies tibétaines, très long et en cuivre ?",
+    "answer": "Le dungchen",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument utilisé pour donner le 'la' de référence à un orchestre avant un concert, souvent en forme de fourche ?",
+    "answer": "Le diapason",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel célèbre joueur de guitare classique espagnol a popularisé cet instrument sur les scènes de concert au 20e siècle ?",
+    "answer": "Andrés Segovia",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à percussion composé de plusieurs tambours de tailles différentes utilisé en fanfare militaire écossaise, avec la cornemuse ?",
+    "answer": "Le tambour (snare drum)",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le matériau traditionnel utilisé pour fabriquer les cordes des harpes celtiques anciennes ?",
+    "answer": "Le boyau (crin ou intestin animal)",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pianiste et compositeur américain est célèbre pour avoir composé 'Rhapsody in Blue' ?",
+    "answer": "George Gershwin",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'instrument à vent en bois utilisé dans le jazz et associé à Sidney Bechet ?",
+    "answer": "La clarinette",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans un orchestre symphonique, quelle famille d'instruments est généralement la plus nombreuse ?",
+    "answer": "Les cordes",
+    "category": "Instruments de musique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'instrument mongol à cordes surmonté d'une tête de cheval sculptée ?",
+    "answer": "Le morin khuur",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel batteur virtuose britannique de Led Zeppelin est mort en 1980 ?",
+    "answer": "John Bonham",
+    "category": "Instruments de musique",
+    "difficulty": "difficile"
+  }
+]

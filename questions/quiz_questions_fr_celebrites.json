@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel scientifique a formulé la théorie de la relativité générale ?",
+    "answer": "Albert Einstein",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle reine d'Égypte fut célèbre pour ses liaisons avec Jules César et Marc Antoine ?",
+    "answer": "Cléopâtre",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel navigateur génois a atteint l'Amérique en 1492 ?",
+    "answer": "Christophe Colomb",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien a formulé les lois du mouvement et de la gravitation universelle ?",
+    "answer": "Isaac Newton",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle militante sud-africaine et président a passé 27 ans en prison avant de devenir chef d'État ?",
+    "answer": "Nelson Mandela",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel peintre néerlandais s'est coupé une partie de l'oreille ?",
+    "answer": "Vincent van Gogh",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle physicienne polonaise a remporté deux prix Nobel dans deux disciplines différentes ?",
+    "answer": "Marie Curie",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel empereur français a été vaincu à la bataille de Waterloo en 1815 ?",
+    "answer": "Napoléon Bonaparte",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel général et explorateur macédonien a créé un empire s'étendant jusqu'à l'Inde ?",
+    "answer": "Alexandre le Grand",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle femme a été la première à voler seule au-dessus de l'océan Atlantique ?",
+    "answer": "Amelia Earhart",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dramaturge anglais a écrit 'Roméo et Juliette' ?",
+    "answer": "William Shakespeare",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur américain est notamment associé à l'ampoule électrique et au phonographe ?",
+    "answer": "Thomas Edison",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel leader indien a prôné la résistance non violente pour l'indépendance de son pays ?",
+    "answer": "Mahatma Gandhi",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel biologiste britannique est l'auteur de la théorie de l'évolution par sélection naturelle ?",
+    "answer": "Charles Darwin",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle militante afro-américaine a refusé de céder sa place dans un bus à Montgomery en 1955 ?",
+    "answer": "Rosa Parks",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi de France est surnommé le 'Roi Soleil' ?",
+    "answer": "Louis XIV",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel navigateur portugais a dirigé la première expédition à faire le tour du monde ?",
+    "answer": "Fernand de Magellan",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle chanteuse américaine est surnommée la 'Reine de la pop' ?",
+    "answer": "Madonna",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel philosophe grec, élève de Socrate et maître d'Aristote, a fondé l'Académie d'Athènes ?",
+    "answer": "Platon",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi anglais eut six épouses successives ?",
+    "answer": "Henri VIII",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien a découvert la radioactivité en 1896 ?",
+    "answer": "Henri Becquerel",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle militaire française a mené l'armée à Orléans en 1429 ?",
+    "answer": "Jeanne d'Arc",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel écrivain russe est l'auteur de 'Guerre et Paix' ?",
+    "answer": "Léon Tolstoï",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel boxeur américain, né Cassius Clay, est surnommé 'The Greatest' ?",
+    "answer": "Mohamed Ali",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel chimiste et biologiste français a mis au point la pasteurisation ?",
+    "answer": "Louis Pasteur",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel président américain a aboli l'esclavage pendant la guerre de Sécession ?",
+    "answer": "Abraham Lincoln",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle exploratrice française fut la première femme à faire le tour du monde ?",
+    "answer": "Jeanne Baret",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre italien a réalisé la fresque du plafond de la chapelle Sixtine ?",
+    "answer": "Michel-Ange",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien a développé la théorie de la mécanique quantique et le principe d'incertitude ?",
+    "answer": "Werner Heisenberg",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle reine d'Angleterre a régné plus de 63 ans au XIXe siècle ?",
+    "answer": "Victoria",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel astronaute américain fut le premier homme à marcher sur la Lune ?",
+    "answer": "Neil Armstrong",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel philosophe fut condamné à boire la ciguë à Athènes ?",
+    "answer": "Socrate",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle femme de lettres française a écrit sous le nom de plume 'George Sand' ?",
+    "answer": "Amantine Lucile Aurore Dupin",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel dictateur allemand a déclenché la Seconde Guerre mondiale en 1939 ?",
+    "answer": "Adolf Hitler",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi de France fut guillotiné pendant la Révolution française ?",
+    "answer": "Louis XVI",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle actrice et princesse américaine est devenue princesse de Monaco en 1956 ?",
+    "answer": "Grace Kelly",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel inventeur écossais est crédité de l'invention du téléphone ?",
+    "answer": "Alexander Graham Bell",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel empereur romain a fondé la ville de Constantinople ?",
+    "answer": "Constantin Ier",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle chanteuse afro-américaine est surnommée la 'Reine de la Soul' ?",
+    "answer": "Aretha Franklin",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel explorateur norvégien fut le premier à atteindre le pôle Sud en 1911 ?",
+    "answer": "Roald Amundsen",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre espagnol est le créateur du cubisme avec Georges Braque ?",
+    "answer": "Pablo Picasso",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien anglais a formulé une théorie unifiée expliquant électricité et magnétisme ?",
+    "answer": "James Clerk Maxwell",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel activiste américain a prononcé le discours 'I Have a Dream' en 1963 ?",
+    "answer": "Martin Luther King",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle romancière anglaise a écrit 'Orgueil et Préjugés' ?",
+    "answer": "Jane Austen",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel scientifique italien a été contraint par l'Église de renier sa théorie héliocentrique ?",
+    "answer": "Galilée",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle femme fut la première ministre du Royaume-Uni, surnommée la 'Dame de fer' ?",
+    "answer": "Margaret Thatcher",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel footballeur brésilien, surnommé 'le Roi', a remporté trois Coupes du monde ?",
+    "answer": "Pelé",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel philosophe français a écrit 'Je pense, donc je suis' ?",
+    "answer": "René Descartes",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle chanteuse et actrice américaine a joué Marilyn dans 'Certains l'aiment chaud' ?",
+    "answer": "Marilyn Monroe",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi macédonien fut le père d'Alexandre le Grand ?",
+    "answer": "Philippe II de Macédoine",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel musicien allemand, devenu sourd, a composé la 'Neuvième Symphonie' ?",
+    "answer": "Ludwig van Beethoven",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel général romain a traversé le Rubicon en déclarant 'Alea jacta est' ?",
+    "answer": "Jules César",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle scientifique britannique a co-découvert la structure de l'ADN grâce à ses clichés de diffraction ?",
+    "answer": "Rosalind Franklin",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français est l'auteur des 'Misérables' ?",
+    "answer": "Victor Hugo",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel révolutionnaire cubain, avec Fidel Castro, est devenu une icône contestataire mondiale ?",
+    "answer": "Che Guevara",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle femme fut la première astronaute à voyager dans l'espace, en 1963 ?",
+    "answer": "Valentina Terechkova",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi anglais est le héros légendaire associé au château de Camelot ?",
+    "answer": "Arthur",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel savant grec de l'Antiquité aurait crié 'Eurêka' en découvrant le principe de la poussée ?",
+    "answer": "Archimède",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel homme d'État français a été président de la République de 1959 à 1969 ?",
+    "answer": "Charles de Gaulle",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle actrice française a incarné 'La Môme' Édith Piaf au cinéma ?",
+    "answer": "Marion Cotillard",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel chef d'orchestre et compositeur autrichien a écrit 'La Flûte enchantée' ?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien britannique, atteint de la maladie de Charcot, a écrit 'Une brève histoire du temps' ?",
+    "answer": "Stephen Hawking",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle reine d'Égypte antique fut l'épouse du pharaon Akhenaton ?",
+    "answer": "Néfertiti",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel entrepreneur américain a cofondé Apple avec Steve Jobs et Ronald Wayne ?",
+    "answer": "Steve Wozniak",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle danseuse et espionne néerlandaise fut exécutée en France en 1917 ?",
+    "answer": "Mata Hari",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi de Prusse, surnommé le Grand, fut un souverain éclairé du XVIIIe siècle ?",
+    "answer": "Frédéric II",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre hollandais du XVIIe siècle a peint 'La Ronde de nuit' ?",
+    "answer": "Rembrandt",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel joueur de tennis suisse a remporté un record de titres du Grand Chelem en simple messieurs ?",
+    "answer": "Roger Federer",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel philosophe allemand a écrit 'Ainsi parlait Zarathoustra' ?",
+    "answer": "Friedrich Nietzsche",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle actrice et productrice a fondé l'organisation caritative UNICEF Goodwill en tant qu'ambassadrice après sa carrière à Hollywood ?",
+    "answer": "Audrey Hepburn",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi de France, dit 'Saint Louis', mena deux croisades au XIIIe siècle ?",
+    "answer": "Louis IX",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain colombien a reçu le prix Nobel de littérature pour 'Cent ans de solitude' ?",
+    "answer": "Gabriel García Márquez",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel chanteur américain est surnommé le 'Roi de la pop' ?",
+    "answer": "Michael Jackson",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel prédicateur baptiste américain a reçu le prix Nobel de la paix en 1964 ?",
+    "answer": "Martin Luther King",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel compositeur allemand est l'auteur de 'La Passion selon saint Matthieu' ?",
+    "answer": "Jean-Sébastien Bach",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel homme politique indien fut le premier Premier ministre de l'Inde indépendante ?",
+    "answer": "Jawaharlal Nehru",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle artiste peintre mexicaine est célèbre pour ses autoportraits, dont 'Les Deux Frida' ?",
+    "answer": "Frida Kahlo",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien néerlandais a inventé le premier microscope permettant d'observer des micro-organismes ?",
+    "answer": "Antoni van Leeuwenhoek",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle chanteuse française est surnommée 'la Môme' et a chanté 'Non, je ne regrette rien' ?",
+    "answer": "Édith Piaf",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel navigateur portugais a le premier atteint l'Inde par voie maritime en contournant l'Afrique ?",
+    "answer": "Vasco de Gama",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel physicien danois a proposé un modèle de l'atome avec des électrons sur des orbites définies ?",
+    "answer": "Niels Bohr",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle femme est devenue la première femme présidente d'un pays africain, au Liberia, en 2006 ?",
+    "answer": "Ellen Johnson Sirleaf",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel empereur romain a fait construire un célèbre amphithéâtre, le Colisée ?",
+    "answer": "Vespasien",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel réalisateur britannique est surnommé le 'Maître du suspense' ?",
+    "answer": "Alfred Hitchcock",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle militante pakistanaise, blessée par balle par les talibans, a reçu le prix Nobel de la paix à 17 ans ?",
+    "answer": "Malala Yousafzai",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi de France est mort d'une septicémie après une chute de cheval en 1715, après un règne de 72 ans ?",
+    "answer": "Louis XIV",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel inventeur serbo-américain a donné son nom à une unité de champ magnétique et à une marque de voitures électriques ?",
+    "answer": "Nikola Tesla",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel footballeur argentin a remporté la Coupe du monde 2022 avec l'Argentine ?",
+    "answer": "Lionel Messi",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel philosophe et mathématicien français a énoncé le pari sur l'existence de Dieu appelé le 'pari de Pascal' ?",
+    "answer": "Blaise Pascal",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle reine française, épouse de Louis XVI, fut guillotinée en 1793 ?",
+    "answer": "Marie-Antoinette",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel explorateur britannique a disparu lors d'une tentative d'ascension de l'Everest en 1924 ?",
+    "answer": "George Mallory",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel homme d'affaires sud-africain a fondé SpaceX et dirige Tesla ?",
+    "answer": "Elon Musk",
+    "category": "Personnages célèbres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle poétesse et militante afro-américaine a récité un poème lors de l'investiture de Joe Biden en 2021 ?",
+    "answer": "Amanda Gorman",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel moine allemand est à l'origine de la Réforme protestante au XVIe siècle ?",
+    "answer": "Martin Luther",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel joueur de basket-ball américain, surnommé 'His Airness', a remporté six titres NBA avec les Chicago Bulls ?",
+    "answer": "Michael Jordan",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle religieuse albanaise, prix Nobel de la paix en 1979, a œuvré auprès des pauvres de Calcutta ?",
+    "answer": "Mère Teresa",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel physicien allemand a découvert les rayons X en 1895 ?",
+    "answer": "Wilhelm Röntgen",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi de France, dit 'le Bien-Aimé', régna au XVIIIe siècle avant Louis XVI ?",
+    "answer": "Louis XV",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle couturière française a créé la petite robe noire et le parfum Chanel N°5 ?",
+    "answer": "Coco Chanel",
+    "category": "Personnages célèbres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel explorateur français a fondé la ville de Québec en 1608 ?",
+    "answer": "Samuel de Champlain",
+    "category": "Personnages célèbres",
+    "difficulty": "difficile"
+  }
+]

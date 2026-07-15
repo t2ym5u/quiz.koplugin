@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Qui a peint La Joconde ?",
+    "answer": "Léonard de Vinci",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel musée parisien est exposée La Joconde ?",
+    "answer": "Le Louvre",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel peintre néerlandais s'est coupé une partie de l'oreille ?",
+    "answer": "Vincent van Gogh",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Qui a sculpté Le Penseur ?",
+    "answer": "Auguste Rodin",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain français est l'auteur des Misérables ?",
+    "answer": "Victor Hugo",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel peintre espagnol est le créateur de Guernica ?",
+    "answer": "Pablo Picasso",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le prénom du sculpteur Rodin ?",
+    "answer": "Auguste",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Qui a écrit Roméo et Juliette ?",
+    "answer": "William Shakespeare",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel opéra italien raconte l'histoire d'une gitane travaillant dans une manufacture de cigares à Séville ?",
+    "answer": "Carmen",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel architecte a conçu la tour Eiffel ?",
+    "answer": "Gustave Eiffel",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel sculpteur italien de la Renaissance a réalisé le David ?",
+    "answer": "Michel-Ange",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quelle ville se trouve la statue du David de Michel-Ange (original) ?",
+    "answer": "Florence",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain russe est l'auteur de Guerre et Paix ?",
+    "answer": "Léon Tolstoï",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel dramaturge français a écrit Le Malade imaginaire ?",
+    "answer": "Molière",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le véritable nom de Molière ?",
+    "answer": "Jean-Baptiste Poquelin",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel réalisateur américain a créé les films Jurassic Park et E.T. ?",
+    "answer": "Steven Spielberg",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle actrice française a joué le rôle d'Amélie Poulain ?",
+    "answer": "Audrey Tautou",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre est célèbre pour ses tableaux de tournesols ?",
+    "answer": "Vincent van Gogh",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "À quel âge Mozart a-t-il commencé à composer de la musique ?",
+    "answer": "5 ans",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français a créé le personnage d'Emma Bovary ?",
+    "answer": "Gustave Flaubert",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le titre du roman de Flaubert mettant en scène Emma Bovary ?",
+    "answer": "Madame Bovary",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays est né Pablo Picasso ?",
+    "answer": "Espagne",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel musée parisien est consacré à l'art moderne et abrite le Centre Pompidou ?",
+    "answer": "Centre Pompidou",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel sculpteur français a créé La Liberté éclairant le monde, offerte aux États-Unis ?",
+    "answer": "Frédéric Auguste Bartholdi",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain a créé le personnage de Sherlock Holmes ?",
+    "answer": "Arthur Conan Doyle",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du théâtre le plus célèbre de Paris consacré à la Comédie-Française ?",
+    "answer": "Comédie-Française",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel musée florentin est exposée La Naissance de Vénus de Botticelli ?",
+    "answer": "La galerie des Offices",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français a écrit Le Comte de Monte-Cristo ?",
+    "answer": "Alexandre Dumas",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel écrivain irlandais a créé le personnage de Dracula ?",
+    "answer": "Bram Stoker",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre mexicain est célèbre pour ses autoportraits, notamment avec des fleurs dans les cheveux ?",
+    "answer": "Frida Kahlo",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de l'époux peintre de Frida Kahlo ?",
+    "answer": "Diego Rivera",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français a écrit Le Petit Prince ?",
+    "answer": "Antoine de Saint-Exupéry",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel jardin Claude Monet a-t-il peint ses fameux nymphéas ?",
+    "answer": "Giverny",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel acteur français a incarné D'Artagnan dans plusieurs adaptations des Trois Mousquetaires au cinéma ?",
+    "answer": "Gérard Barray",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain a créé Les Trois Mousquetaires ?",
+    "answer": "Alexandre Dumas",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quel pays est originaire le compositeur Antonio Vivaldi ?",
+    "answer": "Italie",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel écrivain français du XIXe siècle a écrit Au bonheur des dames et Germinal ?",
+    "answer": "Émile Zola",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre surréaliste espagnol est célèbre pour ses montres molles ?",
+    "answer": "Salvador Dalí",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le titre du tableau de Salvador Dalí représentant des montres molles ?",
+    "answer": "La Persistance de la mémoire",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quelle ville italienne se trouve la fresque de La Cène ?",
+    "answer": "Milan",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel compositeur allemand a écrit la Neuvième Symphonie, qui inclut l'Ode à la joie ?",
+    "answer": "Ludwig van Beethoven",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel sculpteur français a créé Le Baiser ?",
+    "answer": "Auguste Rodin",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain français a écrit Notre-Dame de Paris ?",
+    "answer": "Victor Hugo",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du personnage bossu de Notre-Dame de Paris ?",
+    "answer": "Quasimodo",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel peintre italien de la Renaissance a peint L'École d'Athènes ?",
+    "answer": "Raphaël",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle cathédrale parisienne, célèbre pour son incendie de 2019, est un chef-d'œuvre gothique ?",
+    "answer": "Notre-Dame de Paris",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel compositeur français a écrit le Boléro ?",
+    "answer": "Maurice Ravel",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel philosophe et écrivain français est l'auteur de Huis clos ?",
+    "answer": "Jean-Paul Sartre",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel romancier a créé l'espion James Bond dans ses livres ?",
+    "answer": "Ian Fleming",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain russe a écrit Crime et Châtiment ?",
+    "answer": "Fiodor Dostoïevski",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre a réalisé la série de tableaux Les Meules ?",
+    "answer": "Claude Monet",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel architecte espagnol a conçu la basilique de la Sagrada Família à Barcelone ?",
+    "answer": "Antoni Gaudí",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quelle ville se trouve la Sagrada Família ?",
+    "answer": "Barcelone",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel écrivain français a écrit À la recherche du temps perdu ?",
+    "answer": "Marcel Proust",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre italien du Caravage est célèbre pour son usage du clair-obscur ? (nom du peintre)",
+    "answer": "Le Caravage",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel compositeur allemand est surnommé le Cantor de Leipzig ?",
+    "answer": "Jean-Sébastien Bach",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre est célèbre pour sa période bleue et sa période rose avant le cubisme ?",
+    "answer": "Pablo Picasso",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain anglais a écrit Hamlet ?",
+    "answer": "William Shakespeare",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel compositeur autrichien a écrit le Requiem inachevé à sa mort ?",
+    "answer": "Wolfgang Amadeus Mozart",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le véritable nom de Voltaire ?",
+    "answer": "François-Marie Arouet",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel acteur incarne Don Vito Corleone dans Le Parrain ?",
+    "answer": "Marlon Brando",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre français est associé au mouvement du pointillisme avec Georges Seurat ?",
+    "answer": "Paul Signac",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel compositeur russe a écrit L'Oiseau de feu ?",
+    "answer": "Igor Stravinsky",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français a écrit Bel-Ami ?",
+    "answer": "Guy de Maupassant",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel réalisateur suédois a réalisé Le Septième Sceau ?",
+    "answer": "Ingmar Bergman",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français a écrit Cyrano de Bergerac ?",
+    "answer": "Edmond Rostand",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle particularité physique célèbre porte le personnage de Cyrano de Bergerac ?",
+    "answer": "Un grand nez",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel compositeur français a écrit Clair de lune, extrait de la Suite bergamasque ?",
+    "answer": "Claude Debussy",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre italien du Quattrocento a peint La Bataille de San Romano ?",
+    "answer": "Paolo Uccello",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du fidèle écuyer de Don Quichotte ?",
+    "answer": "Sancho Panza",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel réalisateur français a créé le personnage de Fantômas au cinéma dans les années 1960 ?",
+    "answer": "André Hunebelle",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain italien a écrit La Divine Comédie ?",
+    "answer": "Dante Alighieri",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelles sont les trois parties de La Divine Comédie de Dante ?",
+    "answer": "Enfer, Purgatoire, Paradis",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel cabaret parisien est célèbre pour son moulin rouge sur son toit ?",
+    "answer": "Le Moulin Rouge",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel écrivain français a écrit Le Rouge et le Noir ?",
+    "answer": "Stendhal",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel sculpteur français a créé la statue de la Liberté ainsi que le Lion de Belfort ?",
+    "answer": "Frédéric Auguste Bartholdi",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre est l'auteur du tableau Les Époux Arnolfini ?",
+    "answer": "Jan van Eyck",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain britannique a créé le magicien Harry Potter ?",
+    "answer": "J.K. Rowling",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel écrivain colombien a écrit Cent ans de solitude ?",
+    "answer": "Gabriel García Márquez",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel courant littéraire, mêlant réalité et fantastique, est associé à García Márquez ?",
+    "answer": "Le réalisme magique",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre est célèbre pour son tableau American Gothic représentant un fermier et sa fille ?",
+    "answer": "Grant Wood",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français a écrit Vingt mille lieues sous les mers ?",
+    "answer": "Jules Verne",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du capitaine du Nautilus dans le roman de Jules Verne ?",
+    "answer": "Capitaine Nemo",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel peintre autrichien a créé le mouvement de la Sécession viennoise ?",
+    "answer": "Gustav Klimt",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain allemand a écrit Faust, inspirant l'opéra de Gounod ?",
+    "answer": "Johann Wolfgang von Goethe",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre néerlandais du XVIIe siècle est surnommé le maître de la lumière avec ses autoportraits nombreux ?",
+    "answer": "Rembrandt",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel surnom est donné à Alfred Hitchcock en raison de son style cinématographique ?",
+    "answer": "Le maître du suspense",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain français a écrit Les Trois Mousquetaires avec l'aide d'un collaborateur, Auguste Maquet ?",
+    "answer": "Alexandre Dumas",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel écrivain français du XVIIe siècle a écrit des Fables mettant en scène des animaux ?",
+    "answer": "Jean de La Fontaine",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans la fable de La Fontaine, quel animal fait la morale à la cigale ?",
+    "answer": "La fourmi",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel peintre français impressionniste a peint de nombreuses scènes de courses hippiques et de ballet ?",
+    "answer": "Edgar Degas",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel réalisateur français a réalisé La Grande Illusion, film sur la Première Guerre mondiale ?",
+    "answer": "Jean Renoir",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le titre de la vaste série romanesque de Balzac regroupant la plupart de ses œuvres ?",
+    "answer": "La Comédie humaine",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre espagnol du XVIIIe-XIXe siècle a peint Les Fusillades du 3 mai 1808 ?",
+    "answer": "Francisco de Goya",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel type d'édifice est le Colisée de Rome, symbole de l'architecture antique romaine ?",
+    "answer": "Un amphithéâtre",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel réalisateur français a créé Les Quatre Cents Coups, film emblématique de la Nouvelle Vague ?",
+    "answer": "François Truffaut",
+    "category": "Arts & Culture",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel écrivain britannique a écrit Alice au pays des merveilles ?",
+    "answer": "Lewis Carroll",
+    "category": "Arts & Culture",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel peintre français a peint La Grande Odalisque, célèbre nu allongé ?",
+    "answer": "Jean-Auguste-Dominique Ingres",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre français est célèbre pour ses scènes de baigneuses et son style néoclassique du XIXe siècle ?",
+    "answer": "Jean-Auguste-Dominique Ingres",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel peintre italien a peint La Vierge aux rochers ?",
+    "answer": "Léonard de Vinci",
+    "category": "Arts & Culture",
+    "difficulty": "difficile"
+  }
+]

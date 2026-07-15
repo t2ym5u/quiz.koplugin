@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel est le plus haut sommet du monde ?",
+    "answer": "Everest",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand désert froid du monde ?",
+    "answer": "L'Antarctique",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la plus haute chute d'eau du monde ?",
+    "answer": "Le Salto Angel",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la plus longue chaîne de montagnes du monde ?",
+    "answer": "Les Andes",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus long fleuve du monde ?",
+    "answer": "Le Nil",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand lac d'eau douce du monde par sa superficie ?",
+    "answer": "Le lac Supérieur",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le Grand Canyon ?",
+    "answer": "États-Unis",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le point le plus bas de la surface terrestre continentale ?",
+    "answer": "La mer Morte",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel désert couvre une grande partie de l'Australie centrale ?",
+    "answer": "Le désert de Simpson",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouvent les chutes Victoria ?",
+    "answer": "Entre la Zambie et le Zimbabwe",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "answer": "Le Sahara",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la plus haute montagne d'Europe ?",
+    "answer": "Le mont Elbrouz",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus grand océan du monde ?",
+    "answer": "L'océan Pacifique",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand lac salé du monde ?",
+    "answer": "La mer Caspienne",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel volcan actif se trouve à Hawaï et est l'un des plus grands du monde ?",
+    "answer": "Le Mauna Loa",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le désert du Kalahari ?",
+    "answer": "Botswana",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Sur quel continent se trouve le fleuve Amazone ?",
+    "answer": "Amérique du Sud",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus haut sommet d'Amérique du Sud ?",
+    "answer": "L'Aconcagua",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quelle chaîne de montagnes se trouve le mont Everest ?",
+    "answer": "L'Himalaya",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus profond lac du monde ?",
+    "answer": "Le lac Baïkal",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le désert habité le plus aride du monde ?",
+    "answer": "Le désert d'Atacama",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le désert du Gobi ?",
+    "answer": "Mongolie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel volcan a détruit la ville de Pompéi en 79 après J.-C. ?",
+    "answer": "Le Vésuve",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand glacier du monde ?",
+    "answer": "La barrière de Ross",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le mont Fuji ?",
+    "answer": "Japon",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle île est la plus grande du monde ?",
+    "answer": "Le Groenland",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays se trouve le parc national de Torres del Paine ?",
+    "answer": "Chili",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus long fleuve d'Europe ?",
+    "answer": "La Volga",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fleuve traverse l'Égypte ?",
+    "answer": "Le Nil",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel massif montagneux traverse la Californie et abrite le parc de Yosemite ?",
+    "answer": "La Sierra Nevada",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle forêt tropicale est surnommée le « poumon de la planète » ?",
+    "answer": "La forêt amazonienne",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+    "answer": "Les monts Oural",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le point culminant de l'Amérique du Nord ?",
+    "answer": "Le mont Denali",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le lac Titicaca ?",
+    "answer": "Entre le Pérou et la Bolivie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle montagne est le point culminant de l'Afrique ?",
+    "answer": "Le Kilimandjaro",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel volcan indonésien est célèbre pour son éruption cataclysmique de 1883 ?",
+    "answer": "Le Krakatoa",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le parc national de Yellowstone ?",
+    "answer": "États-Unis",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le désert de l'Atacama ?",
+    "answer": "Chili",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus grand archipel du monde ?",
+    "answer": "L'Indonésie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus long fleuve d'Afrique après le Nil ?",
+    "answer": "Le fleuve Congo",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays se trouve le lac Baïkal ?",
+    "answer": "Russie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le lac Victoria ?",
+    "answer": "Ouganda, Kenya, Tanzanie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel massif montagneux sépare la France de l'Espagne ?",
+    "answer": "Les Pyrénées",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le mont Denali (McKinley) ?",
+    "answer": "États-Unis",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus long fleuve des États-Unis ?",
+    "answer": "Le Missouri",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel désert se situe principalement en Namibie et en Afrique du Sud ?",
+    "answer": "Le désert du Namib",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus haut sommet des Alpes ?",
+    "answer": "Le mont Blanc",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel désert s'étend sur une grande partie du sud-ouest des États-Unis et du Mexique ?",
+    "answer": "Le désert de Sonora",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fleuve est le plus long d'Amérique du Sud ?",
+    "answer": "L'Amazone",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le parc national des Everglades ?",
+    "answer": "États-Unis",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus haut sommet d'Océanie ?",
+    "answer": "Le Puncak Jaya",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus grand fleuve de Chine ?",
+    "answer": "Le Yangtsé",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays se trouve l'Ayers Rock (Uluru) ?",
+    "answer": "Australie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le désert du Thar ?",
+    "answer": "Inde",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fleuve traverse Paris ?",
+    "answer": "La Seine",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand lac d'Afrique ?",
+    "answer": "Le lac Victoria",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du plus grand delta fluvial du monde, situé au Bangladesh et en Inde ?",
+    "answer": "Le delta du Gange",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel désert se situe entre la Chine et la Mongolie ?",
+    "answer": "Le désert de Gobi",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle mer est célèbre pour sa forte salinité, empêchant les baigneurs de couler ?",
+    "answer": "La mer Morte",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle chaîne de montagnes traverse la Nouvelle-Zélande ?",
+    "answer": "Les Alpes du Sud",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel canyon est creusé par le fleuve Colorado ?",
+    "answer": "Le Grand Canyon",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le parc national du Serengeti ?",
+    "answer": "Tanzanie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel désert se trouve principalement en Arabie saoudite ?",
+    "answer": "Rub al-Khali",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel volcan italien domine la ville de Catane en Sicile ?",
+    "answer": "L'Etna",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Sur quel continent se trouve le mont Kilimandjaro ?",
+    "answer": "Afrique",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel volcan hawaïen est l'un des volcans les plus actifs du monde ?",
+    "answer": "Le Kilauea",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel océan borde la côte est des États-Unis ?",
+    "answer": "L'océan Atlantique",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel océan est le plus petit du monde ?",
+    "answer": "L'océan Arctique",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle chaîne de montagnes s'étend sur toute la longueur de l'Italie ?",
+    "answer": "Les Apennins",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel pays se trouve le mont Kilimandjaro ?",
+    "answer": "Tanzanie",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle mer est bordée par l'Europe, l'Afrique et l'Asie ?",
+    "answer": "La mer Méditerranée",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus grand marais salant du monde, situé en Bolivie ?",
+    "answer": "Le Salar d'Uyuni",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fleuve traverse Londres ?",
+    "answer": "La Tamise",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la plus grande île de la Méditerranée ?",
+    "answer": "La Sicile",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays se trouve le désert du Néguev ?",
+    "answer": "Israël",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel parc national américain abrite le geyser Old Faithful ?",
+    "answer": "Yellowstone",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle barrière de corail, la plus grande du monde, se trouve en Australie ?",
+    "answer": "La Grande Barrière de corail",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus long fjord de Norvège ?",
+    "answer": "Le Sognefjord",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle chaîne de montagnes borde la côte ouest de l'Amérique du Sud ?",
+    "answer": "Les Andes",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel massif volcanique surplombe la ville de Naples ?",
+    "answer": "Le Vésuve",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le plus grand lac d'Amérique du Nord entièrement situé aux États-Unis ?",
+    "answer": "Le lac Michigan",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle grotte française est célèbre pour ses peintures rupestres préhistoriques ?",
+    "answer": "Lascaux",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle montagne japonaise est un volcan sacré et un symbole national ?",
+    "answer": "Le mont Fuji",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le mont Kailash, montagne sacrée ?",
+    "answer": "Chine (Tibet)",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle chute d'eau se situe à la frontière entre le Canada et les États-Unis ?",
+    "answer": "Les chutes du Niagara",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays se trouve le fjord de Geiranger ?",
+    "answer": "Norvège",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fleuve prend sa source dans les Alpes suisses et se jette dans la mer Noire ?",
+    "answer": "Le Danube",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel parc national abrite les geysers et sources chaudes dans le Wyoming ?",
+    "answer": "Yellowstone",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fleuve traverse l'Allemagne et se jette dans la mer du Nord ?",
+    "answer": "Le Rhin",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du désert qui occupe la majeure partie de l'ouest de la Chine ?",
+    "answer": "Le désert du Taklamakan",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fleuve se jette dans le golfe du Mexique après avoir traversé les États-Unis ?",
+    "answer": "Le Mississippi",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle montagne est considérée comme sacrée par les Aborigènes australiens ?",
+    "answer": "Uluru",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle mer intérieure a vu son niveau baisser drastiquement en Asie centrale ?",
+    "answer": "La mer d'Aral",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Dans quel océan se trouve la fosse des Mariannes ?",
+    "answer": "L'océan Pacifique",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays se trouve le lac Léman ?",
+    "answer": "Entre la Suisse et la France",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel volcan des Philippines est célèbre pour son cône presque parfait ?",
+    "answer": "Le Mayon",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel volcan a enseveli les villes de Pompéi et Herculanum ?",
+    "answer": "Le Vésuve",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le point le plus profond des océans connu à ce jour ?",
+    "answer": "La fosse des Mariannes",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays se trouve le désert du Karakoum ?",
+    "answer": "Turkménistan",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la plus haute cascade d'Europe, en Norvège ?",
+    "answer": "La cascade de Vinnufossen",
+    "category": "Géographie : Sites naturels",
+    "difficulty": "difficile"
+  }
+]

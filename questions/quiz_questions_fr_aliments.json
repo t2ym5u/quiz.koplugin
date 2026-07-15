@@ -1,0 +1,602 @@
+[
+  {
+    "question": "De quel pays la tomate est-elle originaire ?",
+    "answer": "Amérique du Sud",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le lait utilisé pour fabriquer le roquefort ?",
+    "answer": "Lait de brebis",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle boisson obtient-on par la distillation du vin ?",
+    "answer": "Le cognac (ou l'armagnac)",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "De quelle plante extrait-on le café ?",
+    "answer": "Le caféier",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel fruit est à l'origine de la confiture nommée « marmelade » à l'origine ?",
+    "answer": "L'orange amère",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle épice provient du pistil d'une fleur de crocus ?",
+    "answer": "Le safran",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la fève dont on extrait le chocolat ?",
+    "answer": "La fève de cacao",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel cépage rouge est le plus planté au monde ?",
+    "answer": "Le cabernet sauvignon",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "De quelle région française provient le champagne ?",
+    "answer": "Champagne",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel légume est en fait la tige d'une plante et non une racine ?",
+    "answer": "Le céleri",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle boisson chaude est obtenue à partir des feuilles du Camellia sinensis ?",
+    "answer": "Le thé",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel fromage français porte le nom d'une ville de Normandie ?",
+    "answer": "Le camembert",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel alcool est produit par la distillation de la canne à sucre ou de la mélasse ?",
+    "answer": "Le rhum",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Botaniquement, la fraise est-elle classée comme un fruit ou un légume ?",
+    "answer": "Aucun des deux (un faux-fruit)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle céréale est utilisée pour fabriquer la bière ?",
+    "answer": "L'orge",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays est le premier producteur mondial de café ?",
+    "answer": "Le Brésil",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "De quel pays la pomme de terre est-elle originaire ?",
+    "answer": "Le Pérou (Amérique du Sud)",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fromage italien à pâte dure est traditionnellement râpé sur les pâtes ?",
+    "answer": "Le parmesan",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle substance chimique du café et du thé est responsable de leur effet stimulant ?",
+    "answer": "La caféine",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel alcool est obtenu à partir de la distillation de céréales et vieilli en fûts de chêne, originaire d'Écosse ?",
+    "answer": "Le whisky",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la plante dont on tire la vanille ?",
+    "answer": "Une orchidée",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel type de lait entre dans la fabrication de la mozzarella di bufala ?",
+    "answer": "Le lait de bufflonne",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fruit sec est à la base de la fabrication du massepain ?",
+    "answer": "L'amande",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de faces possède l'étoile qui orne traditionnellement l'anis étoilé ?",
+    "answer": "Huit",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le principal cépage blanc utilisé pour le champagne, aussi cultivé pour le vin blanc de Bourgogne ?",
+    "answer": "Le chardonnay",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle noix est l'ingrédient principal du pesto traditionnel, avec le basilic ?",
+    "answer": "Le pignon de pin",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fromage français est fabriqué à partir de lait cru de vache et affiné dans des caves, originaire du Jura ?",
+    "answer": "Le comté",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle boisson est obtenue par la fermentation du jus de pomme ?",
+    "answer": "Le cidre",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel continent est le berceau du chocolat, avant son introduction en Europe ?",
+    "answer": "L'Amérique (Mésoamérique)",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle épice provient de l'écorce d'un arbre tropical ?",
+    "answer": "La cannelle",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel spiritueux est aromatisé aux baies de genièvre ?",
+    "answer": "Le gin",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays a introduit le premier la pomme de terre en Europe ?",
+    "answer": "L'Espagne",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "De quelle plante extrait-on le sucre le plus couramment en France ?",
+    "answer": "La betterave sucrière",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fromage bleu français est affiné dans les caves naturelles du village du même nom ?",
+    "answer": "Le roquefort",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la couleur d'origine de la carotte avant les variétés orange modernes ?",
+    "answer": "Violette (ou blanche)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel alcool mexicain est distillé à partir de l'agave bleue ?",
+    "answer": "La tequila",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle famille botanique regroupe la tomate, la pomme de terre et l'aubergine ?",
+    "answer": "Les solanacées",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fruit donne le vin par fermentation de son jus ?",
+    "answer": "Le raisin",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle région italienne est réputée pour son vinaigre balsamique traditionnel ?",
+    "answer": "Modène",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel type de fromage est la feta, en termes de lait utilisé traditionnellement ?",
+    "answer": "Lait de brebis (et de chèvre)",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle graine est à l'origine du tofu ?",
+    "answer": "Le soja",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel spiritueux anisé est interdit en France de 1915 à 1922, remplacé ensuite par le pastis ?",
+    "answer": "L'absinthe",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de grains de café faut-il approximativement pour produire une tasse d'espresso ?",
+    "answer": "Une cinquantaine",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du processus de fermentation contrôlée qui donne sa couleur noire au thé ?",
+    "answer": "L'oxydation",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle boisson est fabriquée à partir d'orge maltée, de houblon, de levure et d'eau ?",
+    "answer": "La bière",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel agrume porte le même nom que la ville marocaine dont il tire son appellation en anglais ?",
+    "answer": "La mandarine (tangerine, de Tanger)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fromage suisse est célèbre pour ses grands trous ?",
+    "answer": "L'emmental",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle plante donne le poivre noir, blanc et vert, selon le stade de récolte et de traitement ?",
+    "answer": "Le poivrier",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du sucre naturellement présent dans le lait ?",
+    "answer": "Le lactose",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle liqueur française à base de plantes est fabriquée par les moines de la Grande Chartreuse ?",
+    "answer": "La Chartreuse",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fruit exotique est aussi appelé « fruit du dragon » ?",
+    "answer": "Le pitaya",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle boisson japonaise est un alcool obtenu par la fermentation du riz ?",
+    "answer": "Le saké",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel légume-fleur, de la même famille que le chou, est composé de motifs en spirale fractale dans sa variété romanesco ?",
+    "answer": "Le chou romanesco",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays le kiwi (fruit) a-t-il été domestiqué à l'origine, avant d'être popularisé sous ce nom en Nouvelle-Zélande ?",
+    "answer": "La Chine",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel type de lait sert à fabriquer le chèvre (fromage de chèvre) ?",
+    "answer": "Le lait de chèvre",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle molécule est responsable de la saveur piquante du piment ?",
+    "answer": "La capsaïcine",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel spiritueux se décline en versions blanc, ambré, or ou épicé selon le vieillissement, produit à partir de la canne à sucre ?",
+    "answer": "Le rhum",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle région espagnole est la plus réputée pour son vin de Rioja ?",
+    "answer": "La Rioja",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de la levure principalement utilisée pour faire lever le pain ?",
+    "answer": "La levure de boulanger (Saccharomyces cerevisiae)",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle céréale, sans gluten, est la base du pain traditionnel japonais... en réalité utilisée pour le saké et les sushis ?",
+    "answer": "Le riz",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel fruit à coque est en réalité une graine, et non une vraie noix au sens botanique ?",
+    "answer": "La cacahuète (arachide)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays est le berceau historique du thé, où sa consommation daterait de plusieurs millénaires ?",
+    "answer": "La Chine",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle boisson gazeuse française à base de pomme est produite principalement en Normandie et en Bretagne ?",
+    "answer": "Le cidre",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom de la partie de la vigne où poussent les grains de raisin ?",
+    "answer": "La grappe",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel fromage français à pâte molle et croûte fleurie est produit en Île-de-France, notamment près de la ville de Meaux ?",
+    "answer": "Le brie",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel arbre produit les noix de muscade ?",
+    "answer": "Le muscadier",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel alcool est traditionnellement associé à la ville de Cognac, en Charente ?",
+    "answer": "Le cognac",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle vitamine, présente en grande quantité dans les agrumes, prévient le scorbut ?",
+    "answer": "La vitamine C",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom du processus qui transforme le moût de raisin en vin ?",
+    "answer": "La fermentation",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel légume-racine orange est riche en bêta-carotène ?",
+    "answer": "La carotte",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel spiritueux hollandais aromatisé au genièvre est l'ancêtre du gin ?",
+    "answer": "Le genièvre (jenever)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle épice, la plus chère au monde au poids, est récoltée à la main sur une fleur de crocus ?",
+    "answer": "Le safran",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fruit tropical est utilisé pour fabriquer la boisson alcoolisée appelée « vin de palme » dans certains pays ?",
+    "answer": "La sève du palmier (pas un fruit, mais la sève)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel type de champignon microscopique transforme le raisin en vin et la farine en pain ?",
+    "answer": "La levure",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fromage français au lait de vache, à pâte pressée non cuite, porte le nom d'une région volcanique d'Auvergne ?",
+    "answer": "Le cantal",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle boisson mexicaine à base de cacao était consommée par les Aztèques, souvent épicée et sans sucre ?",
+    "answer": "Le chocolat (xocolatl)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du fruit du caféier avant que ses graines ne soient torréfiées ?",
+    "answer": "La cerise de café",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle boisson traditionnelle russe est un alcool distillé à base de céréales ou de pommes de terre ?",
+    "answer": "La vodka",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel fruit rouge donne son nom à une célèbre liqueur française, le cassis, utilisée dans le kir ?",
+    "answer": "Le cassis",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle région française est la plus grande productrice de vin en volume ?",
+    "answer": "Le Languedoc-Roussillon (Occitanie)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle plante aromatique méditerranéenne porte le même nom que sa couleur violette caractéristique ?",
+    "answer": "La lavande",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel processus de cuisson à sec, à haute température, développe les arômes des grains de café verts ?",
+    "answer": "La torréfaction",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fromage italien filé et étiré est traditionnellement utilisé sur les pizzas ?",
+    "answer": "La mozzarella",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel continent est considéré comme le berceau originel du café, avant sa diffusion vers le Yémen ?",
+    "answer": "L'Afrique (Éthiopie)",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel légume vert est le bourgeon floral non ouvert d'une plante de la famille des chardons ?",
+    "answer": "L'artichaut",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel spiritueux français à base de pomme est produit dans la région du Calvados, dont il tire son nom ?",
+    "answer": "Le calvados",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du processus qui consiste à faire vieillir un fromage pour développer sa saveur ?",
+    "answer": "L'affinage",
+    "category": "Aliments & Boissons",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle boisson chaude sud-américaine à base de feuilles séchées est traditionnellement bue dans une calebasse avec une paille métallique appelée bombilla ?",
+    "answer": "Le maté",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle noix, riche en oméga-3, pousse sur un arbre du même nom largement cultivé dans le Périgord ?",
+    "answer": "La noix",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle légumineuse est utilisée pour fabriquer le houmous ?",
+    "answer": "Le pois chiche",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom scientifique donné au processus de caramélisation qui brunit la croûte du pain lors de la cuisson ?",
+    "answer": "La réaction de Maillard",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel cépage blanc emblématique est à l'origine du Sancerre et du Pouilly-Fumé ?",
+    "answer": "Le sauvignon blanc",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom du champignon microscopique responsable de la formation des moisissures bleues dans le roquefort ?",
+    "answer": "Penicillium roqueforti",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fruit est pressé pour obtenir l'huile d'olive ?",
+    "answer": "L'olive",
+    "category": "Aliments & Boissons",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle région portugaise est à l'origine du vin de Porto ?",
+    "answer": "La vallée du Douro",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné au vin obtenu par l'ajout d'alcool en cours de fermentation, comme le porto ou le banyuls ?",
+    "answer": "Le vin muté (vin doux naturel)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle plante grimpante originaire du Mexique produit les gousses utilisées pour la vanille ?",
+    "answer": "L'orchidée vanillier (Vanilla planifolia)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fromage français au lait cru de vache, à pâte pressée cuite, est fabriqué en grandes meules de plus de 40 kg dans les Alpes ?",
+    "answer": "Le beaufort",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle proportion approximative du poids d'un pamplemousse est constituée d'eau (à la dizaine de pourcent près) ?",
+    "answer": "Environ 90%",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel fromage français à pâte persillée, différent du roquefort, est fabriqué dans le Massif central à partir de lait de vache ?",
+    "answer": "La fourme d'Ambert (ou le bleu d'Auvergne)",
+    "category": "Aliments & Boissons",
+    "difficulty": "difficile"
+  }
+]

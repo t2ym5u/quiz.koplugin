@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel est le nom de l'outil qui sert à planter un clou ?",
+    "answer": "Marteau",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quel siècle le stylo à bille a-t-il été inventé et breveté ?",
+    "answer": "XXe siècle",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel ingénieur suisse a inventé le velcro en observant des bardanes accrochées à son pantalon ?",
+    "answer": "Georges de Mestral",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet utilise-t-on pour mesurer la température corporelle ?",
+    "answer": "Thermomètre",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit sac isolant que l'on remplit d'eau chaude pour se réchauffer le lit ?",
+    "answer": "Bouillotte",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays est à l'origine de l'invention du parapluie, plusieurs siècles avant notre ère ?",
+    "answer": "La Chine",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet sert à couper le papier ou le tissu grâce à deux lames articulées ?",
+    "answer": "Ciseaux",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle entreprise suédoise a popularisé le meuble en kit à monter soi-même ?",
+    "answer": "Ikea",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi de France aurait popularisé l'usage de la fourchette à la cour ?",
+    "answer": "Henri III",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit meuble à tiroirs souvent placé près du lit ?",
+    "answer": "Table de chevet",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur écossais a déposé le brevet du téléphone en 1876 ?",
+    "answer": "Alexander Graham Bell",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet, muni de dents fines, sert à démêler les cheveux ?",
+    "answer": "Peigne",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays le nom \"macintosh\" du tissu imperméable trouve-t-il son origine ?",
+    "answer": "Écosse",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet en verre gradué sert à mesurer un volume de liquide en cuisine ?",
+    "answer": "Verre doseur",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien écossais a inventé le macadam, revêtement routier qui porte son nom ?",
+    "answer": "John McAdam",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'ustensile de cuisine servant à écraser les pommes de terre en purée ?",
+    "answer": "Presse-purée",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom de l'objet qui protège la main lorsqu'on repasse ou cuisine au four ?",
+    "answer": "Maniques",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel Américain a inventé l'ampoule à incandescence commercialement viable en 1879 ?",
+    "answer": "Thomas Edison",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel objet, formé de deux verres reliés par une monture, sert à corriger la vue ?",
+    "answer": "Lunettes",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quel siècle situe-t-on l'apparition des premières lunettes de vue en Italie ?",
+    "answer": "XIIIe siècle",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet métallique et pointu sert à assembler deux morceaux de tissu par couture ?",
+    "answer": "Aiguille",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur américain a mis au point la fermeture à glissière moderne au début du XXe siècle ?",
+    "answer": "Gideon Sundback",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment nomme-t-on le petit objet qui sert à retenir les cheveux, souvent en forme de pince ?",
+    "answer": "Barrette",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel objet sert à mesurer une longueur, souvent enroulé dans un boîtier métallique ?",
+    "answer": "Mètre ruban",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle entreprise américaine a lancé le premier Post-it en 1980 ?",
+    "answer": "3M",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet de bureau sert à agrafer plusieurs feuilles ensemble ?",
+    "answer": "Agrafeuse",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel Norvégien est traditionnellement crédité de l'invention du trombone de bureau, breveté en 1899 ?",
+    "answer": "Johan Vaaler",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet qui sert à effacer les traces de crayon à papier ?",
+    "answer": "Gomme",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel Français est reconnu pour avoir inventé le braille, système d'écriture pour aveugles ?",
+    "answer": "Louis Braille",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet, tenu à la main, sert à s'éventer pour se rafraîchir ?",
+    "answer": "Éventail",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur américain a découvert par hasard le principe du four à micro-ondes en travaillant sur des radars ?",
+    "answer": "Percy Spencer",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le meuble réfrigéré qui conserve les aliments au froid dans une cuisine ?",
+    "answer": "Réfrigérateur",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel objet en tissu sert à s'essuyer la bouche ou les mains à table ?",
+    "answer": "Serviette",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur américain a créé la première machine à laver électrique en 1908 ?",
+    "answer": "Alva Fisher",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'ustensile à long manche et à tête plate servant à retourner les aliments dans une poêle ?",
+    "answer": "Spatule",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle entreprise finlandaise, aujourd'hui connue pour les téléphones, fabriquait à l'origine du papier et des bottes en caoutchouc ?",
+    "answer": "Nokia",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet, muni d'un manche et de poils, sert à se brosser les dents ?",
+    "answer": "Brosse à dents",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Dans quel pays a-t-on retrouvé les plus anciens \"cure-dents\" en bois, datant de la préhistoire ?",
+    "answer": "En Chine",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet métallique servant à ouvrir les bouteilles capsulées ?",
+    "answer": "Décapsuleur",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel ingénieur américain a inventé l'ouvre-boîte à molette en 1870 ?",
+    "answer": "William Lyman",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet textile, porté à la taille, sert à protéger les vêtements lors de la cuisine ?",
+    "answer": "Tablier",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pharmacien français a inventé la seringue hypodermique moderne au XIXe siècle ?",
+    "answer": "Charles Gabriel Pravaz",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment nomme-t-on l'objet en tissu ou en éponge servant à se laver le corps ?",
+    "answer": "Gant de toilette",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle marque américaine a créé le premier rasoir jetable à lames interchangeables au début du XXe siècle ?",
+    "answer": "Gillette",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet, souvent en cuir ou en tissu, sert à transporter des affaires personnelles à la main ?",
+    "answer": "Sac à main",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel accessoire vestimentaire, porté autour du cou, doit son nom aux mercenaires croates au XVIIe siècle ?",
+    "answer": "La cravate",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on le vêtement de nuit en une seule pièce couvrant le corps entier ?",
+    "answer": "Pyjama",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "De quelle famille de langues vient le mot \"pyjama\", désignant à l'origine un pantalon ample ?",
+    "answer": "Langues indo-iraniennes",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet métallique et pointu sert à fixer deux feuilles de papier sans les agrafer ?",
+    "answer": "Trombone",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle Américaine a mis au point le premier lave-vaisselle mécanique performant en 1886 ?",
+    "answer": "Josephine Cochrane",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit ustensile qui sert à retirer la peau des fruits et légumes ?",
+    "answer": "Économe",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel ingénieur britannique a mis au point l'aspirateur à moteur en 1901 ?",
+    "answer": "Hubert Cecil Booth",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet chauffant à semelle plate sert à défroisser les vêtements ?",
+    "answer": "Fer à repasser",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle matière combustible remplissait les anciens fers à repasser avant l'électricité ?",
+    "answer": "Des braises",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on le récipient isolant qui garde les boissons chaudes ou froides longtemps ?",
+    "answer": "Thermos",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien écossais a inventé le vase isotherme à double paroi, ancêtre de la bouteille thermos ?",
+    "answer": "James Dewar",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel objet en bois ou en plastique sert de support pour suspendre un vêtement dans une armoire ?",
+    "answer": "Cintre",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel Américain a breveté la serrure à cylindre moderne en 1848 ?",
+    "answer": "Linus Yale",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet lumineux portatif alimenté par des piles ?",
+    "answer": "Lampe de poche",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur britannique a mis au point le premier aspirateur sans sac performant dans les années 1980 ?",
+    "answer": "James Dyson",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on la pince métallique à ressort qui sert à maintenir une liasse de papiers ?",
+    "answer": "Pince à dossier",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle civilisation antique a inventé la fourchette à plusieurs dents, bien avant son adoption en Europe occidentale ?",
+    "answer": "L'Empire byzantin",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet de cuisine, muni d'une manivelle, qui sert à ouvrir mécaniquement les boîtes de conserve ?",
+    "answer": "Ouvre-boîte",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année la boîte de conserve a-t-elle été inventée, précédant l'ouvre-boîte de plusieurs décennies ?",
+    "answer": "1810",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet en tissu piqué et rembourré qui recouvre le lit pour tenir chaud ?",
+    "answer": "Couette",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel horloger français est célèbre pour avoir perfectionné le ressort spiral des montres au XVIIIe siècle ?",
+    "answer": "Abraham-Louis Breguet",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel inventeur hongrois a mis au point le stylo à bille moderne dans les années 1930, donnant son nom au \"biro\" ?",
+    "answer": "László Bíró",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on le crayon dont la mine est en graphite entouré de bois ?",
+    "answer": "Crayon à papier",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel matériau composait principalement les premiers crayons découverts en Angleterre au XVIe siècle ?",
+    "answer": "Le graphite",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet, souvent en caoutchouc, sert à déboucher les canalisations par succion ?",
+    "answer": "Ventouse",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel homme d'État et scientifique américain a inventé le paratonnerre au XVIIIe siècle ?",
+    "answer": "Benjamin Franklin",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel Américain a mis au point la paille en papier moderne, brevetée en 1888 ?",
+    "answer": "Marvin Stone",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment nomme-t-on l'objet léger et rigide qui protège de la pluie lorsqu'on le porte au-dessus de la tête ?",
+    "answer": "Parapluie",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur écossais, pionnier aussi de l'éducation des sourds, est crédité de l'invention du téléphone ?",
+    "answer": "Alexander Graham Bell",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel savant italien est crédité de l'invention de la pile électrique en 1800, donnant son nom à une unité électrique ?",
+    "answer": "Alessandro Volta",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet cylindrique et souple qui sert à contenir du dentifrice ?",
+    "answer": "Tube",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel Américain a mis au point le tube souple en métal pour conditionner le dentifrice en 1892 ?",
+    "answer": "Washington Sheffield",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel mouvement artistique allemand des années 1920 a conçu les célèbres chaises en tube d'acier cintré ?",
+    "answer": "Le Bauhaus",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'appareil qui projette de l'air chaud pour sécher les cheveux ?",
+    "answer": "Sèche-cheveux",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet portatif qui produit une flamme pour allumer une cigarette ou une bougie ?",
+    "answer": "Briquet",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel chimiste suédois a inventé les allumettes de sûreté, dites \"suédoises\", en 1844 ?",
+    "answer": "Gustaf Erik Pasch",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel Britannique a breveté le matelas à ressorts moderne en 1865 ?",
+    "answer": "Samuel Pratt",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment nomme-t-on l'objet transparent en verre que l'on place devant une flamme pour la protéger du vent ?",
+    "answer": "Photophore",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel matériau Thomas Edison a-t-il utilisé pour le filament de son ampoule améliorée de 1880, augmentant sa durée de vie ?",
+    "answer": "Le bambou carbonisé",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on le petit objet métallique et pointu qui sert à fixer un vêtement ou un tissu temporairement ?",
+    "answer": "Épingle",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel Américain a breveté l'épingle de sûreté, dite épingle à nourrice, en 1849 ?",
+    "answer": "Walter Hunt",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet souple porté aux pieds pour se protéger du froid, distinct de la chaussure ?",
+    "answer": "Chaussette",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel Français a inventé le vélocipède à pédales, ancêtre du vélo moderne, au milieu du XIXe siècle ?",
+    "answer": "Pierre Michaux",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet à deux roues propulsé par la force des jambes via des pédales ?",
+    "answer": "Vélo",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel ingénieur écossais a inventé le pneumatique gonflable moderne en 1888, en le testant sur le vélo de son fils ?",
+    "answer": "John Boyd Dunlop",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet ménager qui sert à arroser les plantes avec de l'eau ?",
+    "answer": "Arrosoir",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle île italienne, réputée pour son artisanat verrier, a perfectionné le miroir en verre étamé au Moyen Âge ?",
+    "answer": "Murano",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel Américain a inventé le premier appareil photo portable Kodak en 1888 ?",
+    "answer": "George Eastman",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on l'appareil qui capture des images fixes grâce à un objectif et une pellicule ou un capteur ?",
+    "answer": "Appareil photo",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel inventeur américain a mis au point le phonographe, premier appareil capable d'enregistrer et de rejouer le son, en 1877 ?",
+    "answer": "Thomas Edison",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Comment appelle-t-on l'objet qui sert à mesurer le poids d'une personne ou d'un objet ?",
+    "answer": "Balance",
+    "category": "Objets du quotidien",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel physicien et mathématicien italien a inventé le baromètre à mercure en 1643 ?",
+    "answer": "Evangelista Torricelli",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Comment appelle-t-on l'instrument qui mesure la pression atmosphérique ?",
+    "answer": "Baromètre",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel objet en bois, muni de poils rigides, sert à nettoyer le sol en le frottant ?",
+    "answer": "Balai",
+    "category": "Objets du quotidien",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel Français a inventé la boîte d'allumettes avec frottoir latéral en phosphore rouge, plus sûre, au XIXe siècle ?",
+    "answer": "Charles Sauria",
+    "category": "Objets du quotidien",
+    "difficulty": "difficile"
+  }
+]

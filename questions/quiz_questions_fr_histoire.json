@@ -1,0 +1,602 @@
+[
+  {
+    "question": "En quelle année a eu lieu la prise de la Bastille ?",
+    "answer": "1789",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Qui était l'empereur des Français sacré en 1804 ?",
+    "answer": "Napoléon Bonaparte",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel mur est tombé en 1989, symbolisant la fin de la guerre froide ?",
+    "answer": "Le mur de Berlin",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle reine d'Égypte s'est alliée avec Jules César puis Marc Antoine ?",
+    "answer": "Cléopâtre",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année a débuté la Première Guerre mondiale ?",
+    "answer": "1914",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel traité a mis fin à la Première Guerre mondiale en 1919 ?",
+    "answer": "Le traité de Versailles",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Qui fut le premier président de la Ve République française ?",
+    "answer": "Charles de Gaulle",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année Christophe Colomb atteint-il l'Amérique ?",
+    "answer": "1492",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi de France est guillotiné en 1793 ?",
+    "answer": "Louis XVI",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle bataille marque la défaite finale de Napoléon en 1815 ?",
+    "answer": "Waterloo",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel philosophe grec fut le précepteur d'Alexandre le Grand ?",
+    "answer": "Aristote",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année le débarquement de Normandie a-t-il eu lieu ?",
+    "answer": "1944",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dirigeant soviétique a lancé la politique de la perestroïka ?",
+    "answer": "Mikhaïl Gorbatchev",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle dynastie chinoise a fait construire la Grande Muraille dans sa forme actuelle ?",
+    "answer": "La dynastie Ming",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel homme d'État indien a mené la résistance non-violente contre le colonialisme britannique ?",
+    "answer": "Gandhi",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année a eu lieu l'indépendance de l'Algérie ?",
+    "answer": "1962",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel empereur romain a légalisé le christianisme par l'édit de Milan ?",
+    "answer": "Constantin",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle guerre opposa le Nord et le Sud des États-Unis de 1861 à 1865 ?",
+    "answer": "La guerre de Sécession",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Qui fut assassiné à Sarajevo en 1914, déclenchant la Première Guerre mondiale ?",
+    "answer": "L'archiduc François-Ferdinand",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel général carthaginois traversa les Alpes avec des éléphants pour attaquer Rome ?",
+    "answer": "Hannibal",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année la Révolution russe a-t-elle renversé le tsar ?",
+    "answer": "1917",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pharaon est célèbre pour son tombeau découvert intact en 1922 ?",
+    "answer": "Toutânkhamon",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle reine anglaise régna 63 ans au XIXe siècle, donnant son nom à une époque ?",
+    "answer": "Victoria",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel document fondateur des droits de l'homme fut signé en Angleterre en 1215 ?",
+    "answer": "La Magna Carta",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel mouvement politique dirigé par Mao Zedong prit le pouvoir en Chine en 1949 ?",
+    "answer": "Le parti communiste chinois",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année le mur de Berlin a-t-il été construit ?",
+    "answer": "1961",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi de Macédoine conquit un immense empire jusqu'en Inde ?",
+    "answer": "Alexandre le Grand",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle organisation internationale fut créée en 1945 après la Seconde Guerre mondiale ?",
+    "answer": "L'ONU",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel empereur français fut exilé sur l'île de Sainte-Hélène ?",
+    "answer": "Napoléon Bonaparte",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année la bombe atomique fut-elle larguée sur Hiroshima ?",
+    "answer": "1945",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel homme politique fut le leader du mouvement des droits civiques aux États-Unis dans les années 1960 ?",
+    "answer": "Martin Luther King",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle civilisation précolombienne bâtit le Machu Picchu ?",
+    "answer": "Les Incas",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel traité créa la Communauté économique européenne en 1957 ?",
+    "answer": "Le traité de Rome",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année Jeanne d'Arc fut-elle brûlée vive à Rouen ?",
+    "answer": "1431",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel général français dirigea la France libre pendant la Seconde Guerre mondiale ?",
+    "answer": "Charles de Gaulle",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle ville fut la capitale de l'Empire byzantin ?",
+    "answer": "Constantinople",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année la Seconde Guerre mondiale s'est-elle terminée ?",
+    "answer": "1945",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi de France est surnommé le Roi-Soleil ?",
+    "answer": "Louis XIV",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle crise de 1962 opposa les États-Unis et l'URSS autour de missiles à Cuba ?",
+    "answer": "La crise des missiles de Cuba",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel philosophe des Lumières a écrit 'Du contrat social' ?",
+    "answer": "Jean-Jacques Rousseau",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année a eu lieu l'attentat du World Trade Center à New York ?",
+    "answer": "2001",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel empire, dirigé par les sultans, prit Constantinople en 1453 ?",
+    "answer": "L'Empire ottoman",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle femme politique française fut la première à devenir Premier ministre en 1991 ?",
+    "answer": "Édith Cresson",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année Rosa Parks refusa-t-elle de céder sa place dans un bus aux États-Unis ?",
+    "answer": "1955",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel chef militaire mongol créa le plus grand empire terrestre de l'histoire ?",
+    "answer": "Gengis Khan",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle révolution française eut lieu en juillet 1830 et renversa Charles X ?",
+    "answer": "Les Trois Glorieuses",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année l'apartheid a-t-il officiellement pris fin en Afrique du Sud ?",
+    "answer": "1991",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel dirigeant sud-africain, emprisonné 27 ans, devint président en 1994 ?",
+    "answer": "Nelson Mandela",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle bataille de 1066 marque la conquête normande de l'Angleterre ?",
+    "answer": "La bataille d'Hastings",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel empereur romain divisa l'Empire en deux parties, orientale et occidentale ?",
+    "answer": "Théodose",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année la Déclaration des droits de l'homme et du citoyen fut-elle adoptée ?",
+    "answer": "1789",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays a été divisé en deux États de 1949 à 1990 ?",
+    "answer": "L'Allemagne",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel roi anglais rompit avec l'Église catholique pour fonder l'Église anglicane ?",
+    "answer": "Henri VIII",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année eut lieu la révolution cubaine menée par Fidel Castro ?",
+    "answer": "1959",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle bataille de 1916 fut l'une des plus meurtrières de la Première Guerre mondiale, en France ?",
+    "answer": "Verdun",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel empire précolombien fut conquis par Hernán Cortés ?",
+    "answer": "L'Empire aztèque",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année a été signé l'armistice mettant fin à la Première Guerre mondiale ?",
+    "answer": "1918",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel homme politique français fut président durant les événements de mai 1968 ?",
+    "answer": "Charles de Gaulle",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle civilisation antique a inventé la démocratie à Athènes ?",
+    "answer": "Les Grecs",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année l'Union soviétique s'est-elle dissoute ?",
+    "answer": "1991",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel empereur français fut vaincu à la bataille de Sedan en 1870 ?",
+    "answer": "Napoléon III",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle reine de France, épouse de Louis XVI, fut guillotinée en 1793 ?",
+    "answer": "Marie-Antoinette",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année débuta la guerre du Vietnam pour les États-Unis, avec l'engagement militaire massif ?",
+    "answer": "1965",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel traité de 1648 mit fin à la guerre de Trente Ans ?",
+    "answer": "Les traités de Westphalie",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel général français devint premier consul en 1799 après un coup d'État ?",
+    "answer": "Napoléon Bonaparte",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année a eu lieu la révolution iranienne renversant le Shah ?",
+    "answer": "1979",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi de France fit construire le château de Versailles ?",
+    "answer": "Louis XIV",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle guerre opposa la France et l'Allemagne en 1870-1871 ?",
+    "answer": "La guerre franco-prussienne",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année Adolf Hitler devint-il chancelier d'Allemagne ?",
+    "answer": "1933",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel empire dirigé par Charlemagne fut couronné en l'an 800 ?",
+    "answer": "Le Saint Empire romain",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle organisation politique et militaire fut créée en 1949 pour contrer l'URSS ?",
+    "answer": "L'OTAN",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année les femmes obtinrent-elles le droit de vote en France ?",
+    "answer": "1944",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi perse fut vaincu par Alexandre le Grand ?",
+    "answer": "Darius III",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle révolution de 1789 renversa la monarchie absolue en France ?",
+    "answer": "La Révolution française",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année le Japon a-t-il attaqué Pearl Harbor ?",
+    "answer": "1941",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel homme d'État fut le principal artisan de l'unification de l'Allemagne au XIXe siècle ?",
+    "answer": "Otto von Bismarck",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle ville italienne fut la capitale de l'Empire romain ?",
+    "answer": "Rome",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "En quelle année le Vietnam fut-il réunifié après la chute de Saïgon ?",
+    "answer": "1975",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel régime politique instauré en Italie par Mussolini en 1922 est qualifié de fasciste ?",
+    "answer": "Le fascisme",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle bataille navale de 1805 opposa la flotte française à la flotte britannique de Nelson ?",
+    "answer": "Trafalgar",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année la Chine impériale a-t-elle été remplacée par une république ?",
+    "answer": "1912",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel président américain fut assassiné à Dallas en 1963 ?",
+    "answer": "John F. Kennedy",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle dynastie régna sur la France de 1589 à 1792 ?",
+    "answer": "Les Bourbons",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année eut lieu le génocide au Rwanda ?",
+    "answer": "1994",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel explorateur portugais accomplit le premier tour du monde en bateau, achevé après sa mort ?",
+    "answer": "Magellan",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle guerre civile espagnole opposa républicains et nationalistes de 1936 à 1939 ?",
+    "answer": "La guerre civile espagnole",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année le Concorde effectua-t-il son premier vol commercial ?",
+    "answer": "1976",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle femme fut reine d'Angleterre puis d'Écosse, exécutée en 1587 ?",
+    "answer": "Marie Stuart",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année le traité de Maastricht créa-t-il l'Union européenne ?",
+    "answer": "1992",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel empereur chinois unifia le pays et fit construire l'armée de terre cuite ?",
+    "answer": "Qin Shi Huang",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle guerre opposa l'Irak et l'Iran dans les années 1980 ?",
+    "answer": "La guerre Iran-Irak",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "En quelle année Léon Blum forma-t-il le gouvernement du Front populaire en France ?",
+    "answer": "1936",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel roi de France est connu pour l'édit de Nantes en 1598, garantissant la tolérance religieuse ?",
+    "answer": "Henri IV",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle guerre opposa la Grèce antique à l'Empire perse au Ve siècle avant J.-C. ?",
+    "answer": "Les guerres médiques",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année le premier homme a-t-il marché sur la Lune ?",
+    "answer": "1969",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel dirigeant libyen fut renversé lors du Printemps arabe en 2011 ?",
+    "answer": "Mouammar Kadhafi",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel roi anglais signa la Grande Charte limitant le pouvoir royal en 1215 ?",
+    "answer": "Jean sans Terre",
+    "category": "Histoire & Politique",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "En quelle année la France a-t-elle aboli l'esclavage définitivement ?",
+    "answer": "1848",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel empereur romain fit assassiner par le Sénat en 44 avant J.-C. ?",
+    "answer": "Jules César",
+    "category": "Histoire & Politique",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle crise économique mondiale débuta avec le krach boursier de 1929 ?",
+    "answer": "La Grande Dépression",
+    "category": "Histoire & Politique",
+    "difficulty": "moyen"
+  }
+]

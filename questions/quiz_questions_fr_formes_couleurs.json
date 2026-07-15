@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Combien de côtés a un hexagone ?",
+    "answer": "Six",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+    "answer": "Vert",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de faces a un cube ?",
+    "answer": "Six",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nombre premier qui suit 7 ?",
+    "answer": "Onze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un triangle ?",
+    "answer": "Trois",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur symbolise traditionnellement la jalousie ?",
+    "answer": "Vert",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de sommets a un cube ?",
+    "answer": "Huit",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la somme des angles d'un triangle ?",
+    "answer": "180 degrés",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel chiffre romain représente le nombre 50 ?",
+    "answer": "L",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de côtés a un pentagone ?",
+    "answer": "Cinq",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur obtient-on en mélangeant du rouge et du blanc ?",
+    "answer": "Rose",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de faces a une pyramide à base carrée ?",
+    "answer": "Cinq",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le premier chiffre après la virgule de pi ?",
+    "answer": "Un",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelles sont les trois couleurs primaires en peinture ?",
+    "answer": "Rouge, bleu, jaune",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un carré ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur résulte du mélange du rouge et du jaune ?",
+    "answer": "Orange",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien d'arêtes a un cube ?",
+    "answer": "Douze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus petit nombre premier ?",
+    "answer": "Deux",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un octogone ?",
+    "answer": "Huit",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur porte-t-on traditionnellement en signe de deuil en Occident ?",
+    "answer": "Noir",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de côtés a un heptagone ?",
+    "answer": "Sept",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la couleur complémentaire du rouge ?",
+    "answer": "Vert",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de faces a un tétraèdre ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font sept multiplié par huit ?",
+    "answer": "56",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel chiffre romain représente le nombre 100 ?",
+    "answer": "C",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un nonagone ?",
+    "answer": "Neuf",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur symbolise la royauté et le luxe ?",
+    "answer": "Violet",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de sommets a une pyramide à base carrée ?",
+    "answer": "Cinq",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le seul nombre premier pair ?",
+    "answer": "Deux",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de côtés a un décagone ?",
+    "answer": "Dix",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle forme géométrique n'a ni côté ni angle ?",
+    "answer": "Le cercle",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur mélange-t-on avec du bleu pour obtenir du violet ?",
+    "answer": "Rouge",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de faces a un cylindre ?",
+    "answer": "Trois",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font neuf fois neuf ?",
+    "answer": "81",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom d'un triangle dont les trois côtés sont égaux ?",
+    "answer": "Équilatéral",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle couleur associe-t-on habituellement au danger ou à l'interdiction ?",
+    "answer": "Rouge",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le chiffre romain pour 1000 ?",
+    "answer": "M",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un dodécagone ?",
+    "answer": "Douze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur obtient-on en mélangeant toutes les couleurs de lumière ?",
+    "answer": "Blanc",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés égaux possède un losange ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien font douze divisé par quatre ?",
+    "answer": "Trois",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur symbolise l'espoir et la nature ?",
+    "answer": "Vert",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien d'arêtes a une pyramide à base carrée ?",
+    "answer": "Huit",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le triple de neuf ?",
+    "answer": "27",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur secondaire obtient-on avec du jaune et du rouge ?",
+    "answer": "Orange",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de faces a un octaèdre ?",
+    "answer": "Huit",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom d'un quadrilatère à quatre angles droits et côtés opposés égaux ?",
+    "answer": "Rectangle",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien font six au carré ?",
+    "answer": "36",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle couleur porte le drapeau de la paix, symboliquement, le plus souvent ?",
+    "answer": "Blanc",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un triangle isocèle ?",
+    "answer": "Trois",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel nombre est représenté par le chiffre romain X ?",
+    "answer": "Dix",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la couleur complémentaire du bleu ?",
+    "answer": "Orange",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de sommets a un tétraèdre ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font quinze plus vingt-sept ?",
+    "answer": "42",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom donné à un polygone à onze côtés ?",
+    "answer": "Hendécagone",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
+    "answer": "Violet",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de côtés parallèles possède un trapèze ?",
+    "answer": "Deux",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle couleur est souvent associée à la richesse et à l'or ?",
+    "answer": "Jaune (ou doré)",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de faces a un prisme triangulaire ?",
+    "answer": "Cinq",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font huit fois sept ?",
+    "answer": "56",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom d'un triangle qui a un angle de 90 degrés ?",
+    "answer": "Rectangle",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a une étoile à cinq branches classique ?",
+    "answer": "Dix",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur donne un mélange de cyan et de magenta en impression ?",
+    "answer": "Bleu",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le résultat de la somme des angles d'un quadrilatère ?",
+    "answer": "360 degrés",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur est obtenue en mélangeant du vert et du rouge en lumière ?",
+    "answer": "Jaune",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font onze fois onze ?",
+    "answer": "121",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle couleur associe-t-on au calme et à la tranquillité, comme le ciel ?",
+    "answer": "Bleu",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien d'arêtes a un tétraèdre ?",
+    "answer": "Six",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font cent divisé par cinq ?",
+    "answer": "20",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nom du polygone régulier à trois côtés égaux et trois angles égaux ?",
+    "answer": "Triangle équilatéral",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur secondaire résulte du mélange bleu et jaune en peinture ?",
+    "answer": "Vert",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de faces a un dodécaèdre ?",
+    "answer": "Douze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel nombre romain correspond à IX ?",
+    "answer": "Neuf",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un quadrilatère ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur symbolise traditionnellement la pureté dans de nombreuses cultures ?",
+    "answer": "Blanc",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de sommets a un octaèdre ?",
+    "answer": "Six",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font treize plus dix-neuf ?",
+    "answer": "32",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle couleur obtient-on en ajoutant du noir à une couleur ?",
+    "answer": "Une teinte plus foncée",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de faces visibles a un dé à jouer standard ?",
+    "answer": "Six",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien font quatre-vingt-un divisé par neuf ?",
+    "answer": "Neuf",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le nom d'un triangle dont aucun côté n'est égal ?",
+    "answer": "Scalène",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur porte le maillot du leader du classement général au Tour de France ?",
+    "answer": "Jaune",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le nombre de faces d'un icosaèdre ?",
+    "answer": "Vingt",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur donne le mélange de toutes les couleurs primaires en peinture ?",
+    "answer": "Marron (ou noir)",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de côtés a un polygone appelé triskaïdécagone ?",
+    "answer": "Treize",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle couleur mélange-t-on avec le blanc pour obtenir du gris ?",
+    "answer": "Noir",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Combien de côtés a un parallélogramme ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle couleur est traditionnellement associée à la chance en Chine ?",
+    "answer": "Rouge",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de sommets a une pyramide à base triangulaire ?",
+    "answer": "Quatre",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel chiffre romain représente le nombre 500 ?",
+    "answer": "D",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien font vingt-cinq multiplié par quatre ?",
+    "answer": "100",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Combien de sommets a un dodécaèdre ?",
+    "answer": "Vingt",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien d'arêtes a un octaèdre ?",
+    "answer": "Douze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné à un polygone à quinze côtés ?",
+    "answer": "Pentadécagone",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de sommets a un icosaèdre ?",
+    "answer": "Douze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien d'arêtes a un icosaèdre ?",
+    "answer": "Trente",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de sommets a un dodécagone ?",
+    "answer": "Douze",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le nom donné à un polygone à six côtés régulier utilisé pour les alvéoles d'une ruche ?",
+    "answer": "Hexagone",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien d'arêtes a un dodécaèdre ?",
+    "answer": "Trente",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel chiffre romain représente le nombre 5 ?",
+    "answer": "V",
+    "category": "Formes, Couleurs & Nombres",
+    "difficulty": "difficile"
+  }
+]

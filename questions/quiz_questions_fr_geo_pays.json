@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Quel pays possède le plus grand nombre de fuseaux horaires du monde ?",
+    "answer": "France",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Ukraine ?",
+    "answer": "Kiev",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale du Costa Rica, pays réputé pour l'absence d'armée depuis 1948 ?",
+    "answer": "San José",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays européen a pour capitale Vienne ?",
+    "answer": "Autriche",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le plus petit État du monde par la superficie ?",
+    "answer": "Vatican",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel est le pays le plus septentrional du continent africain ?",
+    "answer": "Tunisie",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de la Suisse ?",
+    "answer": "Franc suisse",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale du Mexique ?",
+    "answer": "Mexico",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de la Chine ?",
+    "answer": "Pékin",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Uruguay ?",
+    "answer": "Montevideo",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays d'Afrique de l'Est, dont la capitale est Nairobi, est traversé par l'équateur ?",
+    "answer": "Kenya",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale du Pérou ?",
+    "answer": "Lima",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Sur quel continent se trouve l'Égypte ?",
+    "answer": "Afrique",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale du Maroc, différente de Casablanca sa plus grande ville ?",
+    "answer": "Rabat",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle feuille figure au centre du drapeau du Canada ?",
+    "answer": "Feuille d'érable",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Estonie ?",
+    "answer": "Tallinn",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de la Pologne ?",
+    "answer": "Varsovie",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Australie ?",
+    "answer": "Canberra",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de la Suède ?",
+    "answer": "Couronne suédoise",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays d'Europe de l'Est, frontalier de la Russie et de la Pologne, a pour capitale Minsk ?",
+    "answer": "Biélorussie",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel désert couvre une grande partie du nord de l'Afrique ?",
+    "answer": "Sahara",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de la Belgique ?",
+    "answer": "Bruxelles",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Asie du Sud-Est, capitale Djakarta, compte la plus grande population musulmane au monde ?",
+    "answer": "Indonésie",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de la Pologne, restée distincte de l'euro ?",
+    "answer": "Zloty",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays de la péninsule arabique, riche en gaz naturel, a pour capitale Doha ?",
+    "answer": "Qatar",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Inde ?",
+    "answer": "New Delhi",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel archipel d'Europe méridionale, situé en Méditerranée, a pour capitale La Valette ?",
+    "answer": "Malte",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale des Pays-Bas ?",
+    "answer": "Amsterdam",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Canada ?",
+    "answer": "Dollar canadien",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle cordillère traverse le Pérou, le Chili, l'Argentine et plusieurs autres pays d'Amérique du Sud ?",
+    "answer": "Cordillère des Andes",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Royaume-Uni ?",
+    "answer": "Livre sterling",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Amérique du Sud partage une frontière avec tous les autres pays du continent sauf deux ?",
+    "answer": "Brésil",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale du Ghana ?",
+    "answer": "Accra",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus grand pays du monde par la superficie ?",
+    "answer": "Russie",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Afrique centrale a pour capitale Yaoundé ?",
+    "answer": "Cameroun",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le pays le plus étendu d'Afrique par la superficie ?",
+    "answer": "Algérie",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Mexique ?",
+    "answer": "Peso mexicain",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays d'Afrique du Nord a pour langue officielle l'arabe et pour capitale Tunis ?",
+    "answer": "Tunisie",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays européen partage une frontière terrestre avec neuf autres pays et a pour capitale Berlin ?",
+    "answer": "Allemagne",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale du Kenya ?",
+    "answer": "Nairobi",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays d'Amérique du Sud n'a aucun accès à la mer, avec La Paz et Sucre pour capitales ?",
+    "answer": "Bolivie",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale de l'Algérie ?",
+    "answer": "Alger",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de la République tchèque ?",
+    "answer": "Prague",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel est le seul pays au monde à border à la fois la mer Rouge et la mer Méditerranée ?",
+    "answer": "Égypte",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale du Mali ?",
+    "answer": "Bamako",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la monnaie officielle du Brésil ?",
+    "answer": "Real",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays nordique a pour capitale Reykjavik ?",
+    "answer": "Islande",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la langue officielle du Brésil, différente de celle de ses voisins hispanophones ?",
+    "answer": "Portugais",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel canal artificiel relie la mer Méditerranée à la mer Rouge ?",
+    "answer": "Canal de Suez",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel fleuve traverse l'Égypte du sud au nord avant de se jeter en Méditerranée ?",
+    "answer": "Nil",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de la Chine ?",
+    "answer": "Yuan",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale du Danemark ?",
+    "answer": "Copenhague",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Le chapeau dit panama tire son nom d'un pays d'Amérique centrale bien qu'il soit fabriqué ailleurs : lequel ?",
+    "answer": "Panama",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le seul État entièrement enclavé dans la ville de Rome ?",
+    "answer": "Vatican",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de la France ?",
+    "answer": "Paris",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays possède le plus long littoral du monde, grâce à son océan Arctique et ses innombrables îles ?",
+    "answer": "Canada",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de la Croatie ?",
+    "answer": "Zagreb",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Combien de couleurs compte le drapeau tricolore de la France ?",
+    "answer": "Trois",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Afrique de l'Est n'a jamais été durablement colonisé par une puissance européenne ?",
+    "answer": "Éthiopie",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle chaîne de montagnes sert de frontière conventionnelle entre l'Europe et l'Asie ?",
+    "answer": "Monts Oural",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale de la Corée du Sud ?",
+    "answer": "Séoul",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays scandinave a pour capitale Copenhague ?",
+    "answer": "Danemark",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de la Syrie ?",
+    "answer": "Damas",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Dans quel pays africain se trouvent les pyramides de Gizeh ?",
+    "answer": "Égypte",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Sur quel continent se situe le Pérou ?",
+    "answer": "Amérique du Sud",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de la Roumanie ?",
+    "answer": "Bucarest",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle monnaie unique est utilisée par la majorité des pays de l'Union européenne ?",
+    "answer": "Euro",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Éthiopie ?",
+    "answer": "Addis-Abeba",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays scandinave a pour capitale Stockholm ?",
+    "answer": "Suède",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays scandinave revendique le plus grand nombre d'îles au monde, plus de deux cent mille ?",
+    "answer": "Suède",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays d'Asie du Sud-Est a pour capitale Hanoï ?",
+    "answer": "Vietnam",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale du Guatemala ?",
+    "answer": "Guatemala",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le pays le plus vaste d'Amérique du Sud ?",
+    "answer": "Brésil",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Amérique du Sud, enclavé entre le Brésil, l'Argentine et la Bolivie, a pour capitale Asuncion ?",
+    "answer": "Paraguay",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays du Moyen-Orient abrite les villes saintes de La Mecque et de Médine ?",
+    "answer": "Arabie saoudite",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+    "answer": "Détroit de Béring",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est le plus petit pays d'Amérique centrale par la superficie ?",
+    "answer": "Salvador",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays insulaire de l'océan Indien, situé au large de l'Afrique de l'Est, a pour capitale Antananarivo ?",
+    "answer": "Madagascar",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale de la Serbie ?",
+    "answer": "Belgrade",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de la Slovénie ?",
+    "answer": "Ljubljana",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel est l'océan le plus vaste du monde ?",
+    "answer": "Pacifique",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle ville est la capitale administrative de l'Afrique du Sud, alors que Le Cap en est la capitale législative ?",
+    "answer": "Pretoria",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la capitale de l'Égypte ?",
+    "answer": "Le Caire",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quels sont les deux seuls pays sud-américains qui ne partagent aucune frontière avec le Brésil ?",
+    "answer": "Chili et Équateur",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel pays possède un drapeau uni rouge orné d'un croissant et d'une étoile blancs ?",
+    "answer": "Turquie",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quelle est la monnaie officielle de l'Australie ?",
+    "answer": "Dollar australien",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale du Chili ?",
+    "answer": "Santiago",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la langue officielle de l'Autriche, de l'Allemagne et d'une partie de la Suisse ?",
+    "answer": "Allemand",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Afrique du Nord a pour capitale Tripoli ?",
+    "answer": "Libye",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale de Cuba ?",
+    "answer": "La Havane",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays d'Asie centrale, le plus vaste pays enclavé du monde, a pour capitale Astana ?",
+    "answer": "Kazakhstan",
+    "category": "Géographie : Pays",
+    "difficulty": "difficile"
+  },
+  {
+    "question": "Quel micro-État méditerranéen, deuxième plus petit pays du monde, est entouré par la France et donne sur la Méditerranée ?",
+    "answer": "Monaco",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle grande ville turque est bâtie à cheval sur l'Europe et l'Asie ?",
+    "answer": "Istanbul",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelles sont, dans l'ordre, les trois couleurs verticales du drapeau de l'Italie ?",
+    "answer": "Vert, blanc, rouge",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quelle est la capitale de la Norvège ?",
+    "answer": "Oslo",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quel pays européen est réputé pour ses tulipes et ses moulins à vent, avec Amsterdam comme capitale ?",
+    "answer": "Pays-Bas",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays européen est organisé en cantons et a pour capitale Berne ?",
+    "answer": "Suisse",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "De combien d'îles principales le Japon est-il composé ?",
+    "answer": "Quatre",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  },
+  {
+    "question": "Quelle est la capitale de la Suède ?",
+    "answer": "Stockholm",
+    "category": "Géographie : Pays",
+    "difficulty": "facile"
+  },
+  {
+    "question": "Quel pays d'Océanie est formé de deux îles principales, l'île du Nord et l'île du Sud ?",
+    "answer": "Nouvelle-Zélande",
+    "category": "Géographie : Pays",
+    "difficulty": "moyen"
+  }
+]
