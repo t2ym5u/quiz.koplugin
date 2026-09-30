@@ -93,7 +93,8 @@ game-common/    → alongside plugins/ (shared library)
 `quiz.koplugin/` lives inside the
 [koreader-plugins](https://github.com/t2ym5u/koreader-plugins) monorepo.
 
-`quiz_questions_fr.lua` is the bundled question bank, generated from the
+`quiz_questions_fr.lua` is the bundled question bank. It is generated — do
+not edit it by hand, the next build would overwrite the change. It is built from the
 per-category files in `questions/` by `gen/to_lua.py`. Regenerate it after
 editing any `questions/quiz_questions_fr_*.json` file:
 

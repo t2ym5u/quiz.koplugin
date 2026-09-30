@@ -24,8 +24,8 @@
     "difficulty": "moyen"
   },
   {
-    "question": "Combien de chambres compte le cœur humain ?",
-    "answer": "4",
+    "question": "Quel professionnel de santé prépare et délivre les médicaments ?",
+    "answer": "Le pharmacien",
     "category": "Santé & Médecine",
     "difficulty": "facile"
   },
@@ -42,8 +42,8 @@
     "difficulty": "moyen"
   },
   {
-    "question": "Quel organe produit l'insuline ?",
-    "answer": "Le pancréas",
+    "question": "Quel appareil mesure la tension artérielle ?",
+    "answer": "Le tensiomètre",
     "category": "Santé & Médecine",
     "difficulty": "moyen"
   },
@@ -108,8 +108,8 @@
     "difficulty": "moyen"
   },
   {
-    "question": "Quel est le nom scientifique de l'os de la mâchoire inférieure ?",
-    "answer": "La mandibule",
+    "question": "Quel médecin britannique a mis au point le premier vaccin, contre la variole, en 1796 ?",
+    "answer": "Edward Jenner",
     "category": "Santé & Médecine",
     "difficulty": "difficile"
   },
@@ -126,8 +126,8 @@
     "difficulty": "facile"
   },
   {
-    "question": "Quel physicien allemand a découvert les rayons X en 1895 ?",
-    "answer": "Wilhelm Röntgen",
+    "question": "Quelle hormone sécrétée par la thyroïde règle le métabolisme de base ?",
+    "answer": "La thyroxine (T4)",
     "category": "Santé & Médecine",
     "difficulty": "difficile"
   },
@@ -150,8 +150,8 @@
     "difficulty": "facile"
   },
   {
-    "question": "Quel est le nom de l'artère principale qui part du cœur ?",
-    "answer": "L'aorte",
+    "question": "Comment appelle-t-on un médicament sans principe actif utilisé comme témoin dans un essai clinique ?",
+    "answer": "Un placebo",
     "category": "Santé & Médecine",
     "difficulty": "moyen"
   },
@@ -186,8 +186,8 @@
     "difficulty": "facile"
   },
   {
-    "question": "Quel os protège le cerveau ?",
-    "answer": "Le crâne",
+    "question": "Quelle vitamine le corps fabrique-t-il sous l'effet du soleil ?",
+    "answer": "La vitamine D",
     "category": "Santé & Médecine",
     "difficulty": "facile"
   },
@@ -228,8 +228,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Combien de vertèbres compte la colonne vertébrale humaine ?",
-    "answer": "33",
+    "question": "Comment nomme-t-on l'étude de la distribution des maladies dans les populations ?",
+    "answer": "L'épidémiologie",
     "category": "Santé & Médecine",
     "difficulty": "difficile"
   },
@@ -240,8 +240,8 @@
     "difficulty": "moyen"
   },
   {
-    "question": "Quel gaz les poumons rejettent-ils principalement lors de l'expiration ?",
-    "answer": "Le dioxyde de carbone",
+    "question": "Quel geste quotidien réduit le plus la transmission des microbes ?",
+    "answer": "Se laver les mains",
     "category": "Santé & Médecine",
     "difficulty": "facile"
   },
@@ -288,8 +288,8 @@
     "difficulty": "moyen"
   },
   {
-    "question": "Combien de temps dure en moyenne une grossesse humaine, en semaines ?",
-    "answer": "40 semaines",
+    "question": "Quelle spécialité médicale s'occupe des maladies de la peau ?",
+    "answer": "La dermatologie",
     "category": "Santé & Médecine",
     "difficulty": "moyen"
   },
@@ -408,8 +408,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Combien de côtes flottantes possède l'être humain (non attachées au sternum) ?",
-    "answer": "2",
+    "question": "Quel terme médical désigne une baisse anormale du nombre de globules rouges ?",
+    "answer": "L'anémie",
     "category": "Santé & Médecine",
     "difficulty": "difficile"
   },
@@ -462,8 +462,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Quelle partie de l'oreille est responsable de l'équilibre ?",
-    "answer": "L'oreille interne",
+    "question": "Quel examen d'imagerie utilise des ultrasons pour observer l'intérieur du corps ?",
+    "answer": "L'échographie",
     "category": "Santé & Médecine",
     "difficulty": "moyen"
   },
