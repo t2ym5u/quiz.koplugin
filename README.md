@@ -2,6 +2,10 @@
 
 A **Quiz Party** display plugin for [KOReader](https://github.com/koreader/koreader) — general knowledge quiz for a crowd, no app required.
 
+## Screenshot
+
+![Screenshot](images/quiz.png)
+
 ## Concept
 
 Everyone grabs a sheet of paper. The question appears on screen, the timer ticks. Everyone writes their answer. When time runs out (or the host taps *Reveal*), the answer appears. The host reads answers aloud and taps the score button for each correct player.
