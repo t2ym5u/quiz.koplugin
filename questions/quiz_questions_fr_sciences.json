@@ -6,8 +6,8 @@
     "difficulty": "facile"
   },
   {
-    "question": "Quel astronome polonais a proposé le modèle héliocentrique du système solaire ?",
-    "answer": "Nicolas Copernic",
+    "question": "Quelle unité mesure la fréquence d'un signal ?",
+    "answer": "Le hertz",
     "category": "Sciences & Technologie",
     "difficulty": "moyen"
   },
@@ -36,8 +36,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Quelle planète est surnommée la « planète rouge » ?",
-    "answer": "Mars",
+    "question": "Quelle force nous retient au sol ?",
+    "answer": "La gravité",
     "category": "Sciences & Technologie",
     "difficulty": "facile"
   },
@@ -150,8 +150,8 @@
     "difficulty": "moyen"
   },
   {
-    "question": "Quel est l'organe responsable de la filtration du sang et de la production d'urine ?",
-    "answer": "Le rein",
+    "question": "Quel appareil transforme l'énergie du vent en électricité ?",
+    "answer": "L'éolienne",
     "category": "Sciences & Technologie",
     "difficulty": "facile"
   },
@@ -384,8 +384,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Quelle est la plus petite planète du système solaire ?",
-    "answer": "Mercure",
+    "question": "Quel savant anglais a formulé les trois lois du mouvement ?",
+    "answer": "Isaac Newton",
     "category": "Sciences & Technologie",
     "difficulty": "moyen"
   },
@@ -474,8 +474,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Quelle agence spatiale américaine a organisé les missions Apollo ?",
-    "answer": "La NASA",
+    "question": "Quel instrument de laboratoire sert à observer ce qui est invisible à l'œil nu ?",
+    "answer": "Le microscope",
     "category": "Sciences & Technologie",
     "difficulty": "facile"
   },
@@ -510,8 +510,8 @@
     "difficulty": "difficile"
   },
   {
-    "question": "Quel est le plus petit os du corps humain ?",
-    "answer": "L'étrier",
+    "question": "Quelle particule élémentaire, mise en évidence au CERN en 2012, donne leur masse aux autres particules ?",
+    "answer": "Le boson de Higgs",
     "category": "Sciences & Technologie",
     "difficulty": "difficile"
   },

@@ -6,6 +6,23 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.2.11] - 2026-09-30
+
+### Fixed
+- De-duplicate 36 questions filed under two categories at once, 10 of which
+  gave two different answers ("3" and "Trois" for an octopus's hearts). With
+  both categories selected the same question could come up twice in a game.
+  Each is replaced by a new question in the same category at the same
+  difficulty rather than deleted, so the bank stays 32 categories of exactly
+  100.
+
+### Added
+- A spec over the whole 3,200-question bank: shape, no array holes, non-empty
+  question and answer, each question's `category` matching its key, one
+  difficulty vocabulary, and no repeats. The loader only type-checks the first
+  entry it reads, so a malformed one further down used to load fine and fail
+  when a player drew it.
+
 ## [1.2.10] - 2026-08-05
 
 ### Added
