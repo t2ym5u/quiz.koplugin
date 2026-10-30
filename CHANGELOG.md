@@ -6,6 +6,27 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.3.0] - 2026-10-30
+
+### Changed
+- Redesigned play screen. The question card fills the room the controls
+  leave, in portrait and landscape. "Reveal answer", then one score button per
+  player above "Next question", sit in a full-width action bar under the
+  status line rather than inside the card.
+- The "Settings" submenu is gone. The title-bar menu lists the settings
+  directly, with their current value: New game, Language, Players, Timer,
+  Categories (e.g. "Categories: 3/12"), Reload file, then Rules.
+- "New game" replaces "Reset scores": it sets every score back to zero and
+  moves on to a fresh question.
+- Interface text now follows KOReader's language (with French, Spanish and
+  German translations). Only the questions keep their own Language setting.
+- The status line puts the question counter first ("Q3/40 · Player 1: 2 ·
+  …"), so a long list of players no longer cuts it off.
+
+### Fixed
+- Question, answer and timer text came out about twice too big on high-DPI
+  readers and ran off the screen edges. They are now sized to the screen.
+
 ## [1.2.13] - 2026-10-07
 
 ### Fixed

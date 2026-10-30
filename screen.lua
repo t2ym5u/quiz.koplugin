@@ -1,23 +1,61 @@
 local _dir = debug.getinfo(1, "S").source:sub(2):match("(.*[/\\])") or "./"
 
-local ButtonTable    = require("ui/widget/buttontable")
-local DataStorage    = require("datastorage")
-local Device         = require("device")
-local Font           = require("ui/font")
-local FrameContainer = require("ui/widget/container/framecontainer")
-local InfoMessage    = require("ui/widget/infomessage")
-local Size           = require("ui/size")
-local TextBoxWidget  = require("ui/widget/textboxwidget")
-local TextWidget     = require("ui/widget/textwidget")
-local UIManager      = require("ui/uimanager")
-local VerticalGroup  = require("ui/widget/verticalgroup")
-local VerticalSpan   = require("ui/widget/verticalspan")
-local _              = require("i18n")
+local Blitbuffer      = require("ffi/blitbuffer")
+local CenterContainer = require("ui/widget/container/centercontainer")
+local DataStorage     = require("datastorage")
+local Device          = require("device")
+local Font            = require("ui/font")
+local FrameContainer  = require("ui/widget/container/framecontainer")
+local Geom            = require("ui/geometry")
+local HorizontalGroup = require("ui/widget/horizontalgroup")
+local HorizontalSpan  = require("ui/widget/horizontalspan")
+local InfoMessage     = require("ui/widget/infomessage")
+local LineWidget      = require("ui/widget/linewidget")
+local RenderText      = require("ui/rendertext")
+local Size            = require("ui/size")
+local TextBoxWidget   = require("ui/widget/textboxwidget")
+local TextWidget      = require("ui/widget/textwidget")
+local UIManager       = require("ui/uimanager")
+local VerticalGroup   = require("ui/widget/verticalgroup")
+local VerticalSpan    = require("ui/widget/verticalspan")
+local _               = require("i18n")
+local T               = require("ffi/util").template
 
 local MenuHelper = require("menu_helper")
 local ScreenBase = require("screen_base")
 
 local DeviceScreen = Device.screen
+
+-- ---------------------------------------------------------------------------
+-- Text sizing helpers
+--
+-- Font:getFace() scales its size by the screen DPI, so a size worked out from
+-- pixel dimensions has to be divided back first, or every line comes out
+-- about twice too big on a 300 dpi reader and runs off the screen edges.
+-- ---------------------------------------------------------------------------
+
+local DPI_SCALE = DeviceScreen:scaleBySize(1000) / 1000
+
+local function pxFace(px)
+    return Font:getFace("cfont", math.max(8, math.floor(px / DPI_SCALE)))
+end
+
+-- One line of text at up to `px` pixels, shrunk until it fits `max_w`.
+local function fitLine(text, px, max_w)
+    local face = pxFace(px)
+    while px > 12 do
+        local m = RenderText:sizeUtf8Text(0, max_w * 10, face, text, true, false)
+        if m.x <= max_w then break end
+        px   = math.floor(px * 0.9)
+        face = pxFace(px)
+    end
+    return TextWidget:new{ text = text, face = face, max_width = max_w }
+end
+
+-- A paragraph wrapped to `width`, centred.
+local function wrapText(text, face, width)
+    return TextBoxWidget:new{ text = text, face = face, width = width, alignment = "center" }
+end
 
 local DEFAULT_DURATION = 30   -- seconds to answer (0 = no timer)
 local DEFAULT_NB_PLAYERS = 4
@@ -82,9 +120,8 @@ function QuizScreen:init()
 
     self.players = {}
     for i = 1, nb do
-        local default = self.lang == "fr" and ("Joueur " .. i) or ("Player " .. i)
         self.players[i] = {
-            name  = self.plugin:getSetting("player_name_" .. i, default),
+            name  = self.plugin:getSetting("player_name_" .. i, T(_("Player %1"), i)),
             score = 0,
         }
     end
@@ -331,47 +368,47 @@ end
 
 function QuizScreen:onScorePlayer(idx)
     self.players[idx].score = self.players[idx].score + 1
-    self:updateStatus()
+    -- Rebuild, not just updateStatus(): the score buttons show each score.
+    self:buildLayout()
     UIManager:setDirty(self, function() return "ui", self.dimen end)
 end
 
-function QuizScreen:onResetScores()
-    for _, p in ipairs(self.players) do p.score = 0 end
-    self:buildLayout()
-    UIManager:setDirty(self, function() return "ui", self.dimen end)
+-- New game: scores back to zero, then on to a fresh question.
+function QuizScreen:onNewGame()
+    self:_stopCountdown()
+    for _i, p in ipairs(self.players) do p.score = 0 end
+    self:onNextQuestion()
 end
 
 -- ---------------------------------------------------------------------------
 -- Options
 -- ---------------------------------------------------------------------------
 
-function QuizScreen:openOptionsMenu()
-    local is_fr = self.lang == "fr"
-    local items = {
-        { id = "lang",       text = is_fr and "Langue…"          or "Language…" },
-        { id = "categories", text = is_fr and "Catégories…"      or "Categories…" },
-        { id = "players",    text = is_fr and "Joueurs…"          or "Players…" },
-        { id = "duration",   text = is_fr and "Chrono…"           or "Timer…" },
-        { id = "reset",      text = is_fr and "Remettre les scores à zéro" or "Reset scores" },
-        { id = "reload",     text = is_fr and "Recharger le fichier" or "Reload file" },
-    }
-    MenuHelper.openPickerMenu{
-        title = "Options", items = items, parent = self,
-        on_select = function(id)
-            if     id == "lang"       then self:openLangMenu()
-            elseif id == "categories" then self:openCategoryMenu()
-            elseif id == "players"    then self:openPlayersMenu()
-            elseif id == "duration"   then self:openDurationMenu()
-            elseif id == "reset"      then self:onResetScores()
-            elseif id == "reload"     then self:_loadQuestions(); self:buildLayout(); UIManager:setDirty(self, function() return "ui", self.dimen end)
-            end
-        end,
-    }
+function QuizScreen:_durationLabel(dur)
+    if dur <= 0 then return _("Off") end
+    return string.format("%d:%02d", math.floor(dur / 60), dur % 60)
+end
+
+-- "Categories: All" or "Categories: 3/12" for the title-bar menu.
+function QuizScreen:_categoriesMenuText()
+    if self.selected_categories == nil then return _("Categories: All") end
+    local total, sel = 0, 0
+    for cat in pairs(self.all_categories) do
+        total = total + 1
+        if self.selected_categories[cat] then sel = sel + 1 end
+    end
+    return T(_("Categories: %1"), sel .. "/" .. total)
+end
+
+function QuizScreen:onReloadFile()
+    self:_loadQuestions()
+    self:buildLayout()
+    UIManager:setDirty(self, function() return "ui", self.dimen end)
 end
 
 function QuizScreen:openLangMenu()
     MenuHelper.openPickerMenu{
-        title = "Language / Langue",
+        title = _("Language"),
         items = { { id = "fr", text = "Français" }, { id = "en", text = "English" } },
         current_id = self.lang, parent = self,
         on_select = function(lang)
@@ -390,7 +427,6 @@ end
 -- ---------------------------------------------------------------------------
 
 function QuizScreen:openCategoryMenu()
-    local is_fr = self.lang == "fr"
 
     local available = {}
     for cat in pairs(self.all_categories) do
@@ -400,9 +436,7 @@ function QuizScreen:openCategoryMenu()
 
     if #available == 0 then
         UIManager:show(InfoMessage:new{
-            text    = is_fr
-                and "Aucune catégorie disponible.\nChargez d'abord un fichier de questions."
-                or  "No categories available.\nLoad a question file first.",
+            text    = _("No categories available.\nLoad a question file first."),
             timeout = 3,
         })
         return
@@ -414,7 +448,7 @@ function QuizScreen:openCategoryMenu()
     items[#items + 1] = {
         id   = "__all__",
         text = (all_selected and "★ " or "  ")
-               .. (is_fr and "Toutes les catégories" or "All categories")
+               .. _("All categories")
                .. string.format("  (%d)", #self.questions),
     }
     for _, cat in ipairs(available) do
@@ -428,7 +462,7 @@ function QuizScreen:openCategoryMenu()
     end
 
     MenuHelper.openPickerMenu{
-        title     = is_fr and "Catégories" or "Categories",
+        title     = _("Categories"),
         items     = items,
         parent    = self,
         on_select = function(id)
@@ -472,19 +506,18 @@ function QuizScreen:openCategoryMenu()
 end
 
 function QuizScreen:openPlayersMenu()
-    local is_fr = self.lang == "fr"
     local items = {}
     for n = 2, 8 do
-        items[#items + 1] = { id = n, text = n .. " " .. (is_fr and "joueurs" or "players") }
+        items[#items + 1] = { id = n, text = T(_("%1 players"), n) }
     end
     MenuHelper.openPickerMenu{
-        title = is_fr and "Joueurs" or "Players",
+        title = _("Players"),
         items = items, current_id = #self.players, parent = self,
         on_select = function(n)
             self.plugin:saveSetting("nb_players", n)
             while #self.players < n do
                 local i = #self.players + 1
-                self.players[i] = { name = (self.lang == "fr" and "Joueur " or "Player ") .. i, score = 0 }
+                self.players[i] = { name = T(_("Player %1"), i), score = 0 }
             end
             while #self.players > n do table.remove(self.players) end
             self:buildLayout()
@@ -494,14 +527,12 @@ function QuizScreen:openPlayersMenu()
 end
 
 function QuizScreen:openDurationMenu()
-    local is_fr = self.lang == "fr"
-    local items = {
-        { id = 0,  text = is_fr and "Pas de chrono" or "No timer" },
-        { id = 20, text = "0:20" }, { id = 30, text = "0:30" },
-        { id = 45, text = "0:45" }, { id = 60, text = "1:00" },
-    }
+    local items = {}
+    for _i, d in ipairs({ 0, 20, 30, 45, 60 }) do
+        items[#items + 1] = { id = d, text = self:_durationLabel(d) }
+    end
     MenuHelper.openPickerMenu{
-        title = is_fr and "Chrono" or "Timer",
+        title = _("Timer"),
         items = items, current_id = self.duration, parent = self,
         on_select = function(dur)
             self.duration = dur
@@ -515,183 +546,169 @@ end
 -- ---------------------------------------------------------------------------
 
 function QuizScreen:buildLayout()
-    local sw    = DeviceScreen:getWidth()
-    local sh = DeviceScreen:getHeight()
-    local is_fr = self.lang == "fr"
-
-    local btn_w = math.floor(sw * 0.92)
 
     -- Title bar with Options menu
     local title_bar = self:buildTitleBar(_("Quiz Party"), function()
         return {
-            { text = is_fr and "Réglages" or "Settings", callback = function() self:openOptionsMenu() end },
+            { text = _("New game"), callback = function() self:onNewGame() end },
+            { text = T(_("Language: %1"), self.lang:upper()), callback = function() self:openLangMenu() end },
+            { text = T(_("Players: %1"), #self.players),      callback = function() self:openPlayersMenu() end },
+            { text = T(_("Timer: %1"), self:_durationLabel(self.duration)),
+              callback = function() self:openDurationMenu() end },
+            { text = self:_categoriesMenuText(), callback = function() self:openCategoryMenu() end },
+            { text = _("Reload file"), callback = function() self:onReloadFile() end },
             self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
         }
     end)
 
-    -- Footer action button
-    local action_btns
+    -- Action bar: Reveal, or (once revealed) one score button per player
+    -- above Next question.
+    local rows
     if self.phase == "question" then
-        local reveal_text = is_fr and "Révéler la réponse" or "Reveal answer"
-        action_btns = ButtonTable:new{
-            shrink_unneeded_width = true,
-            width   = btn_w,
-            buttons = {{
-                { text = reveal_text, callback = function() self:onRevealAnswer() end },
-            }},
-        }
+        rows = {{
+            { text = _("Reveal answer"),
+              callback = function() self:onRevealAnswer() end },
+        }}
     else
-        local next_text = is_fr and "Question suivante" or "Next question"
-        action_btns = ButtonTable:new{
-            shrink_unneeded_width = true,
-            width   = btn_w,
-            buttons = {{
-                { text = next_text, callback = function() self:onNextQuestion() end },
-            }},
+        rows = {}
+        local row = {}
+        for i, player in ipairs(self.players) do
+            row[#row + 1] = {
+                text = "+" .. player.name .. " (" .. player.score .. ")",
+                callback = function() self:onScorePlayer(i) end,
+            }
+            if #row == 3 or i == #self.players then
+                rows[#rows + 1] = row
+                row = {}
+            end
+        end
+        rows[#rows + 1] = {
+            { text = _("Next question"),
+              callback = function() self:onNextQuestion() end },
         }
     end
+    local controls = self:_buildControls(rows)
+    local bw, bh = self:getBoardBudget(title_bar, controls)
+    local short  = math.min(bw, bh)
+    local vs     = Size.span.vertical_large
 
     -- Question / answer display
     local q = self:_currentQuestion()
+    local frame_pad = Size.padding.large
+    local inner_w   = bw - 2 * (frame_pad + Size.border.window)
     local main_widget
 
     if not q then
-        local msg = is_fr
-            and "Aucune question chargée.\n\nSoit toutes les catégories sont décochées (voir Réglages > Catégories),\nsoit aucune banque de questions n'a été trouvée.\n\nPour ajouter vos propres questions, copiez\nquiz_questions_fr.json (ou .lua) dans le\ndossier documents de KOReader."
-            or  "No questions loaded.\n\nEither every category is unchecked (see Settings > Categories),\nor no question bank was found.\n\nTo use your own questions, copy\nquiz_questions_en.json (or .lua) to\nKOReader's documents folder."
-        main_widget = TextBoxWidget:new{
-            text  = msg,
-            face  = Font:getFace("smallinfofont"),
-            width = math.floor(sw * 0.85),
-        }
+        local msg = T(_("No questions loaded.\n\nEither every category is unchecked (see Categories in the menu),\nor no question bank was found.\n\nTo use your own questions, copy\n%1 (or .lua) to\nKOReader's documents folder."),
+            "quiz_questions_" .. self.lang .. ".json")
+        main_widget = wrapText(msg, Font:getFace("smallinfofont"), bw)
     else
         local question_text = q.question or q.q or "?"
         local answer_text   = q.answer   or q.a or "?"
         local category_text = q.category or q.cat or ""
 
+        local body = VerticalGroup:new{ align = "center" }
         -- Category badge
-        local cat_w = category_text ~= "" and TextWidget:new{
-            text = "[ " .. category_text .. " ]",
-            face = Font:getFace("smallinfofont"),
-        }
+        if category_text ~= "" then
+            body[#body + 1] = wrapText("[ " .. category_text .. " ]", Font:getFace("smallinfofont"), inner_w)
+            body[#body + 1] = VerticalSpan:new{ width = vs }
+        end
 
         -- Question (adapts font to length)
-        local qlen   = #question_text
-        local q_fs   = qlen > 80 and 16 or qlen > 40 and 20 or 26
-        q_fs = math.max(q_fs, math.floor(math.min(sw, sh) * 0.035))
-        local q_w = TextBoxWidget:new{
-            text  = question_text,
-            face  = Font:getFace("cfont", q_fs),
-            width = math.floor(sw * 0.88),
-        }
-
-        -- Counter
-        local counter_text = string.format("%d / %d", self.q_index, #self.questions)
-        local counter_w = TextWidget:new{
-            text = counter_text,
-            face = Font:getFace("smallinfofont"),
-        }
-
-        local body = VerticalGroup:new{ align = "center" }
-        if cat_w then
-            body[#body + 1] = cat_w
-            body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large }
-        end
-        body[#body + 1] = q_w
-        body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large }
-        body[#body + 1] = counter_w
+        local qlen = #question_text
+        local q_px = short * (qlen > 80 and 0.045 or qlen > 40 and 0.055 or 0.065)
+        body[#body + 1] = wrapText(question_text, pxFace(q_px), inner_w)
 
         if self.phase == "answer" then
             -- Answer reveal
-            local sep = TextWidget:new{
-                text = string.rep("─", 30),
-                face = Font:getFace("smallinfofont"),
+            body[#body + 1] = VerticalSpan:new{ width = vs * 2 }
+            body[#body + 1] = LineWidget:new{
+                background = Blitbuffer.COLOR_DARK_GRAY,
+                dimen      = Geom:new{ w = math.floor(inner_w * 0.6), h = Size.line.medium },
             }
-            local ans_label = TextWidget:new{
-                text = is_fr and "Réponse :" or "Answer:",
-                face = Font:getFace("smallinfofont"),
-            }
-            local a_fs  = math.max(24, math.floor(math.min(sw, sh) * 0.07))
-            local ans_w = TextBoxWidget:new{
-                text  = answer_text,
-                face  = Font:getFace("cfont", a_fs),
-                width = math.floor(sw * 0.85),
-            }
-            body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large * 2 }
-            body[#body + 1] = sep
-            body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large }
-            body[#body + 1] = ans_label
-            body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large }
-            body[#body + 1] = ans_w
-
-            -- Score buttons: one per player
-            local score_rows = {}
-            local row = {}
-            for i, player in ipairs(self.players) do
-                row[#row + 1] = {
-                    text = "+" .. player.name .. " (" .. player.score .. ")",
-                    callback = function() self:onScorePlayer(i) end,
-                }
-                if #row == 3 or i == #self.players then
-                    score_rows[#score_rows + 1] = row
-                    row = {}
-                end
-            end
-            local score_btns = ButtonTable:new{
-                shrink_unneeded_width = true,
-                width   = btn_w,
-                buttons = score_rows,
-            }
-            body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large * 2 }
+            body[#body + 1] = VerticalSpan:new{ width = vs }
             body[#body + 1] = TextWidget:new{
-                text = is_fr and "Qui a bon ?" or "Who got it?",
+                text = _("Answer:"),
                 face = Font:getFace("smallinfofont"),
             }
-            body[#body + 1] = VerticalSpan:new{ width = Size.span.vertical_large }
-            body[#body + 1] = score_btns
+            body[#body + 1] = VerticalSpan:new{ width = vs }
+            body[#body + 1] = wrapText(answer_text, pxFace(short * 0.08), inner_w)
+            body[#body + 1] = VerticalSpan:new{ width = vs * 2 }
+            body[#body + 1] = TextWidget:new{
+                text = _("Who got it?"),
+                face = Font:getFace("smallinfofont"),
+            }
         end
 
         main_widget = FrameContainer:new{
-            padding = Size.padding.large,
-            margin  = Size.margin.default,
-            body,
+            padding = frame_pad,
+            margin  = 0,
+            CenterContainer:new{
+                dimen = Geom:new{ w = inner_w, h = body:getSize().h },
+                body,
+            },
         }
     end
 
     -- Timer (only in question phase with timer enabled)
-    local timer_group = VerticalGroup:new{ align = "center" }
+    local content = VerticalGroup:new{ align = "center" }
     self.timer_widget = nil
     if self.phase == "question" and self.duration > 0 then
-        local timer_fs = math.max(18, math.floor(math.min(sw, sh) * 0.08))
         self.timer_widget = TextWidget:new{
             text = self:_timerText(),
-            face = Font:getFace("cfont", timer_fs),
+            face = pxFace(short * 0.12),
         }
-        timer_group[#timer_group + 1] = self.timer_widget
-        timer_group[#timer_group + 1] = VerticalSpan:new{ width = Size.span.vertical_large }
+        content[#content + 1] = self.timer_widget
+        content[#content + 1] = VerticalSpan:new{ width = vs }
     end
+    content[#content + 1] = main_widget
 
-    local vs = VerticalSpan:new{ width = Size.span.vertical_large }
-
-    local content = VerticalGroup:new{
-        align = "center",
-        timer_group,
-        main_widget,
-    }
-    self:buildPortraitLayout(title_bar, content, action_btns)
+    self:_placeLayout(title_bar, content, controls)
     self:updateStatus()
+end
+
+-- Status line + action bar, built before the content so the content can be
+-- sized from what they leave over (getBoardBudget).
+function QuizScreen:_buildControls(rows)
+    self.status_text:setMaxWidth(self:getControlsWidth())
+    return VerticalGroup:new{
+        align = "center",
+        self.status_text,
+        VerticalSpan:new{ width = Size.span.vertical_large },
+        self:buildActionBar(rows),
+    }
+end
+
+function QuizScreen:_placeLayout(title_bar, content, controls)
+    if self:isLandscape() then
+        self:buildLandscapeLayout(title_bar, HorizontalGroup:new{
+            align = "center",
+            content,
+            HorizontalSpan:new{ width = self:getGutter() },
+            controls,
+        })
+    else
+        self:buildPortraitLayout(title_bar, content,
+            VerticalGroup:new{ align = "center", controls, VerticalSpan:new{ width = self:getGutter() } })
+    end
+end
+
+-- "Team 1: 3 · Team 2: 1"
+function QuizScreen:_scoreStatus(list)
+    local parts = {}
+    for _i, t in ipairs(list) do
+        parts[#parts + 1] = T(_("%1: %2"), t.name, t.score)
+    end
+    return self:joinStatus((table.unpack or unpack)(parts))
 end
 
 function QuizScreen:updateStatus(msg)
     if msg then ScreenBase.updateStatus(self, msg); return end
-    local parts = {}
-    for _, p in ipairs(self.players) do
-        parts[#parts + 1] = p.name .. " " .. p.score
-    end
-    local q_count = #self.questions > 0
-        and string.format("  |  Q%d/%d", self.q_index, #self.questions)
-        or  ""
-    ScreenBase.updateStatus(self, table.concat(parts, "  ") .. q_count)
+    -- Question counter first: with many players the scores get cut off at
+    -- the screen edge, the counter should not be.
+    ScreenBase.updateStatus(self, self:joinStatus(
+        #self.questions > 0 and string.format("Q%d/%d", self.q_index, #self.questions) or nil,
+        self:_scoreStatus(self.players)))
 end
 
 function QuizScreen:onClose()
