@@ -6,6 +6,12 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.3.1] - 2026-11-02
+
+### Changed
+- Listed under **Tools → Games**, grouped by category, instead of its own
+  entry in the Tools menu (game-common 1.9.1).
+
 ## [1.3.0] - 2026-10-30
 
 ### Changed
