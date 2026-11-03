@@ -17,7 +17,7 @@ require("i18n").extend(lrequire("i18n_fr"))
 
 local Quiz = PluginBase:extend{
     name      = "quiz",
-    menu_text = _("Quiz Party"),
+    menu_text = _("Quiz"),
     menu_hint = "tools",
 }
 

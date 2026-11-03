@@ -22,6 +22,7 @@ local _               = require("i18n")
 local T               = require("ffi/util").template
 
 local MenuHelper = require("menu_helper")
+local QuizBank   = require("quiz_bank")
 local ScreenBase = require("screen_base")
 
 local DeviceScreen = Device.screen
@@ -61,15 +62,15 @@ local DEFAULT_DURATION = 30   -- seconds to answer (0 = no timer)
 local DEFAULT_NB_PLAYERS = 4
 
 local GAME_RULES_EN = _([[
-Quiz Party — Rules
+Quiz — Rules
 
 Everyone writes their answer on paper while the question is displayed. When time runs out (or the host taps "Reveal"), the answer appears.
 
 • Each player with the correct answer scores +1.
 • The host reads answers aloud and decides who scores.
-• Questions are shuffled from your JSON file.
+• Questions are shuffled from the bundled bank for the question language (English or French, see Options → Language), or from your own file.
 
-JSON format (quiz_questions.json in documents):
+Your own questions (quiz_questions_en.json or quiz_questions.json in documents):
 [
   {
     "question": "Capital of Australia?",
@@ -80,15 +81,15 @@ JSON format (quiz_questions.json in documents):
 ]])
 
 local GAME_RULES_FR = [[
-Quiz Party — Règles
+Quiz — Règles
 
 Tout le monde écrit sa réponse sur papier pendant que la question est affichée. Quand le chrono sonne (ou que l'hôte appuie sur « Révéler »), la réponse apparaît.
 
 • Chaque joueur avec la bonne réponse marque +1.
 • L'hôte lit les réponses à voix haute et décide qui marque.
-• Les questions sont mélangées depuis votre fichier JSON.
+• Les questions sont tirées au hasard de la banque intégrée pour la langue choisie (français ou anglais, voir Options → Langue), ou de votre propre fichier.
 
-Format JSON (quiz_questions.json dans documents) :
+Vos propres questions (quiz_questions_fr.json ou quiz_questions.json dans documents) :
 [
   {
     "question": "Capitale de l'Australie ?",
@@ -114,7 +115,9 @@ end
 local QuizScreen = ScreenBase:extend{}
 
 function QuizScreen:init()
-    self.lang       = self.plugin:getSetting("lang", "fr")
+    -- Question language; defaults to the reader's UI language (bundled
+    -- banks: quiz_questions_fr.lua, quiz_questions_en.lua).
+    self.lang       = self.plugin:getSetting("lang", _.lang() == "fr" and "fr" or "en")
     self.duration   = self.plugin:getSetting("duration", DEFAULT_DURATION)
     local nb        = self.plugin:getSetting("nb_players", DEFAULT_NB_PLAYERS)
 
@@ -172,26 +175,6 @@ function QuizScreen:_saveCategorySelection()
 end
 
 -- ---------------------------------------------------------------------------
--- Lua-file loader (fast path: category-keyed dict)
--- ---------------------------------------------------------------------------
-
-function QuizScreen:_tryLoadLua(path)
-    local f = io.open(path, "r")
-    if not f then return nil end
-    f:close()
-    local chunk = loadfile(path)
-    if not chunk then return nil end
-    local ok, data = pcall(chunk)
-    if not ok or type(data) ~= "table" then return nil end
-    -- Verify it is a category-keyed dict (not a flat array)
-    for k, v in pairs(data) do
-        if type(k) ~= "string" or type(v) ~= "table" then return nil end
-        break
-    end
-    return data
-end
-
--- ---------------------------------------------------------------------------
 -- Category filtering
 -- ---------------------------------------------------------------------------
 
@@ -215,12 +198,17 @@ function QuizScreen:_filterByCategoryFlat(data)
     if sel == nil then return data end
     local questions = {}
     for _, q in ipairs(data) do
-        local cat = q.category or q.cat or "Autres"
+        local cat = q.category or q.cat or self:_otherCategory()
         if sel[cat] then
             questions[#questions + 1] = q
         end
     end
     return questions
+end
+
+-- Bucket for flat-JSON questions with no category field.
+function QuizScreen:_otherCategory()
+    return self.lang == "fr" and "Autres" or "Other"
 end
 
 -- Re-filter from cached raw data (called after category selection changes)
@@ -235,64 +223,34 @@ function QuizScreen:_reloadQuestions()
 end
 
 -- ---------------------------------------------------------------------------
--- Question loading (Lua first, JSON fallback)
+-- Question loading (see quiz_bank.lua for the source order)
 -- ---------------------------------------------------------------------------
 
 function QuizScreen:_loadQuestions()
-    local docs = DataStorage:getDataDir()
-
-    local lua_paths = {
-        docs .. "/quiz_questions_" .. self.lang .. ".lua",
-        _dir .. "quiz_questions_" .. self.lang .. ".lua",
-    }
-    local json_paths = {
-        docs .. "/quiz_questions_" .. self.lang .. ".json",
-        docs .. "/quiz_questions.json",
-        _dir .. "quiz_questions_" .. self.lang .. ".json",
-        _dir .. "quiz_questions.json",
-    }
-
-    -- Try Lua (category-keyed dict)
-    for _, path in ipairs(lua_paths) do
-        local data = self:_tryLoadLua(path)
-        if data then
-            self._raw_data     = data
-            self._data_is_lua  = true
-            self.all_categories = {}
-            for cat, cat_questions in pairs(data) do
-                self.all_categories[cat] = #cat_questions
-            end
-            self.questions = self:_filterByCategory(data)
-            self:_shuffleQuestions()
-            return
-        end
-    end
-
-    -- Fallback: flat JSON array
-    for _, path in ipairs(json_paths) do
-        local f = io.open(path, "r")
-        if f then
-            local content = f:read("*all")
-            f:close()
-            local data = jsonDecode(content)
-            if type(data) == "table" and #data > 0 then
-                self._raw_data     = data
-                self._data_is_lua  = false
-                self.all_categories = {}
-                for _, q in ipairs(data) do
-                    local cat = q.category or q.cat or "Autres"
-                    self.all_categories[cat] = (self.all_categories[cat] or 0) + 1
-                end
-                self.questions = self:_filterByCategoryFlat(data)
-                self:_shuffleQuestions()
-                return
-            end
-        end
-    end
-
+    -- Drop the previous bank first so it can be collected before the next
+    -- one is read (language switch on a 256 MB reader).
     self.questions       = {}
     self._raw_data       = nil
     self.all_categories  = {}
+
+    local data, is_lua = QuizBank.load(DataStorage:getDataDir(), _dir, self.lang, jsonDecode)
+    if not data then return end
+
+    self._raw_data    = data
+    self._data_is_lua = is_lua
+    if is_lua then
+        for cat, cat_questions in pairs(data) do
+            self.all_categories[cat] = #cat_questions
+        end
+        self.questions = self:_filterByCategory(data)
+    else
+        for _i, q in ipairs(data) do
+            local cat = q.category or q.cat or self:_otherCategory()
+            self.all_categories[cat] = (self.all_categories[cat] or 0) + 1
+        end
+        self.questions = self:_filterByCategoryFlat(data)
+    end
+    self:_shuffleQuestions()
 end
 
 function QuizScreen:_shuffleQuestions()
@@ -548,7 +506,7 @@ end
 function QuizScreen:buildLayout()
 
     -- Title bar with Options menu
-    local title_bar = self:buildTitleBar(_("Quiz Party"), function()
+    local title_bar = self:buildTitleBar(_("Quiz"), function()
         return {
             { text = _("New game"), callback = function() self:onNewGame() end },
             { text = T(_("Language: %1"), self.lang:upper()), callback = function() self:openLangMenu() end },

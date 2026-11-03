@@ -1,6 +1,6 @@
 # quiz.koplugin
 
-A **Quiz Party** display plugin for [KOReader](https://github.com/koreader/koreader) — general knowledge quiz for a crowd, no app required.
+A **Quiz** display plugin for [KOReader](https://github.com/koreader/koreader) — general knowledge quiz for a crowd, no app required.
 
 ## Screenshot
 
@@ -10,7 +10,7 @@ A **Quiz Party** display plugin for [KOReader](https://github.com/koreader/korea
 
 Everyone grabs a sheet of paper. The question appears on screen, the timer ticks. Everyone writes their answer. When time runs out (or the host taps *Reveal*), the answer appears. The host reads answers aloud and taps the score button for each correct player.
 
-The plugin ships with **3200 French questions across 32 categories** built in — no setup required. You can also drop your own JSON file into KOReader's documents folder to add or replace questions (e.g. for an English deck).
+The plugin ships with **3,200 French questions** and **1,602 English questions**, each in 32 categories, built in — no setup required. The question language follows KOReader's interface language and can be changed from the menu (*Language*). You can also drop your own JSON file into KOReader's documents folder to replace the bundled questions.
 
 ## Rules
 
@@ -28,16 +28,18 @@ The plugin ships with **3200 French questions across 32 categories** built in �
 - **Category picker** — enable/disable individual categories from Options (multi-select, per language)
 - **Question counter** — shows current position in the deck (e.g. *3 / 42*)
 - **2–8 players** — configurable player count
-- **FR + EN UI** — 3200 bundled FR questions load automatically; EN needs your own file (see below)
+- **French and English question banks** — 3,200 FR and 1,602 EN questions bundled; only the bank for the language in play is loaded
+- **FR + EN UI**
 - **Reload** — refresh the question file without restarting
 - **E-ink friendly** — only the timer digit refreshes in fast/A2 mode
 
 ## Bringing your own questions
 
-To add or replace questions (e.g. an English deck, or your own French set), create a file named
+To replace the bundled questions with your own set, create a file named
 `quiz_questions_fr.json` (or `quiz_questions_en.json`, or `quiz_questions.json`) and copy it to
 KOReader's **documents** folder (`/sdcard/koreader/` on most devices). A file placed there takes
-priority over the bundled deck.
+priority over the bundled deck, in this order: `quiz_questions_<lang>.lua` (same format as the
+bundled banks), `quiz_questions_<lang>.json`, then `quiz_questions.json` (used for any language).
 
 ```json
 [
@@ -85,22 +87,34 @@ game-common/    → alongside plugins/ (shared library)
 
 1. Download `quiz.zip` from [Releases](../../releases).
 2. Extract to your KOReader `plugins/` directory.
-3. Restart KOReader — **Quiz Party** appears in the Tools menu, ready to play with the bundled French questions.
-4. Optionally copy your own `quiz_questions_fr.json` (or `quiz_questions_en.json`) to KOReader's documents folder to add or replace questions.
+3. Restart KOReader — **Quiz** appears under Tools → Games → Party & quiz, ready to play with the bundled English or French questions.
+4. Optionally copy your own `quiz_questions_fr.json` (or `quiz_questions_en.json`) to KOReader's documents folder to replace the bundled questions.
 
 ## Development
 
 `quiz.koplugin/` lives inside the
 [koreader-plugins](https://github.com/t2ym5u/koreader-plugins) monorepo.
 
-`quiz_questions_fr.lua` is the bundled question bank. It is generated — do
-not edit it by hand, the next build would overwrite the change. It is built from the
-per-category files in `questions/` by `gen/to_lua.py`. Regenerate it after
-editing any `questions/quiz_questions_fr_*.json` file:
+`quiz_questions_fr.lua` and `quiz_questions_en.lua` are the bundled question
+banks. They are generated — do not edit them by hand, the next build would
+overwrite the change. They are built from the per-category files in
+`questions/` (`quiz_questions_fr_*.json`, `quiz_questions_en_*.json`) by
+`gen/to_lua.py`. Regenerate them after editing any of those files:
 
 ```
-python3 gen/to_lua.py
+python3 gen/to_lua.py        # both languages
+python3 gen/to_lua.py en     # one language
 ```
+
+Each question has `question`, `answer`, `category` and `difficulty`
+(`facile`/`moyen`/`difficile` in French, `easy`/`medium`/`hard` in English).
+The English bank was written for English speakers, not translated: answers
+are short enough for a table to judge, accepted variants go in brackets
+(`Beetroot (beet)`), and only stable facts are used — no records,
+office holders, populations or anything "current".
+
+`quiz_bank.lua` decides where questions come from (documents folder first,
+then the bundled bank). Run the specs with `busted test_questions_spec.lua`.
 
 ## License
 

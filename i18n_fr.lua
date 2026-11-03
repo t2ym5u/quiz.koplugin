@@ -1,6 +1,6 @@
 return {
     ["General knowledge quiz — everyone writes their answer, then reveal."] = { fr = "Quiz de culture générale — chacun écrit sa réponse, puis on révèle.", es = "Quiz de cultura general — todos escriben su respuesta, luego se revela.", de = "Allgemeinwissen-Quiz — alle schreiben ihre Antwort, dann wird aufgedeckt." },
-    ["Quiz Party"] = { fr = "Quiz Party", es = "Quiz Party", de = "Quiz Party" },
+    ["Quiz"] = { fr = "Quiz", es = "Quiz", de = "Quiz" },
     ["%1 players"] = { fr = "%1 joueurs", es = "%1 jugadores", de = "%1 Spieler" },
     ["%1: %2"] = { fr = "%1 : %2", es = "%1: %2", de = "%1: %2" },
     ["All categories"] = { fr = "Toutes catégories", es = "Todas las categorías", de = "Alle Kategorien" },

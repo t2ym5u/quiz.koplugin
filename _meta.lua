@@ -1,6 +1,6 @@
 local _ = require("gettext")
 return {
-    fullname    = _("Quiz Party"),
+    fullname    = _("Quiz"),
     description = _("General knowledge quiz — everyone writes their answer, then reveal."),
-    version     = "1.3.1",
+    version     = "1.4.0",
 }
