@@ -16,6 +16,68 @@
 
 local QuizBank = {}
 
+-- ---------------------------------------------------------------------------
+-- Across sessions: questions already shown are remembered (game-common
+-- seen_history, one history per question language) so the next evening
+-- starts with questions not seen yet instead of the same random openers.
+-- ---------------------------------------------------------------------------
+
+-- Ids are kept in the plugin settings, flushed at every question: a short
+-- hash of the question text (8 hex digits) instead of the text itself keeps
+-- 3,000 of them around 40 KB. Works for a user's own file too. A collision
+-- (about 1 in 1,000 for a 3,000-question bank) only means one question counts
+-- as seen a little early.
+function QuizBank.questionId(q)
+    local s = type(q) == "table" and (q.question or q.q) or q
+    if type(s) ~= "string" then return nil end
+    local h = 5381
+    for i = 1, #s do
+        h = (h * 33 + s:byte(i)) % 4294967296
+    end
+    return string.format("%08x", h)
+end
+
+-- Remembers up to 3,200 questions per language: the whole bundled French
+-- bank (3,194) and twice the English one, so a full cycle goes by before any
+-- question is shown again.
+QuizBank.HISTORY_MAX = 3200
+
+function QuizBank.openHistory(plugin, lang)
+    local SeenHistory = require("seen_history")
+    return SeenHistory.open(plugin, "questions_" .. lang,
+        { max = QuizBank.HISTORY_MAX, id_of = QuizBank.questionId })
+end
+
+local function shuffle(t, rng)
+    for i = #t, 2, -1 do
+        local j = rng(i)
+        t[i], t[j] = t[j], t[i]
+    end
+    return t
+end
+
+-- Reorders `list` in place: questions not seen yet first, then the ones seen
+-- in earlier sessions, each part shuffled. Nothing is marked here (the screen
+-- marks a question when it is shown). When every question of `list` has been
+-- seen, their history is forgotten and a new random cycle starts.
+function QuizBank.order(seen, list, rng)
+    rng = rng or math.random
+    if not seen then return shuffle(list, rng) end
+    local fresh, old = {}, {}
+    for _i, q in ipairs(list) do
+        if seen:has(q) then old[#old + 1] = q else fresh[#fresh + 1] = q end
+    end
+    if #fresh == 0 then
+        seen:forgetPool(list)
+        fresh, old = old, {}
+    end
+    shuffle(fresh, rng)
+    shuffle(old, rng)
+    for i = 1, #fresh do list[i] = fresh[i] end
+    for i = 1, #old do list[#fresh + i] = old[i] end
+    return list
+end
+
 function QuizBank.sources(docs, dir, lang)
     return {
         { path = docs .. "/quiz_questions_" .. lang .. ".lua",  kind = "lua"  },

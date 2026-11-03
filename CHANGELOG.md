@@ -6,6 +6,16 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.5.0] - 2026-11-03
+
+### Changed
+- Questions no longer come back from one evening to the next: the quiz
+  remembers the questions already shown (per question language, up to 3,200
+  — the whole French bank) and asks the ones not seen yet first. A question
+  returns only once every question of the chosen categories has been played.
+  This also works with your own question file.
+- Needs game-common 1.11.0.
+
 ## [1.4.0] - 2026-11-02
 
 ### Added

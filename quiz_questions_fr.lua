@@ -1733,7 +1733,7 @@ return {
     {question="Quel plat français est composé de bœuf mijoté dans du vin rouge avec des lardons et des champignons ?",answer="Bœuf bourguignon",category="Nourriture",difficulty="facile"},
     {question="Quel est le nom de la technique consistant à plonger brièvement un aliment dans l'eau bouillante puis dans l'eau glacée ?",answer="Blanchir",category="Nourriture",difficulty="moyen"},
     {question="Quel chef français est considéré comme le père de la cuisine classique et auteur du 'Guide culinaire' ?",answer="Auguste Escoffier",category="Nourriture",difficulty="difficile"},
-    {question="Quel gâteau français porte le nom d'un opéra en raison de sa forme rectangulaire évoquant une scène ?",answer="L'Opéra",category="Nourriture",difficulty="moyen"},
+    {question="Quel gâteau français, fait de biscuit Joconde, de crème au beurre au café et de ganache, porte le nom d'une célèbre salle parisienne ?",answer="L'Opéra",category="Nourriture",difficulty="moyen"},
     {question="Comment appelle-t-on la sauce à base de jaunes d'œufs, de beurre clarifié et de jus de citron ?",answer="Sauce hollandaise",category="Nourriture",difficulty="moyen"},
     {question="Quel ustensile utilise-t-on pour égoutter les pâtes ou séparer un liquide des impuretés ?",answer="Une passoire",category="Nourriture",difficulty="facile"},
     {question="Quel terme désigne la caramélisation des sucs de viande au fond d'une poêle ?",answer="Déglacer",category="Nourriture",difficulty="moyen"},
