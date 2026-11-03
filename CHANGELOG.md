@@ -6,6 +6,20 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.4.0] - 2026-11-02
+
+### Added
+- A bundled English question bank: 1,602 questions written for English speakers, in 32 categories (about 50 each) and three difficulty levels. Choosing English no longer shows "No questions loaded".
+
+### Changed
+- Six French questions about dictators and a conqueror (Hitler, Mussolini,
+  Mao Zedong, Kadhafi, Genghis Khan) were removed, per the content guidelines.
+- Renamed from "Quiz Party" to "Quiz": it is listed under Tools → Games → Party & quiz, so "Party" said nothing. The plugin id and settings are unchanged.
+- The question language now defaults to the reader's interface language (English or French) instead of always French. A language already chosen in the menu is kept.
+
+### Fixed
+- A question file you put in KOReader's documents folder (`quiz_questions_fr.json`, `quiz_questions_en.json` or `quiz_questions.json`) now replaces the bundled questions, as the README said it would. Before, a bundled `.lua` bank took priority over any JSON file there.
+
 ## [1.3.1] - 2026-11-02
 
 ### Changed
