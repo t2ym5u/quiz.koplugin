@@ -140,6 +140,7 @@ function QuizScreen:init()
     self._raw_data           = nil  -- cached raw data for re-filtering without I/O
     self._data_is_lua        = false
 
+    self.seen = QuizBank.openHistory(self.plugin, self.lang)
     self:_loadQuestions()
     ScreenBase.init(self)
     if self.duration > 0 then
@@ -253,19 +254,26 @@ function QuizScreen:_loadQuestions()
     self:_shuffleQuestions()
 end
 
+-- Questions not seen in earlier sessions come first (see quiz_bank.lua).
+-- A filtered list is a fresh table, but a flat user file with every
+-- category kept is _raw_data itself: reordering it in place is harmless.
 function QuizScreen:_shuffleQuestions()
-    local q = self.questions
-    for i = #q, 2, -1 do
-        local j = math.random(i)
-        q[i], q[j] = q[j], q[i]
-    end
-    self.q_index = 1
+    QuizBank.order(self.seen, self.questions)
+    self.q_index   = 1
+    self._shown_at = nil
 end
 
+-- The question on screen, marked as seen the first time it is shown (the
+-- layout is rebuilt several times per question).
 function QuizScreen:_currentQuestion()
     if #self.questions == 0 then return nil end
     if self.q_index > #self.questions then self:_shuffleQuestions() end
-    return self.questions[self.q_index]
+    local q = self.questions[self.q_index]
+    if self._shown_at ~= self.q_index then
+        self._shown_at = self.q_index
+        if self.seen then self.seen:mark(q) end
+    end
+    return q
 end
 
 -- ---------------------------------------------------------------------------
@@ -373,6 +381,7 @@ function QuizScreen:openLangMenu()
             self.lang = lang
             self.plugin:saveSetting("lang", lang)
             self.selected_categories = self:_loadCategorySelection()
+            self.seen = QuizBank.openHistory(self.plugin, lang)
             self:_loadQuestions()
             self:buildLayout()
             UIManager:setDirty(self, function() return "ui", self.dimen end)

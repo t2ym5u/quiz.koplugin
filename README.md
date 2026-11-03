@@ -16,7 +16,7 @@ The plugin ships with **3,200 French questions** and **1,602 English questions**
 
 - The question is displayed; everyone writes their answer on paper before time runs out.
 - The host taps **Reveal** to show the answer, then awards **+1** to each correct player.
-- Questions are shuffled and wrap around automatically.
+- Questions not seen yet come first, even from one evening to the next: a question only comes back once every question of the chosen categories has been asked.
 - First player to reach the agreed score wins (or play all questions and compare totals).
 
 ## Features
@@ -61,7 +61,7 @@ Each question object must have:
 - `"answer"` — the revealed answer
 - `"category"` *(optional)* — shown as a badge above the question
 
-Questions are shuffled on load and wrap around automatically.
+Questions are shuffled, and the ones already asked in earlier sessions (remembered per language, also for your own file) go last; once every question has been asked, a new cycle starts.
 
 ## Controls
 
