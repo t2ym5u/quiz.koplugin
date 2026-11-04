@@ -24,7 +24,7 @@ local QuizBank = {}
 
 -- Ids are kept in the plugin settings, flushed at every question: a short
 -- hash of the question text (8 hex digits) instead of the text itself keeps
--- 3,000 of them around 40 KB. Works for a user's own file too. A collision
+-- 4,000 of them around 50 KB. Works for a user's own file too. A collision
 -- (about 1 in 1,000 for a 3,000-question bank) only means one question counts
 -- as seen a little early.
 function QuizBank.questionId(q)
@@ -37,10 +37,12 @@ function QuizBank.questionId(q)
     return string.format("%08x", h)
 end
 
--- Remembers up to 3,200 questions per language: the whole bundled French
--- bank (3,194) and twice the English one, so a full cycle goes by before any
--- question is shown again.
-QuizBank.HISTORY_MAX = 3200
+-- Remembers up to 4,000 questions per language: the whole bundled French
+-- bank (3,194) plus the 600 rated questions of the "Double or nothing" rule
+-- of Quiz · multiplayer, which shares this history (so a question asked
+-- under one rule does not come back under the other), and more than twice
+-- the English one; a full cycle goes by before any question is shown again.
+QuizBank.HISTORY_MAX = 4000
 
 function QuizBank.openHistory(plugin, lang)
     local SeenHistory = require("seen_history")

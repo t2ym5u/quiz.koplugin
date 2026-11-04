@@ -25,6 +25,10 @@ local MenuHelper = require("menu_helper")
 local QuizBank   = require("quiz_bank")
 local ScreenBase = require("screen_base")
 
+-- Loaded from this plugin's own directory (a generic name such as
+-- "quiz_rules" could otherwise be another plugin's file on package.path).
+local Rules = assert(loadfile(_dir .. "quiz_rules.lua"))()
+
 local DeviceScreen = Device.screen
 
 -- ---------------------------------------------------------------------------
@@ -61,44 +65,6 @@ end
 local DEFAULT_DURATION = 30   -- seconds to answer (0 = no timer)
 local DEFAULT_NB_PLAYERS = 4
 
-local GAME_RULES_EN = _([[
-Quiz — Rules
-
-Everyone writes their answer on paper while the question is displayed. When time runs out (or the host taps "Reveal"), the answer appears.
-
-• Each player with the correct answer scores +1.
-• The host reads answers aloud and decides who scores.
-• Questions are shuffled from the bundled bank for the question language (English or French, see Options → Language), or from your own file.
-
-Your own questions (quiz_questions_en.json or quiz_questions.json in documents):
-[
-  {
-    "question": "Capital of Australia?",
-    "answer": "Canberra",
-    "category": "Geography"
-  }
-]
-]])
-
-local GAME_RULES_FR = [[
-Quiz — Règles
-
-Tout le monde écrit sa réponse sur papier pendant que la question est affichée. Quand le chrono sonne (ou que l'hôte appuie sur « Révéler »), la réponse apparaît.
-
-• Chaque joueur avec la bonne réponse marque +1.
-• L'hôte lit les réponses à voix haute et décide qui marque.
-• Les questions sont tirées au hasard de la banque intégrée pour la langue choisie (français ou anglais, voir Options → Langue), ou de votre propre fichier.
-
-Vos propres questions (quiz_questions_fr.json ou quiz_questions.json dans documents) :
-[
-  {
-    "question": "Capitale de l'Australie ?",
-    "answer": "Canberra",
-    "category": "Géographie"
-  }
-]
-]]
-
 local function jsonDecode(s)
     local ok, json = pcall(require, "json")
     if ok then
@@ -112,22 +78,26 @@ end
 -- QuizScreen
 -- ---------------------------------------------------------------------------
 
-local QuizScreen = ScreenBase:extend{}
+-- key_prefix: "" for the Quiz entry; party_screen.lua (Quiz · multiplayer,
+-- Classic rule) sets "party_" so its language and timer are its own.
+local QuizScreen = ScreenBase:extend{ key_prefix = "" }
+
+QuizScreen.jsonDecode = jsonDecode
+
+function QuizScreen:_key(name)
+    return self.key_prefix .. name
+end
 
 function QuizScreen:init()
     -- Question language; defaults to the reader's UI language (bundled
-    -- banks: quiz_questions_fr.lua, quiz_questions_en.lua).
-    self.lang       = self.plugin:getSetting("lang", _.lang() == "fr" and "fr" or "en")
-    self.duration   = self.plugin:getSetting("duration", DEFAULT_DURATION)
-    local nb        = self.plugin:getSetting("nb_players", DEFAULT_NB_PLAYERS)
+    -- banks: quiz_questions_fr.lua, quiz_questions_en.lua). Multiplayer
+    -- falls back on the Quiz entry's choice.
+    self.lang       = self.plugin:getSetting(self:_key("lang"))
+        or self.plugin:getSetting("lang", _.lang() == "fr" and "fr" or "en")
+    self.duration   = self.plugin:getSetting(self:_key("duration"))
+        or self.plugin:getSetting("duration", DEFAULT_DURATION)
 
-    self.players = {}
-    for i = 1, nb do
-        self.players[i] = {
-            name  = self.plugin:getSetting("player_name_" .. i, T(_("Player %1"), i)),
-            score = 0,
-        }
-    end
+    self:_initPlayers()
 
     self.questions       = {}
     self.q_index         = 1
@@ -145,6 +115,17 @@ function QuizScreen:init()
     ScreenBase.init(self)
     if self.duration > 0 then
         self:_startCountdown()
+    end
+end
+
+function QuizScreen:_initPlayers()
+    local nb = self.plugin:getSetting("nb_players", DEFAULT_NB_PLAYERS)
+    self.players = {}
+    for i = 1, nb do
+        self.players[i] = {
+            name  = self.plugin:getSetting("player_name_" .. i, T(_("Player %1"), i)),
+            score = 0,
+        }
     end
 end
 
@@ -379,7 +360,7 @@ function QuizScreen:openLangMenu()
         current_id = self.lang, parent = self,
         on_select = function(lang)
             self.lang = lang
-            self.plugin:saveSetting("lang", lang)
+            self.plugin:saveSetting(self:_key("lang"), lang)
             self.selected_categories = self:_loadCategorySelection()
             self.seen = QuizBank.openHistory(self.plugin, lang)
             self:_loadQuestions()
@@ -503,7 +484,7 @@ function QuizScreen:openDurationMenu()
         items = items, current_id = self.duration, parent = self,
         on_select = function(dur)
             self.duration = dur
-            self.plugin:saveSetting("duration", dur)
+            self.plugin:saveSetting(self:_key("duration"), dur)
         end,
     }
 end
@@ -512,20 +493,28 @@ end
 -- Layout
 -- ---------------------------------------------------------------------------
 
+function QuizScreen:_title()
+    return _("Quiz")
+end
+
+function QuizScreen:_menuItems()
+    return {
+        { text = _("New game"), callback = function() self:onNewGame() end },
+        { text = T(_("Language: %1"), self.lang:upper()), callback = function() self:openLangMenu() end },
+        { text = T(_("Players: %1"), #self.players),      callback = function() self:openPlayersMenu() end },
+        { text = T(_("Timer: %1"), self:_durationLabel(self.duration)),
+          callback = function() self:openDurationMenu() end },
+        { text = self:_categoriesMenuText(), callback = function() self:openCategoryMenu() end },
+        { text = _("Reload file"), callback = function() self:onReloadFile() end },
+        self:makeModeRulesButtonConfig(Rules),
+    }
+end
+
 function QuizScreen:buildLayout()
 
     -- Title bar with Options menu
-    local title_bar = self:buildTitleBar(_("Quiz"), function()
-        return {
-            { text = _("New game"), callback = function() self:onNewGame() end },
-            { text = T(_("Language: %1"), self.lang:upper()), callback = function() self:openLangMenu() end },
-            { text = T(_("Players: %1"), #self.players),      callback = function() self:openPlayersMenu() end },
-            { text = T(_("Timer: %1"), self:_durationLabel(self.duration)),
-              callback = function() self:openDurationMenu() end },
-            { text = self:_categoriesMenuText(), callback = function() self:openCategoryMenu() end },
-            { text = _("Reload file"), callback = function() self:onReloadFile() end },
-            self:makeRulesButtonConfig(GAME_RULES_EN, GAME_RULES_FR),
-        }
+    local title_bar = self:buildTitleBar(self:_title(), function()
+        return self:_menuItems()
     end)
 
     -- Action bar: Reveal, or (once revealed) one score button per player

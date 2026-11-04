@@ -6,6 +6,46 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.6.0] - 2026-11-04
+
+### Added
+- **Quiz · multiplayer** (« Quiz · à plusieurs »), listed under Tools →
+  Games → Party & quiz next to Quiz, with two rules chosen in its menu,
+  **Rule: Classic / Double or nothing** (« Règle : Classique / Quitte ou
+  double »):
+  - **Classic**: the Quiz's own game (question, timer, reveal, +1 for each
+    player who got it), with player names you type once, a Scores entry, a
+    final scoreboard on New game, and scores kept when you close the quiz.
+  - **Double or nothing**: it replaces the separate **Double or Nothing**
+    plugin (« Quitte ou double »), which is retired. Same rules and scoring:
+    teams take turns, a correct answer wins the pot (1 point, then doubled),
+    the team banks it or risks it on a harder question (level 1–2 to open a
+    turn, one level up per Double, up to 5), a wrong answer loses it. Now
+    with team names, the standings on the "your turn" screen, and the match
+    kept when you close the quiz (also a turn in progress).
+- Double or nothing questions: Double or Nothing's 600 French and 600
+  English questions rated 1–5, plus the Quiz's questions placed on the
+  ladder (easy → level 2, medium → 3, hard → 4): 3,764 French and 2,131
+  English questions. Questions asked under either rule (or in Quiz) are
+  remembered together, so a question does not come back under the other
+  rule. Your own file `quiz_double_<lang>.json` or `quiz_double.json` in the
+  documents folder (questions with a `"difficulty"` 1–5) replaces them all;
+  a file named for Double or Nothing (`doubleornothing_questions_<lang>.json`,
+  `doubleornothing_questions.json`) still works.
+- On the first start, Double or Nothing's language, number of teams, timer,
+  category and question history are imported, unless the Quiz already has
+  a value of its own (Double or Nothing's settings file is only read), and
+  its play statistics are added to the Quiz's (as multiplayer sessions).
+  Double or Nothing did not keep a match in progress, so there is none to
+  bring over.
+
+### Changed
+- The Rules entry has a button to the multiplayer rules (and back).
+- The question history now remembers up to 4,000 questions per language
+  (was 3,200), to cover the Quiz and Double or nothing questions together.
+- Uses less memory: the game loads when you open it, not when KOReader
+  starts, so it no longer takes memory or startup time while unplayed.
+
 ## [1.5.0] - 2026-11-03
 
 ### Changed
