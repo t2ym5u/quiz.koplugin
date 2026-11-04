@@ -10,6 +10,8 @@ A **Quiz** display plugin for [KOReader](https://github.com/koreader/koreader) �
 
 Everyone grabs a sheet of paper. The question appears on screen, the timer ticks. Everyone writes their answer. When time runs out (or the host taps *Reveal*), the answer appears. The host reads answers aloud and taps the score button for each correct player.
 
+Two entries under Tools → Games → Party & quiz: **Quiz** (described below) and **Quiz · multiplayer** (« Quiz · à plusieurs »), which adds named players or teams and a choice of two rules, Classic or Double or nothing (see [Quiz · multiplayer](#quiz--multiplayer)).
+
 The plugin ships with **3,200 French questions** and **1,602 English questions**, each in 32 categories, built in — no setup required. The question language follows KOReader's interface language and can be changed from the menu (*Language*). You can also drop your own JSON file into KOReader's documents folder to replace the bundled questions.
 
 ## Rules
@@ -74,6 +76,42 @@ Questions are shuffled, and the ones already asked in earlier sessions (remember
 | **Rules** | Show rules + JSON format reminder |
 | **Close** | Exit |
 
+## Quiz · multiplayer
+
+Named players or teams (typed once in the menu, remembered), a **Scores** entry, the final standings on **New game**, and the match kept when you close the quiz. The ☰ menu's **Rule** picks the game:
+
+- **Rule: Classic** (« Classique ») — the Quiz above: everyone writes, reveal, tap each player who got it right (+1). 2–8 players. Uses the Quiz questions and the same categories.
+- **Rule: Double or nothing** (« Quitte ou double ») — formerly the separate Double or Nothing plugin, same rules and scoring. 2–6 teams take turns. On your turn a question is shown; confer, then reveal:
+  - **✗ Wrong** — the team loses everything in the pot; turn ends.
+  - **✓ Correct** — the pot is won (1 point the first time, then doubled). Then either **Bank** (the pot goes to the team's score, turn ends) or **Double** (a new, harder question to double the pot again).
+  - The first question of a turn is level 1 or 2; each Double climbs one level, up to 5. Optional thinking timer (15–45 s), one category or all.
+
+### Double or nothing questions
+
+The rated Double-or-nothing bank (`double_questions_fr.lua`, `double_questions_en.lua`: 600 questions per language, 12 categories, 10 per level 1–5 in each, the French one written for a French table) plus the Quiz questions placed on the ladder: easy/facile → level 2, medium/moyen → 3, hard/difficile → 4, so the easiest and hardest levels stay hand-rated. That is 3,764 French and 2,131 English questions (a question in both banks counts once):
+
+| Level | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| French | 120 | 1,157 | 1,195 | 1,172 | 120 |
+| English | 120 | 609 | 655 | 627 | 120 |
+
+At each level a question is drawn at random, preferring questions not seen yet (if a level is used up during a session, the nearest level serves). The history of questions asked is shared by both rules and the Quiz entry, per language: a question asked one evening under Classic will not come back under Double or nothing before the rest.
+
+Your own file replaces them all: `quiz_double_fr.json` (or `quiz_double_en.json`, or `quiz_double.json`) in KOReader's documents folder. A file named for the old plugin (`doubleornothing_questions_fr.json`, `doubleornothing_questions.json`) is still read.
+
+```json
+[
+  { "question": "What is the capital of Portugal?", "answer": "Lisbon",
+    "category": "Geography", "difficulty": 1, "alt": "Lisboa" }
+]
+```
+
+`"difficulty"` is 1 to 5 (or `"easy"`, `"medium"`, `"hard"`); without it a question counts as level 3. `"alt"` (optional) lists other accepted answers, shown under the answer.
+
+### Coming from Double or Nothing
+
+On its first start, Quiz imports Double or Nothing's question language, number of teams, timer, category and question history (a value Quiz already has is kept), and Double or Nothing's play statistics (sessions, play time, last played) are added to Quiz's, as multiplayer sessions. Quiz · multiplayer then opens on the Double or nothing rule. Double or Nothing's own settings file is only read; the plugin can be removed afterwards.
+
 ## Installation
 
 ### Via KOReader Plugin Manager
@@ -114,7 +152,11 @@ are short enough for a table to judge, accepted variants go in brackets
 office holders, populations or anything "current".
 
 `quiz_bank.lua` decides where questions come from (documents folder first,
-then the bundled bank). Run the specs with `busted test_questions_spec.lua`.
+then the bundled bank). The multiplayer mode is `party_screen.lua` (Classic)
+and `double_screen.lua` (Double or nothing, with `double_deck.lua` and
+`double_round.lua`); `quiz_migrate.lua` is the one-time import from Double or
+Nothing. The rated Double-or-nothing banks are hand-written Lua, not generated.
+Run the specs with `busted test_*_spec.lua`.
 
 ## License
 
