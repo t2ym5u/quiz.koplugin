@@ -6,6 +6,13 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.6.1] - 2026-11-04
+
+### Fixed
+- A game no longer crashes when an outdated plugin is installed alongside:
+  shared modules left behind by an older plugin are replaced by this
+  plugin's own copy instead of being used as they are.
+
 ## [1.6.0] - 2026-11-04
 
 ### Added
