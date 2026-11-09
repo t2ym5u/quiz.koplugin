@@ -110,9 +110,7 @@ DoubleScreen.STATE_KEY = STATE_KEY
 
 function DoubleScreen:init()
     local p = self.plugin
-    local lang = p:getSetting("party_lang") or p:getSetting("lang")
-        or (_.lang() == "fr" and "fr" or "en")
-    self.lang     = lang == "fr" and "fr" or "en"
+    self.lang     = PartyScreen.getContentLang(p, PartyScreen.key_prefix)
     self.duration = tonumber(p:getSetting("party_double_duration", DEFAULT_DURATION)) or DEFAULT_DURATION
 
     self.questions       = {}   -- normalized list of the loaded pool
@@ -382,7 +380,7 @@ function DoubleScreen:openLangMenu()
         current_id = self.lang, parent = self,
         on_select = function(lang)
             self.lang = lang
-            self.plugin:saveSetting("party_lang", lang)
+            PartyScreen.setContentLang(self.plugin, PartyScreen.key_prefix, lang)
             self:_loadQuestions()
             self:_redraw()
         end,

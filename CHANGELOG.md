@@ -6,6 +6,15 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.6.2] - 2026-11-09
+
+### Fixed
+- A language tried once no longer sticks for good: the Quiz and
+  Quiz · multiplayer now start in KOReader's language (French when KOReader
+  is in French), and a language picked in the game holds until KOReader's
+  language changes. Multiplayer keeps its own choice, and follows the
+  Quiz's until it has one.
+
 ## [1.6.1] - 2026-11-04
 
 ### Fixed

@@ -88,12 +88,37 @@ function QuizScreen:_key(name)
     return self.key_prefix .. name
 end
 
+-- Question language (bundled banks: quiz_questions_fr.lua and _en.lua).
+-- The Quiz entry's is PluginBase:getLang/setLang: KOReader's language,
+-- unless one was picked in the game under KOReader's current language.
+-- Quiz · multiplayer (prefix "party_", both rules) keeps its own the same
+-- way ("party_lang", picked under "party_lang_ko") and, until it has one,
+-- follows the Quiz entry's.
+local LANGS = { "fr", "en" }
+
+local function koreaderLang()
+    return (G_reader_settings and G_reader_settings:readSetting("language") or "en"):sub(1, 2)
+end
+
+function QuizScreen.getContentLang(plugin, prefix)
+    if prefix and prefix ~= "" then
+        local saved = plugin:getSetting(prefix .. "lang")
+        if (saved == "fr" or saved == "en")
+                and plugin:getSetting(prefix .. "lang_ko") == koreaderLang() then
+            return saved
+        end
+    end
+    return plugin:getLang(LANGS)
+end
+
+function QuizScreen.setContentLang(plugin, prefix, lang)
+    if not prefix or prefix == "" then return plugin:setLang(lang) end
+    plugin:saveSetting(prefix .. "lang", lang)
+    plugin:saveSetting(prefix .. "lang_ko", koreaderLang())
+end
+
 function QuizScreen:init()
-    -- Question language; defaults to the reader's UI language (bundled
-    -- banks: quiz_questions_fr.lua, quiz_questions_en.lua). Multiplayer
-    -- falls back on the Quiz entry's choice.
-    self.lang       = self.plugin:getSetting(self:_key("lang"))
-        or self.plugin:getSetting("lang", _.lang() == "fr" and "fr" or "en")
+    self.lang       = QuizScreen.getContentLang(self.plugin, self.key_prefix)
     self.duration   = self.plugin:getSetting(self:_key("duration"))
         or self.plugin:getSetting("duration", DEFAULT_DURATION)
 
@@ -360,7 +385,7 @@ function QuizScreen:openLangMenu()
         current_id = self.lang, parent = self,
         on_select = function(lang)
             self.lang = lang
-            self.plugin:saveSetting(self:_key("lang"), lang)
+            QuizScreen.setContentLang(self.plugin, self.key_prefix, lang)
             self.selected_categories = self:_loadCategorySelection()
             self.seen = QuizBank.openHistory(self.plugin, lang)
             self:_loadQuestions()
