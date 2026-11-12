@@ -6,6 +6,12 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.6.3] - 2026-11-12
+
+### Changed
+- Picks up game-common 1.16.0: games for two readers (new Two readers
+  category) and the shared Start / Join dialog.
+
 ## [1.6.2] - 2026-11-09
 
 ### Fixed
