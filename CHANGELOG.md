@@ -6,6 +6,12 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.6.4] - 2026-11-18
+
+### Changed
+- Picks up game-common 1.17.0 (a board redraw fix used by chess, binairo and
+  tatami; no change in this game).
+
 ## [1.6.3] - 2026-11-12
 
 ### Changed
