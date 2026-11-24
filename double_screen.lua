@@ -233,13 +233,15 @@ end
 
 function DoubleScreen:_startCountdown()
     if self.duration <= 0 then return end
+    self:cancelScheduled()
     self._tick_gen = (self._tick_gen or 0) + 1
     local gen = self._tick_gen
-    UIManager:scheduleIn(1, function() self:_onTick(gen) end)
+    self:schedule(1, function() self:_onTick(gen) end)
 end
 
 function DoubleScreen:_stopCountdown()
     self._tick_gen = (self._tick_gen or 0) + 1
+    self:cancelScheduled()
 end
 
 function DoubleScreen:_onTick(gen)
@@ -252,7 +254,7 @@ function DoubleScreen:_onTick(gen)
     if self.time_remaining <= 0 then
         self:onReveal()
     else
-        UIManager:scheduleIn(1, function() self:_onTick(gen) end)
+        self:schedule(1, function() self:_onTick(gen) end)
     end
 end
 

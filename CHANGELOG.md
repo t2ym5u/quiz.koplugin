@@ -6,6 +6,15 @@ Reconstructed from this repository's git history: each release lists the
 feature and fix commits it carried. Version bumps, screenshot additions
 and CI syncs are left out.
 
+## [1.6.7] - 2026-11-24
+
+### Changed
+- Picks up game-common 1.20.0: a deferred action (timer tick, computer's
+  move, card flip) no longer runs once the game is closed or a new game has
+  started, and the game is saved a few seconds after a move instead of after
+  every one, and at once on close, suspend or power-off.
+- The README screenshot shows the game in English.
+
 ## [1.6.6] - 2026-11-24
 
 ### Changed
